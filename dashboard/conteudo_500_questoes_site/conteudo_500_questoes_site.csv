@@ -1,0 +1,501 @@
+﻿id,tipo,materia,nivel,pergunta,alternativas,resposta_correta,indice_resposta_correta,explicacao,resposta_esperada
+MC-001,multipla_escolha,HTML,iniciante,Qual tag representa o conteúdo principal de uma página?,<main> | <footer> | <aside> | <nav>,<main>,0,A tag <main> indica o conteúdo principal do documento.,
+MC-002,multipla_escolha,HTML,iniciante,Qual atributo cria um link em uma tag <a>?,src | href | alt | title,href,1,O atributo href define o destino do link.,
+MC-003,multipla_escolha,HTML,iniciante,Qual tag é usada para inserir uma imagem?,<img> | <picture-text> | <image> | <src>,<img>,0,A tag <img> insere imagens em uma página HTML.,
+MC-004,multipla_escolha,HTML,iniciante,Qual tag cria uma lista não ordenada?,<ol> | <ul> | <li> | <dl>,<ul>,1,A tag <ul> cria uma lista sem ordem numérica.,
+MC-005,multipla_escolha,HTML,iniciante,Qual tag cria um campo de formulário?,<input> | <form-field> | <label> | <button>,<input>,0,"A tag <input> cria campos como texto, senha, checkbox etc.",
+MC-006,multipla_escolha,HTML,iniciante,Para que serve o atributo alt em imagens?,Definir largura | Descrever a imagem | Criar link | Mudar cor,Descrever a imagem,1,O alt melhora acessibilidade e aparece se a imagem não carregar.,
+MC-007,multipla_escolha,HTML,iniciante,Qual elemento contém metadados da página?,<head> | <body> | <main> | <section>,<head>,0,"O <head> contém título, links CSS e metadados.",
+MC-008,multipla_escolha,HTML,iniciante,Qual tag representa uma seção independente de conteúdo?,<article> | <span> | <br> | <meta>,<article>,0,O <article> representa conteúdo independente.,
+MC-009,multipla_escolha,HTML,iniciante,Qual tag é usada para título principal?,<h1> | <title> | <p> | <strong>,<h1>,0,O <h1> representa o título principal do conteúdo.,
+MC-010,multipla_escolha,HTML,iniciante,Qual tag cria uma quebra de linha?,<br> | <hr> | <p> | <line>,<br>,0,A tag <br> cria quebra de linha.,
+MC-011,multipla_escolha,HTML,básico,Qual tag representa o conteúdo principal de uma página? (variação 2),<main> | <footer> | <aside> | <nav>,<main>,0,A tag <main> indica o conteúdo principal do documento.,
+MC-012,multipla_escolha,HTML,básico,Qual atributo cria um link em uma tag <a>? (variação 2),src | href | alt | title,href,1,O atributo href define o destino do link.,
+MC-013,multipla_escolha,HTML,básico,Qual tag é usada para inserir uma imagem? (variação 2),<img> | <picture-text> | <image> | <src>,<img>,0,A tag <img> insere imagens em uma página HTML.,
+MC-014,multipla_escolha,HTML,básico,Qual tag cria uma lista não ordenada? (variação 2),<ol> | <ul> | <li> | <dl>,<ul>,1,A tag <ul> cria uma lista sem ordem numérica.,
+MC-015,multipla_escolha,HTML,básico,Qual tag cria um campo de formulário? (variação 2),<input> | <form-field> | <label> | <button>,<input>,0,"A tag <input> cria campos como texto, senha, checkbox etc.",
+MC-016,multipla_escolha,HTML,básico,Para que serve o atributo alt em imagens? (variação 2),Definir largura | Descrever a imagem | Criar link | Mudar cor,Descrever a imagem,1,O alt melhora acessibilidade e aparece se a imagem não carregar.,
+MC-017,multipla_escolha,HTML,básico,Qual elemento contém metadados da página? (variação 2),<head> | <body> | <main> | <section>,<head>,0,"O <head> contém título, links CSS e metadados.",
+MC-018,multipla_escolha,HTML,básico,Qual tag representa uma seção independente de conteúdo? (variação 2),<article> | <span> | <br> | <meta>,<article>,0,O <article> representa conteúdo independente.,
+MC-019,multipla_escolha,HTML,básico,Qual tag é usada para título principal? (variação 2),<h1> | <title> | <p> | <strong>,<h1>,0,O <h1> representa o título principal do conteúdo.,
+MC-020,multipla_escolha,HTML,básico,Qual tag cria uma quebra de linha? (variação 2),<br> | <hr> | <p> | <line>,<br>,0,A tag <br> cria quebra de linha.,
+MC-021,multipla_escolha,HTML,intermediário,Qual tag representa o conteúdo principal de uma página? (variação 3),<main> | <footer> | <aside> | <nav>,<main>,0,A tag <main> indica o conteúdo principal do documento.,
+MC-022,multipla_escolha,HTML,intermediário,Qual atributo cria um link em uma tag <a>? (variação 3),src | href | alt | title,href,1,O atributo href define o destino do link.,
+MC-023,multipla_escolha,HTML,intermediário,Qual tag é usada para inserir uma imagem? (variação 3),<img> | <picture-text> | <image> | <src>,<img>,0,A tag <img> insere imagens em uma página HTML.,
+MC-024,multipla_escolha,HTML,intermediário,Qual tag cria uma lista não ordenada? (variação 3),<ol> | <ul> | <li> | <dl>,<ul>,1,A tag <ul> cria uma lista sem ordem numérica.,
+MC-025,multipla_escolha,HTML,intermediário,Qual tag cria um campo de formulário? (variação 3),<input> | <form-field> | <label> | <button>,<input>,0,"A tag <input> cria campos como texto, senha, checkbox etc.",
+MC-026,multipla_escolha,HTML,intermediário,Para que serve o atributo alt em imagens? (variação 3),Definir largura | Descrever a imagem | Criar link | Mudar cor,Descrever a imagem,1,O alt melhora acessibilidade e aparece se a imagem não carregar.,
+MC-027,multipla_escolha,HTML,intermediário,Qual elemento contém metadados da página? (variação 3),<head> | <body> | <main> | <section>,<head>,0,"O <head> contém título, links CSS e metadados.",
+MC-028,multipla_escolha,HTML,intermediário,Qual tag representa uma seção independente de conteúdo? (variação 3),<article> | <span> | <br> | <meta>,<article>,0,O <article> representa conteúdo independente.,
+MC-029,multipla_escolha,HTML,intermediário,Qual tag é usada para título principal? (variação 3),<h1> | <title> | <p> | <strong>,<h1>,0,O <h1> representa o título principal do conteúdo.,
+MC-030,multipla_escolha,HTML,intermediário,Qual tag cria uma quebra de linha? (variação 3),<br> | <hr> | <p> | <line>,<br>,0,A tag <br> cria quebra de linha.,
+MC-031,multipla_escolha,HTML,intermediário+,Qual tag representa o conteúdo principal de uma página? (variação 4),<main> | <footer> | <aside> | <nav>,<main>,0,A tag <main> indica o conteúdo principal do documento.,
+MC-032,multipla_escolha,HTML,intermediário+,Qual atributo cria um link em uma tag <a>? (variação 4),src | href | alt | title,href,1,O atributo href define o destino do link.,
+MC-033,multipla_escolha,HTML,intermediário+,Qual tag é usada para inserir uma imagem? (variação 4),<img> | <picture-text> | <image> | <src>,<img>,0,A tag <img> insere imagens em uma página HTML.,
+MC-034,multipla_escolha,HTML,intermediário+,Qual tag cria uma lista não ordenada? (variação 4),<ol> | <ul> | <li> | <dl>,<ul>,1,A tag <ul> cria uma lista sem ordem numérica.,
+MC-035,multipla_escolha,HTML,intermediário+,Qual tag cria um campo de formulário? (variação 4),<input> | <form-field> | <label> | <button>,<input>,0,"A tag <input> cria campos como texto, senha, checkbox etc.",
+MC-036,multipla_escolha,HTML,intermediário+,Para que serve o atributo alt em imagens? (variação 4),Definir largura | Descrever a imagem | Criar link | Mudar cor,Descrever a imagem,1,O alt melhora acessibilidade e aparece se a imagem não carregar.,
+MC-037,multipla_escolha,HTML,intermediário+,Qual elemento contém metadados da página? (variação 4),<head> | <body> | <main> | <section>,<head>,0,"O <head> contém título, links CSS e metadados.",
+MC-038,multipla_escolha,HTML,intermediário+,Qual tag representa uma seção independente de conteúdo? (variação 4),<article> | <span> | <br> | <meta>,<article>,0,O <article> representa conteúdo independente.,
+MC-039,multipla_escolha,HTML,intermediário+,Qual tag é usada para título principal? (variação 4),<h1> | <title> | <p> | <strong>,<h1>,0,O <h1> representa o título principal do conteúdo.,
+MC-040,multipla_escolha,HTML,intermediário+,Qual tag cria uma quebra de linha? (variação 4),<br> | <hr> | <p> | <line>,<br>,0,A tag <br> cria quebra de linha.,
+MC-041,multipla_escolha,HTML,revisão,Qual tag representa o conteúdo principal de uma página? (variação 5),<main> | <footer> | <aside> | <nav>,<main>,0,A tag <main> indica o conteúdo principal do documento.,
+MC-042,multipla_escolha,HTML,revisão,Qual atributo cria um link em uma tag <a>? (variação 5),src | href | alt | title,href,1,O atributo href define o destino do link.,
+MC-043,multipla_escolha,HTML,revisão,Qual tag é usada para inserir uma imagem? (variação 5),<img> | <picture-text> | <image> | <src>,<img>,0,A tag <img> insere imagens em uma página HTML.,
+MC-044,multipla_escolha,HTML,revisão,Qual tag cria uma lista não ordenada? (variação 5),<ol> | <ul> | <li> | <dl>,<ul>,1,A tag <ul> cria uma lista sem ordem numérica.,
+MC-045,multipla_escolha,HTML,revisão,Qual tag cria um campo de formulário? (variação 5),<input> | <form-field> | <label> | <button>,<input>,0,"A tag <input> cria campos como texto, senha, checkbox etc.",
+MC-046,multipla_escolha,HTML,revisão,Para que serve o atributo alt em imagens? (variação 5),Definir largura | Descrever a imagem | Criar link | Mudar cor,Descrever a imagem,1,O alt melhora acessibilidade e aparece se a imagem não carregar.,
+MC-047,multipla_escolha,HTML,revisão,Qual elemento contém metadados da página? (variação 5),<head> | <body> | <main> | <section>,<head>,0,"O <head> contém título, links CSS e metadados.",
+MC-048,multipla_escolha,HTML,revisão,Qual tag representa uma seção independente de conteúdo? (variação 5),<article> | <span> | <br> | <meta>,<article>,0,O <article> representa conteúdo independente.,
+MC-049,multipla_escolha,HTML,revisão,Qual tag é usada para título principal? (variação 5),<h1> | <title> | <p> | <strong>,<h1>,0,O <h1> representa o título principal do conteúdo.,
+MC-050,multipla_escolha,HTML,revisão,Qual tag cria uma quebra de linha? (variação 5),<br> | <hr> | <p> | <line>,<br>,0,A tag <br> cria quebra de linha.,
+AB-051,resposta_escrita,HTML,iniciante,Explique a diferença entre as tags <section> e <article>.,,,,,"section agrupa uma parte temática da página; article representa um conteúdo independente, como postagem, notícia ou card completo."
+AB-052,resposta_escrita,HTML,iniciante,Explique para que serve o atributo alt em uma imagem.,,,,,O alt descreve a imagem para acessibilidade e aparece caso a imagem não carregue.
+AB-053,resposta_escrita,HTML,iniciante,Explique a função da tag <form>.,,,,,A tag form agrupa campos de entrada e permite enviar dados do usuário.
+AB-054,resposta_escrita,HTML,iniciante,Explique a diferença entre <ol> e <ul>.,,,,,ol cria lista ordenada; ul cria lista não ordenada.
+AB-055,resposta_escrita,HTML,iniciante,Explique por que é importante usar HTML semântico.,,,,,"HTML semântico melhora acessibilidade, SEO, organização do código e compreensão da estrutura da página."
+AB-056,resposta_escrita,HTML,iniciante,Explique a função da tag <label> em formulários.,,,,,"label cria um texto associado a um campo, melhorando usabilidade e acessibilidade."
+AB-057,resposta_escrita,HTML,iniciante,Explique a diferença entre <head> e <body>.,,,,,head contém metadados e configurações; body contém o conteúdo visível da página.
+AB-058,resposta_escrita,HTML,iniciante,Explique o que é um atributo HTML.,,,,,"Atributo adiciona informação ou configuração a uma tag, como href, src, alt, id e class."
+AB-059,resposta_escrita,HTML,iniciante,Explique a função da tag <nav>.,,,,,nav representa uma área de navegação com links importantes do site.
+AB-060,resposta_escrita,HTML,iniciante,Explique por que o atributo lang='pt-br' é importante.,,,,,"Ele informa o idioma da página, ajudando leitores de tela, buscadores e tradução automática."
+AB-061,resposta_escrita,HTML,básico,Explique a diferença entre as tags <section> e <article>. Responda com suas palavras e dê um exemplo. (variação 2),,,,,"section agrupa uma parte temática da página; article representa um conteúdo independente, como postagem, notícia ou card completo."
+AB-062,resposta_escrita,HTML,básico,Explique para que serve o atributo alt em uma imagem. Responda com suas palavras e dê um exemplo. (variação 2),,,,,O alt descreve a imagem para acessibilidade e aparece caso a imagem não carregue.
+AB-063,resposta_escrita,HTML,básico,Explique a função da tag <form>. Responda com suas palavras e dê um exemplo. (variação 2),,,,,A tag form agrupa campos de entrada e permite enviar dados do usuário.
+AB-064,resposta_escrita,HTML,básico,Explique a diferença entre <ol> e <ul>. Responda com suas palavras e dê um exemplo. (variação 2),,,,,ol cria lista ordenada; ul cria lista não ordenada.
+AB-065,resposta_escrita,HTML,básico,Explique por que é importante usar HTML semântico. Responda com suas palavras e dê um exemplo. (variação 2),,,,,"HTML semântico melhora acessibilidade, SEO, organização do código e compreensão da estrutura da página."
+AB-066,resposta_escrita,HTML,básico,Explique a função da tag <label> em formulários. Responda com suas palavras e dê um exemplo. (variação 2),,,,,"label cria um texto associado a um campo, melhorando usabilidade e acessibilidade."
+AB-067,resposta_escrita,HTML,básico,Explique a diferença entre <head> e <body>. Responda com suas palavras e dê um exemplo. (variação 2),,,,,head contém metadados e configurações; body contém o conteúdo visível da página.
+AB-068,resposta_escrita,HTML,básico,Explique o que é um atributo HTML. Responda com suas palavras e dê um exemplo. (variação 2),,,,,"Atributo adiciona informação ou configuração a uma tag, como href, src, alt, id e class."
+AB-069,resposta_escrita,HTML,básico,Explique a função da tag <nav>. Responda com suas palavras e dê um exemplo. (variação 2),,,,,nav representa uma área de navegação com links importantes do site.
+AB-070,resposta_escrita,HTML,básico,Explique por que o atributo lang='pt-br' é importante. Responda com suas palavras e dê um exemplo. (variação 2),,,,,"Ele informa o idioma da página, ajudando leitores de tela, buscadores e tradução automática."
+AB-071,resposta_escrita,HTML,intermediário,Explique a diferença entre as tags <section> e <article>. Responda com suas palavras e dê um exemplo. (variação 3),,,,,"section agrupa uma parte temática da página; article representa um conteúdo independente, como postagem, notícia ou card completo."
+AB-072,resposta_escrita,HTML,intermediário,Explique para que serve o atributo alt em uma imagem. Responda com suas palavras e dê um exemplo. (variação 3),,,,,O alt descreve a imagem para acessibilidade e aparece caso a imagem não carregue.
+AB-073,resposta_escrita,HTML,intermediário,Explique a função da tag <form>. Responda com suas palavras e dê um exemplo. (variação 3),,,,,A tag form agrupa campos de entrada e permite enviar dados do usuário.
+AB-074,resposta_escrita,HTML,intermediário,Explique a diferença entre <ol> e <ul>. Responda com suas palavras e dê um exemplo. (variação 3),,,,,ol cria lista ordenada; ul cria lista não ordenada.
+AB-075,resposta_escrita,HTML,intermediário,Explique por que é importante usar HTML semântico. Responda com suas palavras e dê um exemplo. (variação 3),,,,,"HTML semântico melhora acessibilidade, SEO, organização do código e compreensão da estrutura da página."
+AB-076,resposta_escrita,HTML,intermediário,Explique a função da tag <label> em formulários. Responda com suas palavras e dê um exemplo. (variação 3),,,,,"label cria um texto associado a um campo, melhorando usabilidade e acessibilidade."
+AB-077,resposta_escrita,HTML,intermediário,Explique a diferença entre <head> e <body>. Responda com suas palavras e dê um exemplo. (variação 3),,,,,head contém metadados e configurações; body contém o conteúdo visível da página.
+AB-078,resposta_escrita,HTML,intermediário,Explique o que é um atributo HTML. Responda com suas palavras e dê um exemplo. (variação 3),,,,,"Atributo adiciona informação ou configuração a uma tag, como href, src, alt, id e class."
+AB-079,resposta_escrita,HTML,intermediário,Explique a função da tag <nav>. Responda com suas palavras e dê um exemplo. (variação 3),,,,,nav representa uma área de navegação com links importantes do site.
+AB-080,resposta_escrita,HTML,intermediário,Explique por que o atributo lang='pt-br' é importante. Responda com suas palavras e dê um exemplo. (variação 3),,,,,"Ele informa o idioma da página, ajudando leitores de tela, buscadores e tradução automática."
+AB-081,resposta_escrita,HTML,intermediário+,Explique a diferença entre as tags <section> e <article>. Responda com suas palavras e dê um exemplo. (variação 4),,,,,"section agrupa uma parte temática da página; article representa um conteúdo independente, como postagem, notícia ou card completo."
+AB-082,resposta_escrita,HTML,intermediário+,Explique para que serve o atributo alt em uma imagem. Responda com suas palavras e dê um exemplo. (variação 4),,,,,O alt descreve a imagem para acessibilidade e aparece caso a imagem não carregue.
+AB-083,resposta_escrita,HTML,intermediário+,Explique a função da tag <form>. Responda com suas palavras e dê um exemplo. (variação 4),,,,,A tag form agrupa campos de entrada e permite enviar dados do usuário.
+AB-084,resposta_escrita,HTML,intermediário+,Explique a diferença entre <ol> e <ul>. Responda com suas palavras e dê um exemplo. (variação 4),,,,,ol cria lista ordenada; ul cria lista não ordenada.
+AB-085,resposta_escrita,HTML,intermediário+,Explique por que é importante usar HTML semântico. Responda com suas palavras e dê um exemplo. (variação 4),,,,,"HTML semântico melhora acessibilidade, SEO, organização do código e compreensão da estrutura da página."
+AB-086,resposta_escrita,HTML,intermediário+,Explique a função da tag <label> em formulários. Responda com suas palavras e dê um exemplo. (variação 4),,,,,"label cria um texto associado a um campo, melhorando usabilidade e acessibilidade."
+AB-087,resposta_escrita,HTML,intermediário+,Explique a diferença entre <head> e <body>. Responda com suas palavras e dê um exemplo. (variação 4),,,,,head contém metadados e configurações; body contém o conteúdo visível da página.
+AB-088,resposta_escrita,HTML,intermediário+,Explique o que é um atributo HTML. Responda com suas palavras e dê um exemplo. (variação 4),,,,,"Atributo adiciona informação ou configuração a uma tag, como href, src, alt, id e class."
+AB-089,resposta_escrita,HTML,intermediário+,Explique a função da tag <nav>. Responda com suas palavras e dê um exemplo. (variação 4),,,,,nav representa uma área de navegação com links importantes do site.
+AB-090,resposta_escrita,HTML,intermediário+,Explique por que o atributo lang='pt-br' é importante. Responda com suas palavras e dê um exemplo. (variação 4),,,,,"Ele informa o idioma da página, ajudando leitores de tela, buscadores e tradução automática."
+AB-091,resposta_escrita,HTML,revisão,Explique a diferença entre as tags <section> e <article>. Responda com suas palavras e dê um exemplo. (variação 5),,,,,"section agrupa uma parte temática da página; article representa um conteúdo independente, como postagem, notícia ou card completo."
+AB-092,resposta_escrita,HTML,revisão,Explique para que serve o atributo alt em uma imagem. Responda com suas palavras e dê um exemplo. (variação 5),,,,,O alt descreve a imagem para acessibilidade e aparece caso a imagem não carregue.
+AB-093,resposta_escrita,HTML,revisão,Explique a função da tag <form>. Responda com suas palavras e dê um exemplo. (variação 5),,,,,A tag form agrupa campos de entrada e permite enviar dados do usuário.
+AB-094,resposta_escrita,HTML,revisão,Explique a diferença entre <ol> e <ul>. Responda com suas palavras e dê um exemplo. (variação 5),,,,,ol cria lista ordenada; ul cria lista não ordenada.
+AB-095,resposta_escrita,HTML,revisão,Explique por que é importante usar HTML semântico. Responda com suas palavras e dê um exemplo. (variação 5),,,,,"HTML semântico melhora acessibilidade, SEO, organização do código e compreensão da estrutura da página."
+AB-096,resposta_escrita,HTML,revisão,Explique a função da tag <label> em formulários. Responda com suas palavras e dê um exemplo. (variação 5),,,,,"label cria um texto associado a um campo, melhorando usabilidade e acessibilidade."
+AB-097,resposta_escrita,HTML,revisão,Explique a diferença entre <head> e <body>. Responda com suas palavras e dê um exemplo. (variação 5),,,,,head contém metadados e configurações; body contém o conteúdo visível da página.
+AB-098,resposta_escrita,HTML,revisão,Explique o que é um atributo HTML. Responda com suas palavras e dê um exemplo. (variação 5),,,,,"Atributo adiciona informação ou configuração a uma tag, como href, src, alt, id e class."
+AB-099,resposta_escrita,HTML,revisão,Explique a função da tag <nav>. Responda com suas palavras e dê um exemplo. (variação 5),,,,,nav representa uma área de navegação com links importantes do site.
+AB-100,resposta_escrita,HTML,revisão,Explique por que o atributo lang='pt-br' é importante. Responda com suas palavras e dê um exemplo. (variação 5),,,,,"Ele informa o idioma da página, ajudando leitores de tela, buscadores e tradução automática."
+MC-101,multipla_escolha,CSS,iniciante,Qual propriedade altera a cor do texto?,color | background | font-size | border,color,0,A propriedade color define a cor do texto.,
+MC-102,multipla_escolha,CSS,iniciante,Qual propriedade altera a cor de fundo?,background-color | color | font-family | padding,background-color,0,background-color altera a cor de fundo.,
+MC-103,multipla_escolha,CSS,iniciante,Qual seletor seleciona uma classe?,.classe | #classe | classe() | <classe>,.classe,0,Classes são selecionadas com ponto.,
+MC-104,multipla_escolha,CSS,iniciante,Qual seletor seleciona um id?,#id | .id | id: | *id,#id,0,IDs são selecionados com cerquilha (#).,
+MC-105,multipla_escolha,CSS,iniciante,Qual propriedade controla o espaçamento interno?,padding | margin | border | gap,padding,0,Padding é o espaço interno do elemento.,
+MC-106,multipla_escolha,CSS,iniciante,Qual propriedade controla o espaçamento externo?,margin | padding | outline | display,margin,0,Margin é o espaço externo.,
+MC-107,multipla_escolha,CSS,iniciante,Qual valor de display ativa Flexbox?,flex | grid | block | inline,flex,0,display: flex ativa o Flexbox.,
+MC-108,multipla_escolha,CSS,iniciante,Qual propriedade arredonda bordas?,border-radius | border-style | outline | box-shadow,border-radius,0,border-radius arredonda as bordas.,
+MC-109,multipla_escolha,CSS,iniciante,Qual propriedade cria sombra em caixas?,box-shadow | text-shadow | filter | opacity,box-shadow,0,box-shadow cria sombra ao redor do elemento.,
+MC-110,multipla_escolha,CSS,iniciante,Qual propriedade define o tamanho da fonte?,font-size | font-weight | line-height | font-style,font-size,0,font-size define o tamanho da fonte.,
+MC-111,multipla_escolha,CSS,básico,Qual propriedade altera a cor do texto? (variação 2),color | background | font-size | border,color,0,A propriedade color define a cor do texto.,
+MC-112,multipla_escolha,CSS,básico,Qual propriedade altera a cor de fundo? (variação 2),background-color | color | font-family | padding,background-color,0,background-color altera a cor de fundo.,
+MC-113,multipla_escolha,CSS,básico,Qual seletor seleciona uma classe? (variação 2),.classe | #classe | classe() | <classe>,.classe,0,Classes são selecionadas com ponto.,
+MC-114,multipla_escolha,CSS,básico,Qual seletor seleciona um id? (variação 2),#id | .id | id: | *id,#id,0,IDs são selecionados com cerquilha (#).,
+MC-115,multipla_escolha,CSS,básico,Qual propriedade controla o espaçamento interno? (variação 2),padding | margin | border | gap,padding,0,Padding é o espaço interno do elemento.,
+MC-116,multipla_escolha,CSS,básico,Qual propriedade controla o espaçamento externo? (variação 2),margin | padding | outline | display,margin,0,Margin é o espaço externo.,
+MC-117,multipla_escolha,CSS,básico,Qual valor de display ativa Flexbox? (variação 2),flex | grid | block | inline,flex,0,display: flex ativa o Flexbox.,
+MC-118,multipla_escolha,CSS,básico,Qual propriedade arredonda bordas? (variação 2),border-radius | border-style | outline | box-shadow,border-radius,0,border-radius arredonda as bordas.,
+MC-119,multipla_escolha,CSS,básico,Qual propriedade cria sombra em caixas? (variação 2),box-shadow | text-shadow | filter | opacity,box-shadow,0,box-shadow cria sombra ao redor do elemento.,
+MC-120,multipla_escolha,CSS,básico,Qual propriedade define o tamanho da fonte? (variação 2),font-size | font-weight | line-height | font-style,font-size,0,font-size define o tamanho da fonte.,
+MC-121,multipla_escolha,CSS,intermediário,Qual propriedade altera a cor do texto? (variação 3),color | background | font-size | border,color,0,A propriedade color define a cor do texto.,
+MC-122,multipla_escolha,CSS,intermediário,Qual propriedade altera a cor de fundo? (variação 3),background-color | color | font-family | padding,background-color,0,background-color altera a cor de fundo.,
+MC-123,multipla_escolha,CSS,intermediário,Qual seletor seleciona uma classe? (variação 3),.classe | #classe | classe() | <classe>,.classe,0,Classes são selecionadas com ponto.,
+MC-124,multipla_escolha,CSS,intermediário,Qual seletor seleciona um id? (variação 3),#id | .id | id: | *id,#id,0,IDs são selecionados com cerquilha (#).,
+MC-125,multipla_escolha,CSS,intermediário,Qual propriedade controla o espaçamento interno? (variação 3),padding | margin | border | gap,padding,0,Padding é o espaço interno do elemento.,
+MC-126,multipla_escolha,CSS,intermediário,Qual propriedade controla o espaçamento externo? (variação 3),margin | padding | outline | display,margin,0,Margin é o espaço externo.,
+MC-127,multipla_escolha,CSS,intermediário,Qual valor de display ativa Flexbox? (variação 3),flex | grid | block | inline,flex,0,display: flex ativa o Flexbox.,
+MC-128,multipla_escolha,CSS,intermediário,Qual propriedade arredonda bordas? (variação 3),border-radius | border-style | outline | box-shadow,border-radius,0,border-radius arredonda as bordas.,
+MC-129,multipla_escolha,CSS,intermediário,Qual propriedade cria sombra em caixas? (variação 3),box-shadow | text-shadow | filter | opacity,box-shadow,0,box-shadow cria sombra ao redor do elemento.,
+MC-130,multipla_escolha,CSS,intermediário,Qual propriedade define o tamanho da fonte? (variação 3),font-size | font-weight | line-height | font-style,font-size,0,font-size define o tamanho da fonte.,
+MC-131,multipla_escolha,CSS,intermediário+,Qual propriedade altera a cor do texto? (variação 4),color | background | font-size | border,color,0,A propriedade color define a cor do texto.,
+MC-132,multipla_escolha,CSS,intermediário+,Qual propriedade altera a cor de fundo? (variação 4),background-color | color | font-family | padding,background-color,0,background-color altera a cor de fundo.,
+MC-133,multipla_escolha,CSS,intermediário+,Qual seletor seleciona uma classe? (variação 4),.classe | #classe | classe() | <classe>,.classe,0,Classes são selecionadas com ponto.,
+MC-134,multipla_escolha,CSS,intermediário+,Qual seletor seleciona um id? (variação 4),#id | .id | id: | *id,#id,0,IDs são selecionados com cerquilha (#).,
+MC-135,multipla_escolha,CSS,intermediário+,Qual propriedade controla o espaçamento interno? (variação 4),padding | margin | border | gap,padding,0,Padding é o espaço interno do elemento.,
+MC-136,multipla_escolha,CSS,intermediário+,Qual propriedade controla o espaçamento externo? (variação 4),margin | padding | outline | display,margin,0,Margin é o espaço externo.,
+MC-137,multipla_escolha,CSS,intermediário+,Qual valor de display ativa Flexbox? (variação 4),flex | grid | block | inline,flex,0,display: flex ativa o Flexbox.,
+MC-138,multipla_escolha,CSS,intermediário+,Qual propriedade arredonda bordas? (variação 4),border-radius | border-style | outline | box-shadow,border-radius,0,border-radius arredonda as bordas.,
+MC-139,multipla_escolha,CSS,intermediário+,Qual propriedade cria sombra em caixas? (variação 4),box-shadow | text-shadow | filter | opacity,box-shadow,0,box-shadow cria sombra ao redor do elemento.,
+MC-140,multipla_escolha,CSS,intermediário+,Qual propriedade define o tamanho da fonte? (variação 4),font-size | font-weight | line-height | font-style,font-size,0,font-size define o tamanho da fonte.,
+MC-141,multipla_escolha,CSS,revisão,Qual propriedade altera a cor do texto? (variação 5),color | background | font-size | border,color,0,A propriedade color define a cor do texto.,
+MC-142,multipla_escolha,CSS,revisão,Qual propriedade altera a cor de fundo? (variação 5),background-color | color | font-family | padding,background-color,0,background-color altera a cor de fundo.,
+MC-143,multipla_escolha,CSS,revisão,Qual seletor seleciona uma classe? (variação 5),.classe | #classe | classe() | <classe>,.classe,0,Classes são selecionadas com ponto.,
+MC-144,multipla_escolha,CSS,revisão,Qual seletor seleciona um id? (variação 5),#id | .id | id: | *id,#id,0,IDs são selecionados com cerquilha (#).,
+MC-145,multipla_escolha,CSS,revisão,Qual propriedade controla o espaçamento interno? (variação 5),padding | margin | border | gap,padding,0,Padding é o espaço interno do elemento.,
+MC-146,multipla_escolha,CSS,revisão,Qual propriedade controla o espaçamento externo? (variação 5),margin | padding | outline | display,margin,0,Margin é o espaço externo.,
+MC-147,multipla_escolha,CSS,revisão,Qual valor de display ativa Flexbox? (variação 5),flex | grid | block | inline,flex,0,display: flex ativa o Flexbox.,
+MC-148,multipla_escolha,CSS,revisão,Qual propriedade arredonda bordas? (variação 5),border-radius | border-style | outline | box-shadow,border-radius,0,border-radius arredonda as bordas.,
+MC-149,multipla_escolha,CSS,revisão,Qual propriedade cria sombra em caixas? (variação 5),box-shadow | text-shadow | filter | opacity,box-shadow,0,box-shadow cria sombra ao redor do elemento.,
+MC-150,multipla_escolha,CSS,revisão,Qual propriedade define o tamanho da fonte? (variação 5),font-size | font-weight | line-height | font-style,font-size,0,font-size define o tamanho da fonte.,
+AB-151,resposta_escrita,CSS,iniciante,Explique a diferença entre margin e padding.,,,,,Margin é o espaço externo do elemento; padding é o espaço interno entre o conteúdo e a borda.
+AB-152,resposta_escrita,CSS,iniciante,Explique para que serve o display: flex.,,,,,display flex organiza elementos em linha ou coluna com controle de alinhamento e distribuição.
+AB-153,resposta_escrita,CSS,iniciante,Explique a diferença entre classe e id no CSS.,,,,,Classe pode ser usada em vários elementos e é selecionada com ponto; id deve ser único e é selecionado com #.
+AB-154,resposta_escrita,CSS,iniciante,Explique para que serve border-radius.,,,,,border-radius arredonda os cantos de um elemento.
+AB-155,resposta_escrita,CSS,iniciante,Explique o que é responsividade.,,,,,Responsividade é a capacidade do layout se adaptar a diferentes tamanhos de tela.
+AB-156,resposta_escrita,CSS,iniciante,Explique para que serve media query.,,,,,Media query aplica estilos diferentes de acordo com tamanho de tela ou características do dispositivo.
+AB-157,resposta_escrita,CSS,iniciante,Explique a diferença entre position relative e absolute.,,,,,Relative posiciona em relação à posição original; absolute posiciona em relação ao ancestral posicionado mais próximo.
+AB-158,resposta_escrita,CSS,iniciante,Explique para que serve z-index.,,,,,z-index controla a ordem de sobreposição de elementos posicionados.
+AB-159,resposta_escrita,CSS,iniciante,Explique a função do gap em flexbox ou grid.,,,,,gap define o espaçamento entre itens.
+AB-160,resposta_escrita,CSS,iniciante,Explique o que faz box-shadow.,,,,,box-shadow cria sombra ao redor de caixas/elementos.
+AB-161,resposta_escrita,CSS,básico,Explique a diferença entre margin e padding. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Margin é o espaço externo do elemento; padding é o espaço interno entre o conteúdo e a borda.
+AB-162,resposta_escrita,CSS,básico,Explique para que serve o display: flex. Responda com suas palavras e dê um exemplo. (variação 2),,,,,display flex organiza elementos em linha ou coluna com controle de alinhamento e distribuição.
+AB-163,resposta_escrita,CSS,básico,Explique a diferença entre classe e id no CSS. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Classe pode ser usada em vários elementos e é selecionada com ponto; id deve ser único e é selecionado com #.
+AB-164,resposta_escrita,CSS,básico,Explique para que serve border-radius. Responda com suas palavras e dê um exemplo. (variação 2),,,,,border-radius arredonda os cantos de um elemento.
+AB-165,resposta_escrita,CSS,básico,Explique o que é responsividade. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Responsividade é a capacidade do layout se adaptar a diferentes tamanhos de tela.
+AB-166,resposta_escrita,CSS,básico,Explique para que serve media query. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Media query aplica estilos diferentes de acordo com tamanho de tela ou características do dispositivo.
+AB-167,resposta_escrita,CSS,básico,Explique a diferença entre position relative e absolute. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Relative posiciona em relação à posição original; absolute posiciona em relação ao ancestral posicionado mais próximo.
+AB-168,resposta_escrita,CSS,básico,Explique para que serve z-index. Responda com suas palavras e dê um exemplo. (variação 2),,,,,z-index controla a ordem de sobreposição de elementos posicionados.
+AB-169,resposta_escrita,CSS,básico,Explique a função do gap em flexbox ou grid. Responda com suas palavras e dê um exemplo. (variação 2),,,,,gap define o espaçamento entre itens.
+AB-170,resposta_escrita,CSS,básico,Explique o que faz box-shadow. Responda com suas palavras e dê um exemplo. (variação 2),,,,,box-shadow cria sombra ao redor de caixas/elementos.
+AB-171,resposta_escrita,CSS,intermediário,Explique a diferença entre margin e padding. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Margin é o espaço externo do elemento; padding é o espaço interno entre o conteúdo e a borda.
+AB-172,resposta_escrita,CSS,intermediário,Explique para que serve o display: flex. Responda com suas palavras e dê um exemplo. (variação 3),,,,,display flex organiza elementos em linha ou coluna com controle de alinhamento e distribuição.
+AB-173,resposta_escrita,CSS,intermediário,Explique a diferença entre classe e id no CSS. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Classe pode ser usada em vários elementos e é selecionada com ponto; id deve ser único e é selecionado com #.
+AB-174,resposta_escrita,CSS,intermediário,Explique para que serve border-radius. Responda com suas palavras e dê um exemplo. (variação 3),,,,,border-radius arredonda os cantos de um elemento.
+AB-175,resposta_escrita,CSS,intermediário,Explique o que é responsividade. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Responsividade é a capacidade do layout se adaptar a diferentes tamanhos de tela.
+AB-176,resposta_escrita,CSS,intermediário,Explique para que serve media query. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Media query aplica estilos diferentes de acordo com tamanho de tela ou características do dispositivo.
+AB-177,resposta_escrita,CSS,intermediário,Explique a diferença entre position relative e absolute. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Relative posiciona em relação à posição original; absolute posiciona em relação ao ancestral posicionado mais próximo.
+AB-178,resposta_escrita,CSS,intermediário,Explique para que serve z-index. Responda com suas palavras e dê um exemplo. (variação 3),,,,,z-index controla a ordem de sobreposição de elementos posicionados.
+AB-179,resposta_escrita,CSS,intermediário,Explique a função do gap em flexbox ou grid. Responda com suas palavras e dê um exemplo. (variação 3),,,,,gap define o espaçamento entre itens.
+AB-180,resposta_escrita,CSS,intermediário,Explique o que faz box-shadow. Responda com suas palavras e dê um exemplo. (variação 3),,,,,box-shadow cria sombra ao redor de caixas/elementos.
+AB-181,resposta_escrita,CSS,intermediário+,Explique a diferença entre margin e padding. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Margin é o espaço externo do elemento; padding é o espaço interno entre o conteúdo e a borda.
+AB-182,resposta_escrita,CSS,intermediário+,Explique para que serve o display: flex. Responda com suas palavras e dê um exemplo. (variação 4),,,,,display flex organiza elementos em linha ou coluna com controle de alinhamento e distribuição.
+AB-183,resposta_escrita,CSS,intermediário+,Explique a diferença entre classe e id no CSS. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Classe pode ser usada em vários elementos e é selecionada com ponto; id deve ser único e é selecionado com #.
+AB-184,resposta_escrita,CSS,intermediário+,Explique para que serve border-radius. Responda com suas palavras e dê um exemplo. (variação 4),,,,,border-radius arredonda os cantos de um elemento.
+AB-185,resposta_escrita,CSS,intermediário+,Explique o que é responsividade. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Responsividade é a capacidade do layout se adaptar a diferentes tamanhos de tela.
+AB-186,resposta_escrita,CSS,intermediário+,Explique para que serve media query. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Media query aplica estilos diferentes de acordo com tamanho de tela ou características do dispositivo.
+AB-187,resposta_escrita,CSS,intermediário+,Explique a diferença entre position relative e absolute. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Relative posiciona em relação à posição original; absolute posiciona em relação ao ancestral posicionado mais próximo.
+AB-188,resposta_escrita,CSS,intermediário+,Explique para que serve z-index. Responda com suas palavras e dê um exemplo. (variação 4),,,,,z-index controla a ordem de sobreposição de elementos posicionados.
+AB-189,resposta_escrita,CSS,intermediário+,Explique a função do gap em flexbox ou grid. Responda com suas palavras e dê um exemplo. (variação 4),,,,,gap define o espaçamento entre itens.
+AB-190,resposta_escrita,CSS,intermediário+,Explique o que faz box-shadow. Responda com suas palavras e dê um exemplo. (variação 4),,,,,box-shadow cria sombra ao redor de caixas/elementos.
+AB-191,resposta_escrita,CSS,revisão,Explique a diferença entre margin e padding. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Margin é o espaço externo do elemento; padding é o espaço interno entre o conteúdo e a borda.
+AB-192,resposta_escrita,CSS,revisão,Explique para que serve o display: flex. Responda com suas palavras e dê um exemplo. (variação 5),,,,,display flex organiza elementos em linha ou coluna com controle de alinhamento e distribuição.
+AB-193,resposta_escrita,CSS,revisão,Explique a diferença entre classe e id no CSS. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Classe pode ser usada em vários elementos e é selecionada com ponto; id deve ser único e é selecionado com #.
+AB-194,resposta_escrita,CSS,revisão,Explique para que serve border-radius. Responda com suas palavras e dê um exemplo. (variação 5),,,,,border-radius arredonda os cantos de um elemento.
+AB-195,resposta_escrita,CSS,revisão,Explique o que é responsividade. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Responsividade é a capacidade do layout se adaptar a diferentes tamanhos de tela.
+AB-196,resposta_escrita,CSS,revisão,Explique para que serve media query. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Media query aplica estilos diferentes de acordo com tamanho de tela ou características do dispositivo.
+AB-197,resposta_escrita,CSS,revisão,Explique a diferença entre position relative e absolute. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Relative posiciona em relação à posição original; absolute posiciona em relação ao ancestral posicionado mais próximo.
+AB-198,resposta_escrita,CSS,revisão,Explique para que serve z-index. Responda com suas palavras e dê um exemplo. (variação 5),,,,,z-index controla a ordem de sobreposição de elementos posicionados.
+AB-199,resposta_escrita,CSS,revisão,Explique a função do gap em flexbox ou grid. Responda com suas palavras e dê um exemplo. (variação 5),,,,,gap define o espaçamento entre itens.
+AB-200,resposta_escrita,CSS,revisão,Explique o que faz box-shadow. Responda com suas palavras e dê um exemplo. (variação 5),,,,,box-shadow cria sombra ao redor de caixas/elementos.
+MC-201,multipla_escolha,JavaScript,iniciante,Qual palavra declara uma variável que pode mudar?,let | const | fixed | varname,let,0,let declara uma variável que pode receber novo valor.,
+MC-202,multipla_escolha,JavaScript,iniciante,Qual palavra declara uma constante?,const | let | change | static,const,0,const cria uma referência que não pode ser reatribuída.,
+MC-203,multipla_escolha,JavaScript,iniciante,Qual método mostra mensagem no console?,console.log() | print() | echo() | show(),console.log(),0,console.log() imprime no console do navegador ou Node.,
+MC-204,multipla_escolha,JavaScript,iniciante,Qual operador compara valor e tipo?,=== | == | = | !=,===,0,=== compara valor e tipo.,
+MC-205,multipla_escolha,JavaScript,iniciante,Qual estrutura repete um bloco enquanto a condição for verdadeira?,while | if | switch | return,while,0,while executa repetição baseada em condição.,
+MC-206,multipla_escolha,JavaScript,iniciante,Qual método adiciona item ao final de um array?,push() | pop() | shift() | map(),push(),0,push() adiciona ao final.,
+MC-207,multipla_escolha,JavaScript,iniciante,Qual método remove o último item de um array?,pop() | push() | unshift() | filter(),pop(),0,pop() remove o último item.,
+MC-208,multipla_escolha,JavaScript,iniciante,Qual tipo representa verdadeiro ou falso?,boolean | string | number | array,boolean,0,Boolean armazena true ou false.,
+MC-209,multipla_escolha,JavaScript,iniciante,Qual função converte texto para número inteiro?,parseInt() | String() | Boolean() | toText(),parseInt(),0,parseInt() tenta converter para inteiro.,
+MC-210,multipla_escolha,JavaScript,iniciante,Qual evento ocorre ao clicar em um elemento?,click | hover | loadText | pressMouse,click,0,click é disparado quando o usuário clica.,
+MC-211,multipla_escolha,JavaScript,básico,Qual palavra declara uma variável que pode mudar? (variação 2),let | const | fixed | varname,let,0,let declara uma variável que pode receber novo valor.,
+MC-212,multipla_escolha,JavaScript,básico,Qual palavra declara uma constante? (variação 2),const | let | change | static,const,0,const cria uma referência que não pode ser reatribuída.,
+MC-213,multipla_escolha,JavaScript,básico,Qual método mostra mensagem no console? (variação 2),console.log() | print() | echo() | show(),console.log(),0,console.log() imprime no console do navegador ou Node.,
+MC-214,multipla_escolha,JavaScript,básico,Qual operador compara valor e tipo? (variação 2),=== | == | = | !=,===,0,=== compara valor e tipo.,
+MC-215,multipla_escolha,JavaScript,básico,Qual estrutura repete um bloco enquanto a condição for verdadeira? (variação 2),while | if | switch | return,while,0,while executa repetição baseada em condição.,
+MC-216,multipla_escolha,JavaScript,básico,Qual método adiciona item ao final de um array? (variação 2),push() | pop() | shift() | map(),push(),0,push() adiciona ao final.,
+MC-217,multipla_escolha,JavaScript,básico,Qual método remove o último item de um array? (variação 2),pop() | push() | unshift() | filter(),pop(),0,pop() remove o último item.,
+MC-218,multipla_escolha,JavaScript,básico,Qual tipo representa verdadeiro ou falso? (variação 2),boolean | string | number | array,boolean,0,Boolean armazena true ou false.,
+MC-219,multipla_escolha,JavaScript,básico,Qual função converte texto para número inteiro? (variação 2),parseInt() | String() | Boolean() | toText(),parseInt(),0,parseInt() tenta converter para inteiro.,
+MC-220,multipla_escolha,JavaScript,básico,Qual evento ocorre ao clicar em um elemento? (variação 2),click | hover | loadText | pressMouse,click,0,click é disparado quando o usuário clica.,
+MC-221,multipla_escolha,JavaScript,intermediário,Qual palavra declara uma variável que pode mudar? (variação 3),let | const | fixed | varname,let,0,let declara uma variável que pode receber novo valor.,
+MC-222,multipla_escolha,JavaScript,intermediário,Qual palavra declara uma constante? (variação 3),const | let | change | static,const,0,const cria uma referência que não pode ser reatribuída.,
+MC-223,multipla_escolha,JavaScript,intermediário,Qual método mostra mensagem no console? (variação 3),console.log() | print() | echo() | show(),console.log(),0,console.log() imprime no console do navegador ou Node.,
+MC-224,multipla_escolha,JavaScript,intermediário,Qual operador compara valor e tipo? (variação 3),=== | == | = | !=,===,0,=== compara valor e tipo.,
+MC-225,multipla_escolha,JavaScript,intermediário,Qual estrutura repete um bloco enquanto a condição for verdadeira? (variação 3),while | if | switch | return,while,0,while executa repetição baseada em condição.,
+MC-226,multipla_escolha,JavaScript,intermediário,Qual método adiciona item ao final de um array? (variação 3),push() | pop() | shift() | map(),push(),0,push() adiciona ao final.,
+MC-227,multipla_escolha,JavaScript,intermediário,Qual método remove o último item de um array? (variação 3),pop() | push() | unshift() | filter(),pop(),0,pop() remove o último item.,
+MC-228,multipla_escolha,JavaScript,intermediário,Qual tipo representa verdadeiro ou falso? (variação 3),boolean | string | number | array,boolean,0,Boolean armazena true ou false.,
+MC-229,multipla_escolha,JavaScript,intermediário,Qual função converte texto para número inteiro? (variação 3),parseInt() | String() | Boolean() | toText(),parseInt(),0,parseInt() tenta converter para inteiro.,
+MC-230,multipla_escolha,JavaScript,intermediário,Qual evento ocorre ao clicar em um elemento? (variação 3),click | hover | loadText | pressMouse,click,0,click é disparado quando o usuário clica.,
+MC-231,multipla_escolha,JavaScript,intermediário+,Qual palavra declara uma variável que pode mudar? (variação 4),let | const | fixed | varname,let,0,let declara uma variável que pode receber novo valor.,
+MC-232,multipla_escolha,JavaScript,intermediário+,Qual palavra declara uma constante? (variação 4),const | let | change | static,const,0,const cria uma referência que não pode ser reatribuída.,
+MC-233,multipla_escolha,JavaScript,intermediário+,Qual método mostra mensagem no console? (variação 4),console.log() | print() | echo() | show(),console.log(),0,console.log() imprime no console do navegador ou Node.,
+MC-234,multipla_escolha,JavaScript,intermediário+,Qual operador compara valor e tipo? (variação 4),=== | == | = | !=,===,0,=== compara valor e tipo.,
+MC-235,multipla_escolha,JavaScript,intermediário+,Qual estrutura repete um bloco enquanto a condição for verdadeira? (variação 4),while | if | switch | return,while,0,while executa repetição baseada em condição.,
+MC-236,multipla_escolha,JavaScript,intermediário+,Qual método adiciona item ao final de um array? (variação 4),push() | pop() | shift() | map(),push(),0,push() adiciona ao final.,
+MC-237,multipla_escolha,JavaScript,intermediário+,Qual método remove o último item de um array? (variação 4),pop() | push() | unshift() | filter(),pop(),0,pop() remove o último item.,
+MC-238,multipla_escolha,JavaScript,intermediário+,Qual tipo representa verdadeiro ou falso? (variação 4),boolean | string | number | array,boolean,0,Boolean armazena true ou false.,
+MC-239,multipla_escolha,JavaScript,intermediário+,Qual função converte texto para número inteiro? (variação 4),parseInt() | String() | Boolean() | toText(),parseInt(),0,parseInt() tenta converter para inteiro.,
+MC-240,multipla_escolha,JavaScript,intermediário+,Qual evento ocorre ao clicar em um elemento? (variação 4),click | hover | loadText | pressMouse,click,0,click é disparado quando o usuário clica.,
+MC-241,multipla_escolha,JavaScript,revisão,Qual palavra declara uma variável que pode mudar? (variação 5),let | const | fixed | varname,let,0,let declara uma variável que pode receber novo valor.,
+MC-242,multipla_escolha,JavaScript,revisão,Qual palavra declara uma constante? (variação 5),const | let | change | static,const,0,const cria uma referência que não pode ser reatribuída.,
+MC-243,multipla_escolha,JavaScript,revisão,Qual método mostra mensagem no console? (variação 5),console.log() | print() | echo() | show(),console.log(),0,console.log() imprime no console do navegador ou Node.,
+MC-244,multipla_escolha,JavaScript,revisão,Qual operador compara valor e tipo? (variação 5),=== | == | = | !=,===,0,=== compara valor e tipo.,
+MC-245,multipla_escolha,JavaScript,revisão,Qual estrutura repete um bloco enquanto a condição for verdadeira? (variação 5),while | if | switch | return,while,0,while executa repetição baseada em condição.,
+MC-246,multipla_escolha,JavaScript,revisão,Qual método adiciona item ao final de um array? (variação 5),push() | pop() | shift() | map(),push(),0,push() adiciona ao final.,
+MC-247,multipla_escolha,JavaScript,revisão,Qual método remove o último item de um array? (variação 5),pop() | push() | unshift() | filter(),pop(),0,pop() remove o último item.,
+MC-248,multipla_escolha,JavaScript,revisão,Qual tipo representa verdadeiro ou falso? (variação 5),boolean | string | number | array,boolean,0,Boolean armazena true ou false.,
+MC-249,multipla_escolha,JavaScript,revisão,Qual função converte texto para número inteiro? (variação 5),parseInt() | String() | Boolean() | toText(),parseInt(),0,parseInt() tenta converter para inteiro.,
+MC-250,multipla_escolha,JavaScript,revisão,Qual evento ocorre ao clicar em um elemento? (variação 5),click | hover | loadText | pressMouse,click,0,click é disparado quando o usuário clica.,
+AB-251,resposta_escrita,JavaScript,iniciante,Explique a diferença entre let e const.,,,,,let permite reatribuição; const não permite reatribuir a mesma variável.
+AB-252,resposta_escrita,JavaScript,iniciante,Explique a diferença entre == e ===.,,,,,== compara com conversão de tipo; === compara valor e tipo sem conversão.
+AB-253,resposta_escrita,JavaScript,iniciante,Explique para que serve uma função.,,,,,Função agrupa um bloco de código reutilizável para executar uma tarefa.
+AB-254,resposta_escrita,JavaScript,iniciante,Explique o que é um array.,,,,,Array é uma estrutura que armazena vários valores em uma mesma variável.
+AB-255,resposta_escrita,JavaScript,iniciante,Explique para que serve addEventListener.,,,,,addEventListener registra uma função para ser executada quando um evento acontece.
+AB-256,resposta_escrita,JavaScript,iniciante,Explique o que é DOM.,,,,,DOM é a representação da página HTML em objetos que o JavaScript pode acessar e modificar.
+AB-257,resposta_escrita,JavaScript,iniciante,Explique o que é uma condição if.,,,,,if executa um bloco de código quando uma condição é verdadeira.
+AB-258,resposta_escrita,JavaScript,iniciante,Explique o que é loop.,,,,,Loop repete um bloco de código enquanto uma condição ou sequência permitir.
+AB-259,resposta_escrita,JavaScript,iniciante,Explique para que serve map() em arrays.,,,,,map cria um novo array transformando cada item do array original.
+AB-260,resposta_escrita,JavaScript,iniciante,Explique para que serve filter() em arrays.,,,,,filter cria um novo array apenas com itens que passam em uma condição.
+AB-261,resposta_escrita,JavaScript,básico,Explique a diferença entre let e const. Responda com suas palavras e dê um exemplo. (variação 2),,,,,let permite reatribuição; const não permite reatribuir a mesma variável.
+AB-262,resposta_escrita,JavaScript,básico,Explique a diferença entre == e ===. Responda com suas palavras e dê um exemplo. (variação 2),,,,,== compara com conversão de tipo; === compara valor e tipo sem conversão.
+AB-263,resposta_escrita,JavaScript,básico,Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Função agrupa um bloco de código reutilizável para executar uma tarefa.
+AB-264,resposta_escrita,JavaScript,básico,Explique o que é um array. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Array é uma estrutura que armazena vários valores em uma mesma variável.
+AB-265,resposta_escrita,JavaScript,básico,Explique para que serve addEventListener. Responda com suas palavras e dê um exemplo. (variação 2),,,,,addEventListener registra uma função para ser executada quando um evento acontece.
+AB-266,resposta_escrita,JavaScript,básico,Explique o que é DOM. Responda com suas palavras e dê um exemplo. (variação 2),,,,,DOM é a representação da página HTML em objetos que o JavaScript pode acessar e modificar.
+AB-267,resposta_escrita,JavaScript,básico,Explique o que é uma condição if. Responda com suas palavras e dê um exemplo. (variação 2),,,,,if executa um bloco de código quando uma condição é verdadeira.
+AB-268,resposta_escrita,JavaScript,básico,Explique o que é loop. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Loop repete um bloco de código enquanto uma condição ou sequência permitir.
+AB-269,resposta_escrita,JavaScript,básico,Explique para que serve map() em arrays. Responda com suas palavras e dê um exemplo. (variação 2),,,,,map cria um novo array transformando cada item do array original.
+AB-270,resposta_escrita,JavaScript,básico,Explique para que serve filter() em arrays. Responda com suas palavras e dê um exemplo. (variação 2),,,,,filter cria um novo array apenas com itens que passam em uma condição.
+AB-271,resposta_escrita,JavaScript,intermediário,Explique a diferença entre let e const. Responda com suas palavras e dê um exemplo. (variação 3),,,,,let permite reatribuição; const não permite reatribuir a mesma variável.
+AB-272,resposta_escrita,JavaScript,intermediário,Explique a diferença entre == e ===. Responda com suas palavras e dê um exemplo. (variação 3),,,,,== compara com conversão de tipo; === compara valor e tipo sem conversão.
+AB-273,resposta_escrita,JavaScript,intermediário,Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Função agrupa um bloco de código reutilizável para executar uma tarefa.
+AB-274,resposta_escrita,JavaScript,intermediário,Explique o que é um array. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Array é uma estrutura que armazena vários valores em uma mesma variável.
+AB-275,resposta_escrita,JavaScript,intermediário,Explique para que serve addEventListener. Responda com suas palavras e dê um exemplo. (variação 3),,,,,addEventListener registra uma função para ser executada quando um evento acontece.
+AB-276,resposta_escrita,JavaScript,intermediário,Explique o que é DOM. Responda com suas palavras e dê um exemplo. (variação 3),,,,,DOM é a representação da página HTML em objetos que o JavaScript pode acessar e modificar.
+AB-277,resposta_escrita,JavaScript,intermediário,Explique o que é uma condição if. Responda com suas palavras e dê um exemplo. (variação 3),,,,,if executa um bloco de código quando uma condição é verdadeira.
+AB-278,resposta_escrita,JavaScript,intermediário,Explique o que é loop. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Loop repete um bloco de código enquanto uma condição ou sequência permitir.
+AB-279,resposta_escrita,JavaScript,intermediário,Explique para que serve map() em arrays. Responda com suas palavras e dê um exemplo. (variação 3),,,,,map cria um novo array transformando cada item do array original.
+AB-280,resposta_escrita,JavaScript,intermediário,Explique para que serve filter() em arrays. Responda com suas palavras e dê um exemplo. (variação 3),,,,,filter cria um novo array apenas com itens que passam em uma condição.
+AB-281,resposta_escrita,JavaScript,intermediário+,Explique a diferença entre let e const. Responda com suas palavras e dê um exemplo. (variação 4),,,,,let permite reatribuição; const não permite reatribuir a mesma variável.
+AB-282,resposta_escrita,JavaScript,intermediário+,Explique a diferença entre == e ===. Responda com suas palavras e dê um exemplo. (variação 4),,,,,== compara com conversão de tipo; === compara valor e tipo sem conversão.
+AB-283,resposta_escrita,JavaScript,intermediário+,Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Função agrupa um bloco de código reutilizável para executar uma tarefa.
+AB-284,resposta_escrita,JavaScript,intermediário+,Explique o que é um array. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Array é uma estrutura que armazena vários valores em uma mesma variável.
+AB-285,resposta_escrita,JavaScript,intermediário+,Explique para que serve addEventListener. Responda com suas palavras e dê um exemplo. (variação 4),,,,,addEventListener registra uma função para ser executada quando um evento acontece.
+AB-286,resposta_escrita,JavaScript,intermediário+,Explique o que é DOM. Responda com suas palavras e dê um exemplo. (variação 4),,,,,DOM é a representação da página HTML em objetos que o JavaScript pode acessar e modificar.
+AB-287,resposta_escrita,JavaScript,intermediário+,Explique o que é uma condição if. Responda com suas palavras e dê um exemplo. (variação 4),,,,,if executa um bloco de código quando uma condição é verdadeira.
+AB-288,resposta_escrita,JavaScript,intermediário+,Explique o que é loop. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Loop repete um bloco de código enquanto uma condição ou sequência permitir.
+AB-289,resposta_escrita,JavaScript,intermediário+,Explique para que serve map() em arrays. Responda com suas palavras e dê um exemplo. (variação 4),,,,,map cria um novo array transformando cada item do array original.
+AB-290,resposta_escrita,JavaScript,intermediário+,Explique para que serve filter() em arrays. Responda com suas palavras e dê um exemplo. (variação 4),,,,,filter cria um novo array apenas com itens que passam em uma condição.
+AB-291,resposta_escrita,JavaScript,revisão,Explique a diferença entre let e const. Responda com suas palavras e dê um exemplo. (variação 5),,,,,let permite reatribuição; const não permite reatribuir a mesma variável.
+AB-292,resposta_escrita,JavaScript,revisão,Explique a diferença entre == e ===. Responda com suas palavras e dê um exemplo. (variação 5),,,,,== compara com conversão de tipo; === compara valor e tipo sem conversão.
+AB-293,resposta_escrita,JavaScript,revisão,Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Função agrupa um bloco de código reutilizável para executar uma tarefa.
+AB-294,resposta_escrita,JavaScript,revisão,Explique o que é um array. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Array é uma estrutura que armazena vários valores em uma mesma variável.
+AB-295,resposta_escrita,JavaScript,revisão,Explique para que serve addEventListener. Responda com suas palavras e dê um exemplo. (variação 5),,,,,addEventListener registra uma função para ser executada quando um evento acontece.
+AB-296,resposta_escrita,JavaScript,revisão,Explique o que é DOM. Responda com suas palavras e dê um exemplo. (variação 5),,,,,DOM é a representação da página HTML em objetos que o JavaScript pode acessar e modificar.
+AB-297,resposta_escrita,JavaScript,revisão,Explique o que é uma condição if. Responda com suas palavras e dê um exemplo. (variação 5),,,,,if executa um bloco de código quando uma condição é verdadeira.
+AB-298,resposta_escrita,JavaScript,revisão,Explique o que é loop. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Loop repete um bloco de código enquanto uma condição ou sequência permitir.
+AB-299,resposta_escrita,JavaScript,revisão,Explique para que serve map() em arrays. Responda com suas palavras e dê um exemplo. (variação 5),,,,,map cria um novo array transformando cada item do array original.
+AB-300,resposta_escrita,JavaScript,revisão,Explique para que serve filter() em arrays. Responda com suas palavras e dê um exemplo. (variação 5),,,,,filter cria um novo array apenas com itens que passam em uma condição.
+MC-301,multipla_escolha,Python,iniciante,Qual comando exibe texto na tela?,print() | echo() | console.log() | mostrar(),print(),0,print() exibe informações no terminal.,
+MC-302,multipla_escolha,Python,iniciante,Qual função lê dados digitados pelo usuário?,input() | read() | scan() | prompt(),input(),0,input() recebe texto digitado pelo usuário.,
+MC-303,multipla_escolha,Python,iniciante,Qual estrutura cria repetição com contador ou sequência?,for | if | def | try,for,0,for percorre sequências e intervalos.,
+MC-304,multipla_escolha,Python,iniciante,Qual estrutura repete enquanto uma condição for verdadeira?,while | for | class | import,while,0,while repete com base em condição.,
+MC-305,multipla_escolha,Python,iniciante,Qual tipo representa uma lista mutável?,list | tuple | str | int,list,0,list é uma coleção mutável.,
+MC-306,multipla_escolha,Python,iniciante,Qual método adiciona item ao final de uma lista?,append() | addEnd() | push() | insertEnd(),append(),0,append() adiciona item ao final.,
+MC-307,multipla_escolha,Python,iniciante,Qual palavra cria uma função?,def | function | fun | lambda,def,0,def define uma função nomeada.,
+MC-308,multipla_escolha,Python,iniciante,Qual operador calcula o resto da divisão?,% | // | / | **,%,0,% retorna o resto da divisão.,
+MC-309,multipla_escolha,Python,iniciante,Qual operador calcula potência?,** | ^ | pow: | %%,**,0,** é usado para exponenciação.,
+MC-310,multipla_escolha,Python,iniciante,Qual comando importa uma biblioteca?,import | include | using | require,import,0,import carrega módulos em Python.,
+MC-311,multipla_escolha,Python,básico,Qual comando exibe texto na tela? (variação 2),print() | echo() | console.log() | mostrar(),print(),0,print() exibe informações no terminal.,
+MC-312,multipla_escolha,Python,básico,Qual função lê dados digitados pelo usuário? (variação 2),input() | read() | scan() | prompt(),input(),0,input() recebe texto digitado pelo usuário.,
+MC-313,multipla_escolha,Python,básico,Qual estrutura cria repetição com contador ou sequência? (variação 2),for | if | def | try,for,0,for percorre sequências e intervalos.,
+MC-314,multipla_escolha,Python,básico,Qual estrutura repete enquanto uma condição for verdadeira? (variação 2),while | for | class | import,while,0,while repete com base em condição.,
+MC-315,multipla_escolha,Python,básico,Qual tipo representa uma lista mutável? (variação 2),list | tuple | str | int,list,0,list é uma coleção mutável.,
+MC-316,multipla_escolha,Python,básico,Qual método adiciona item ao final de uma lista? (variação 2),append() | addEnd() | push() | insertEnd(),append(),0,append() adiciona item ao final.,
+MC-317,multipla_escolha,Python,básico,Qual palavra cria uma função? (variação 2),def | function | fun | lambda,def,0,def define uma função nomeada.,
+MC-318,multipla_escolha,Python,básico,Qual operador calcula o resto da divisão? (variação 2),% | // | / | **,%,0,% retorna o resto da divisão.,
+MC-319,multipla_escolha,Python,básico,Qual operador calcula potência? (variação 2),** | ^ | pow: | %%,**,0,** é usado para exponenciação.,
+MC-320,multipla_escolha,Python,básico,Qual comando importa uma biblioteca? (variação 2),import | include | using | require,import,0,import carrega módulos em Python.,
+MC-321,multipla_escolha,Python,intermediário,Qual comando exibe texto na tela? (variação 3),print() | echo() | console.log() | mostrar(),print(),0,print() exibe informações no terminal.,
+MC-322,multipla_escolha,Python,intermediário,Qual função lê dados digitados pelo usuário? (variação 3),input() | read() | scan() | prompt(),input(),0,input() recebe texto digitado pelo usuário.,
+MC-323,multipla_escolha,Python,intermediário,Qual estrutura cria repetição com contador ou sequência? (variação 3),for | if | def | try,for,0,for percorre sequências e intervalos.,
+MC-324,multipla_escolha,Python,intermediário,Qual estrutura repete enquanto uma condição for verdadeira? (variação 3),while | for | class | import,while,0,while repete com base em condição.,
+MC-325,multipla_escolha,Python,intermediário,Qual tipo representa uma lista mutável? (variação 3),list | tuple | str | int,list,0,list é uma coleção mutável.,
+MC-326,multipla_escolha,Python,intermediário,Qual método adiciona item ao final de uma lista? (variação 3),append() | addEnd() | push() | insertEnd(),append(),0,append() adiciona item ao final.,
+MC-327,multipla_escolha,Python,intermediário,Qual palavra cria uma função? (variação 3),def | function | fun | lambda,def,0,def define uma função nomeada.,
+MC-328,multipla_escolha,Python,intermediário,Qual operador calcula o resto da divisão? (variação 3),% | // | / | **,%,0,% retorna o resto da divisão.,
+MC-329,multipla_escolha,Python,intermediário,Qual operador calcula potência? (variação 3),** | ^ | pow: | %%,**,0,** é usado para exponenciação.,
+MC-330,multipla_escolha,Python,intermediário,Qual comando importa uma biblioteca? (variação 3),import | include | using | require,import,0,import carrega módulos em Python.,
+MC-331,multipla_escolha,Python,intermediário+,Qual comando exibe texto na tela? (variação 4),print() | echo() | console.log() | mostrar(),print(),0,print() exibe informações no terminal.,
+MC-332,multipla_escolha,Python,intermediário+,Qual função lê dados digitados pelo usuário? (variação 4),input() | read() | scan() | prompt(),input(),0,input() recebe texto digitado pelo usuário.,
+MC-333,multipla_escolha,Python,intermediário+,Qual estrutura cria repetição com contador ou sequência? (variação 4),for | if | def | try,for,0,for percorre sequências e intervalos.,
+MC-334,multipla_escolha,Python,intermediário+,Qual estrutura repete enquanto uma condição for verdadeira? (variação 4),while | for | class | import,while,0,while repete com base em condição.,
+MC-335,multipla_escolha,Python,intermediário+,Qual tipo representa uma lista mutável? (variação 4),list | tuple | str | int,list,0,list é uma coleção mutável.,
+MC-336,multipla_escolha,Python,intermediário+,Qual método adiciona item ao final de uma lista? (variação 4),append() | addEnd() | push() | insertEnd(),append(),0,append() adiciona item ao final.,
+MC-337,multipla_escolha,Python,intermediário+,Qual palavra cria uma função? (variação 4),def | function | fun | lambda,def,0,def define uma função nomeada.,
+MC-338,multipla_escolha,Python,intermediário+,Qual operador calcula o resto da divisão? (variação 4),% | // | / | **,%,0,% retorna o resto da divisão.,
+MC-339,multipla_escolha,Python,intermediário+,Qual operador calcula potência? (variação 4),** | ^ | pow: | %%,**,0,** é usado para exponenciação.,
+MC-340,multipla_escolha,Python,intermediário+,Qual comando importa uma biblioteca? (variação 4),import | include | using | require,import,0,import carrega módulos em Python.,
+MC-341,multipla_escolha,Python,revisão,Qual comando exibe texto na tela? (variação 5),print() | echo() | console.log() | mostrar(),print(),0,print() exibe informações no terminal.,
+MC-342,multipla_escolha,Python,revisão,Qual função lê dados digitados pelo usuário? (variação 5),input() | read() | scan() | prompt(),input(),0,input() recebe texto digitado pelo usuário.,
+MC-343,multipla_escolha,Python,revisão,Qual estrutura cria repetição com contador ou sequência? (variação 5),for | if | def | try,for,0,for percorre sequências e intervalos.,
+MC-344,multipla_escolha,Python,revisão,Qual estrutura repete enquanto uma condição for verdadeira? (variação 5),while | for | class | import,while,0,while repete com base em condição.,
+MC-345,multipla_escolha,Python,revisão,Qual tipo representa uma lista mutável? (variação 5),list | tuple | str | int,list,0,list é uma coleção mutável.,
+MC-346,multipla_escolha,Python,revisão,Qual método adiciona item ao final de uma lista? (variação 5),append() | addEnd() | push() | insertEnd(),append(),0,append() adiciona item ao final.,
+MC-347,multipla_escolha,Python,revisão,Qual palavra cria uma função? (variação 5),def | function | fun | lambda,def,0,def define uma função nomeada.,
+MC-348,multipla_escolha,Python,revisão,Qual operador calcula o resto da divisão? (variação 5),% | // | / | **,%,0,% retorna o resto da divisão.,
+MC-349,multipla_escolha,Python,revisão,Qual operador calcula potência? (variação 5),** | ^ | pow: | %%,**,0,** é usado para exponenciação.,
+MC-350,multipla_escolha,Python,revisão,Qual comando importa uma biblioteca? (variação 5),import | include | using | require,import,0,import carrega módulos em Python.,
+AB-351,resposta_escrita,Python,iniciante,Explique a diferença entre lista e tupla.,,,,,Lista é mutável; tupla é imutável.
+AB-352,resposta_escrita,Python,iniciante,Explique para que serve o input().,,,,,input lê dados digitados pelo usuário e retorna texto.
+AB-353,resposta_escrita,Python,iniciante,Explique para que serve o for.,,,,,"for percorre sequências como listas, strings e ranges."
+AB-354,resposta_escrita,Python,iniciante,Explique para que serve o while.,,,,,while repete um bloco enquanto uma condição for verdadeira.
+AB-355,resposta_escrita,Python,iniciante,Explique o que é indentação em Python.,,,,,Indentação define blocos de código em Python.
+AB-356,resposta_escrita,Python,iniciante,Explique para que serve uma função.,,,,,Função organiza e reutiliza código para executar uma tarefa específica.
+AB-357,resposta_escrita,Python,iniciante,Explique o que é dicionário em Python.,,,,,Dicionário armazena pares de chave e valor.
+AB-358,resposta_escrita,Python,iniciante,Explique para que serve try/except.,,,,,try/except trata erros para evitar que o programa pare inesperadamente.
+AB-359,resposta_escrita,Python,iniciante,Explique a diferença entre append() e insert().,,,,,append adiciona no final da lista; insert adiciona em uma posição específica.
+AB-360,resposta_escrita,Python,iniciante,Explique o que o operador % faz.,,,,,% retorna o resto da divisão.
+AB-361,resposta_escrita,Python,básico,Explique a diferença entre lista e tupla. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Lista é mutável; tupla é imutável.
+AB-362,resposta_escrita,Python,básico,Explique para que serve o input(). Responda com suas palavras e dê um exemplo. (variação 2),,,,,input lê dados digitados pelo usuário e retorna texto.
+AB-363,resposta_escrita,Python,básico,Explique para que serve o for. Responda com suas palavras e dê um exemplo. (variação 2),,,,,"for percorre sequências como listas, strings e ranges."
+AB-364,resposta_escrita,Python,básico,Explique para que serve o while. Responda com suas palavras e dê um exemplo. (variação 2),,,,,while repete um bloco enquanto uma condição for verdadeira.
+AB-365,resposta_escrita,Python,básico,Explique o que é indentação em Python. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Indentação define blocos de código em Python.
+AB-366,resposta_escrita,Python,básico,Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Função organiza e reutiliza código para executar uma tarefa específica.
+AB-367,resposta_escrita,Python,básico,Explique o que é dicionário em Python. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Dicionário armazena pares de chave e valor.
+AB-368,resposta_escrita,Python,básico,Explique para que serve try/except. Responda com suas palavras e dê um exemplo. (variação 2),,,,,try/except trata erros para evitar que o programa pare inesperadamente.
+AB-369,resposta_escrita,Python,básico,Explique a diferença entre append() e insert(). Responda com suas palavras e dê um exemplo. (variação 2),,,,,append adiciona no final da lista; insert adiciona em uma posição específica.
+AB-370,resposta_escrita,Python,básico,Explique o que o operador % faz. Responda com suas palavras e dê um exemplo. (variação 2),,,,,% retorna o resto da divisão.
+AB-371,resposta_escrita,Python,intermediário,Explique a diferença entre lista e tupla. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Lista é mutável; tupla é imutável.
+AB-372,resposta_escrita,Python,intermediário,Explique para que serve o input(). Responda com suas palavras e dê um exemplo. (variação 3),,,,,input lê dados digitados pelo usuário e retorna texto.
+AB-373,resposta_escrita,Python,intermediário,Explique para que serve o for. Responda com suas palavras e dê um exemplo. (variação 3),,,,,"for percorre sequências como listas, strings e ranges."
+AB-374,resposta_escrita,Python,intermediário,Explique para que serve o while. Responda com suas palavras e dê um exemplo. (variação 3),,,,,while repete um bloco enquanto uma condição for verdadeira.
+AB-375,resposta_escrita,Python,intermediário,Explique o que é indentação em Python. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Indentação define blocos de código em Python.
+AB-376,resposta_escrita,Python,intermediário,Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Função organiza e reutiliza código para executar uma tarefa específica.
+AB-377,resposta_escrita,Python,intermediário,Explique o que é dicionário em Python. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Dicionário armazena pares de chave e valor.
+AB-378,resposta_escrita,Python,intermediário,Explique para que serve try/except. Responda com suas palavras e dê um exemplo. (variação 3),,,,,try/except trata erros para evitar que o programa pare inesperadamente.
+AB-379,resposta_escrita,Python,intermediário,Explique a diferença entre append() e insert(). Responda com suas palavras e dê um exemplo. (variação 3),,,,,append adiciona no final da lista; insert adiciona em uma posição específica.
+AB-380,resposta_escrita,Python,intermediário,Explique o que o operador % faz. Responda com suas palavras e dê um exemplo. (variação 3),,,,,% retorna o resto da divisão.
+AB-381,resposta_escrita,Python,intermediário+,Explique a diferença entre lista e tupla. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Lista é mutável; tupla é imutável.
+AB-382,resposta_escrita,Python,intermediário+,Explique para que serve o input(). Responda com suas palavras e dê um exemplo. (variação 4),,,,,input lê dados digitados pelo usuário e retorna texto.
+AB-383,resposta_escrita,Python,intermediário+,Explique para que serve o for. Responda com suas palavras e dê um exemplo. (variação 4),,,,,"for percorre sequências como listas, strings e ranges."
+AB-384,resposta_escrita,Python,intermediário+,Explique para que serve o while. Responda com suas palavras e dê um exemplo. (variação 4),,,,,while repete um bloco enquanto uma condição for verdadeira.
+AB-385,resposta_escrita,Python,intermediário+,Explique o que é indentação em Python. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Indentação define blocos de código em Python.
+AB-386,resposta_escrita,Python,intermediário+,Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Função organiza e reutiliza código para executar uma tarefa específica.
+AB-387,resposta_escrita,Python,intermediário+,Explique o que é dicionário em Python. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Dicionário armazena pares de chave e valor.
+AB-388,resposta_escrita,Python,intermediário+,Explique para que serve try/except. Responda com suas palavras e dê um exemplo. (variação 4),,,,,try/except trata erros para evitar que o programa pare inesperadamente.
+AB-389,resposta_escrita,Python,intermediário+,Explique a diferença entre append() e insert(). Responda com suas palavras e dê um exemplo. (variação 4),,,,,append adiciona no final da lista; insert adiciona em uma posição específica.
+AB-390,resposta_escrita,Python,intermediário+,Explique o que o operador % faz. Responda com suas palavras e dê um exemplo. (variação 4),,,,,% retorna o resto da divisão.
+AB-391,resposta_escrita,Python,revisão,Explique a diferença entre lista e tupla. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Lista é mutável; tupla é imutável.
+AB-392,resposta_escrita,Python,revisão,Explique para que serve o input(). Responda com suas palavras e dê um exemplo. (variação 5),,,,,input lê dados digitados pelo usuário e retorna texto.
+AB-393,resposta_escrita,Python,revisão,Explique para que serve o for. Responda com suas palavras e dê um exemplo. (variação 5),,,,,"for percorre sequências como listas, strings e ranges."
+AB-394,resposta_escrita,Python,revisão,Explique para que serve o while. Responda com suas palavras e dê um exemplo. (variação 5),,,,,while repete um bloco enquanto uma condição for verdadeira.
+AB-395,resposta_escrita,Python,revisão,Explique o que é indentação em Python. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Indentação define blocos de código em Python.
+AB-396,resposta_escrita,Python,revisão,Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Função organiza e reutiliza código para executar uma tarefa específica.
+AB-397,resposta_escrita,Python,revisão,Explique o que é dicionário em Python. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Dicionário armazena pares de chave e valor.
+AB-398,resposta_escrita,Python,revisão,Explique para que serve try/except. Responda com suas palavras e dê um exemplo. (variação 5),,,,,try/except trata erros para evitar que o programa pare inesperadamente.
+AB-399,resposta_escrita,Python,revisão,Explique a diferença entre append() e insert(). Responda com suas palavras e dê um exemplo. (variação 5),,,,,append adiciona no final da lista; insert adiciona em uma posição específica.
+AB-400,resposta_escrita,Python,revisão,Explique o que o operador % faz. Responda com suas palavras e dê um exemplo. (variação 5),,,,,% retorna o resto da divisão.
+MC-401,multipla_escolha,Inglês Intermediário,iniciante,Qual alternativa completa: I have ____ finished my homework.,already | yet | never | soon,already,0,Already é comum em frases afirmativas com present perfect.,
+MC-402,multipla_escolha,Inglês Intermediário,iniciante,Qual frase está no present perfect?,I have studied English. | I study English yesterday. | I am study English. | I studied English tomorrow.,I have studied English.,0,Have + particípio forma o present perfect.,
+MC-403,multipla_escolha,Inglês Intermediário,iniciante,Qual alternativa significa 'embora'?,although | because | therefore | beside,although,0,Although significa embora.,
+MC-404,multipla_escolha,Inglês Intermediário,iniciante,Qual opção completa: She has lived here ____ 2020.,since | for | during | until,since,0,Since é usado com ponto inicial no tempo.,
+MC-405,multipla_escolha,Inglês Intermediário,iniciante,Qual opção completa: They have worked here ____ three years.,for | since | ago | until,for,0,For é usado com duração.,
+MC-406,multipla_escolha,Inglês Intermediário,iniciante,Qual frase usa comparação corretamente?,This book is more interesting than that one. | This book is interestinger than that one. | This book is most interesting than that one. | This book is more interesting that that one.,This book is more interesting than that one.,0,More interesting than é a forma correta.,
+MC-407,multipla_escolha,Inglês Intermediário,iniciante,Qual alternativa indica possibilidade?,might | must | should | have to,might,0,Might indica possibilidade.,
+MC-408,multipla_escolha,Inglês Intermediário,iniciante,Qual alternativa indica conselho?,should | can | will | did,should,0,Should é usado para dar conselho.,
+MC-409,multipla_escolha,Inglês Intermediário,iniciante,"Qual opção completa: If I study, I ____ pass the test.",will | would | was | did,will,0,"First conditional usa if + presente, will + verbo.",
+MC-410,multipla_escolha,Inglês Intermediário,iniciante,Qual alternativa é phrasal verb de 'desistir'?,give up | look for | turn on | take off,give up,0,Give up significa desistir.,
+MC-411,multipla_escolha,Inglês Intermediário,básico,Qual alternativa completa: I have ____ finished my homework. (variação 2),already | yet | never | soon,already,0,Already é comum em frases afirmativas com present perfect.,
+MC-412,multipla_escolha,Inglês Intermediário,básico,Qual frase está no present perfect? (variação 2),I have studied English. | I study English yesterday. | I am study English. | I studied English tomorrow.,I have studied English.,0,Have + particípio forma o present perfect.,
+MC-413,multipla_escolha,Inglês Intermediário,básico,Qual alternativa significa 'embora'? (variação 2),although | because | therefore | beside,although,0,Although significa embora.,
+MC-414,multipla_escolha,Inglês Intermediário,básico,Qual opção completa: She has lived here ____ 2020. (variação 2),since | for | during | until,since,0,Since é usado com ponto inicial no tempo.,
+MC-415,multipla_escolha,Inglês Intermediário,básico,Qual opção completa: They have worked here ____ three years. (variação 2),for | since | ago | until,for,0,For é usado com duração.,
+MC-416,multipla_escolha,Inglês Intermediário,básico,Qual frase usa comparação corretamente? (variação 2),This book is more interesting than that one. | This book is interestinger than that one. | This book is most interesting than that one. | This book is more interesting that that one.,This book is more interesting than that one.,0,More interesting than é a forma correta.,
+MC-417,multipla_escolha,Inglês Intermediário,básico,Qual alternativa indica possibilidade? (variação 2),might | must | should | have to,might,0,Might indica possibilidade.,
+MC-418,multipla_escolha,Inglês Intermediário,básico,Qual alternativa indica conselho? (variação 2),should | can | will | did,should,0,Should é usado para dar conselho.,
+MC-419,multipla_escolha,Inglês Intermediário,básico,"Qual opção completa: If I study, I ____ pass the test. (variação 2)",will | would | was | did,will,0,"First conditional usa if + presente, will + verbo.",
+MC-420,multipla_escolha,Inglês Intermediário,básico,Qual alternativa é phrasal verb de 'desistir'? (variação 2),give up | look for | turn on | take off,give up,0,Give up significa desistir.,
+MC-421,multipla_escolha,Inglês Intermediário,intermediário,Qual alternativa completa: I have ____ finished my homework. (variação 3),already | yet | never | soon,already,0,Already é comum em frases afirmativas com present perfect.,
+MC-422,multipla_escolha,Inglês Intermediário,intermediário,Qual frase está no present perfect? (variação 3),I have studied English. | I study English yesterday. | I am study English. | I studied English tomorrow.,I have studied English.,0,Have + particípio forma o present perfect.,
+MC-423,multipla_escolha,Inglês Intermediário,intermediário,Qual alternativa significa 'embora'? (variação 3),although | because | therefore | beside,although,0,Although significa embora.,
+MC-424,multipla_escolha,Inglês Intermediário,intermediário,Qual opção completa: She has lived here ____ 2020. (variação 3),since | for | during | until,since,0,Since é usado com ponto inicial no tempo.,
+MC-425,multipla_escolha,Inglês Intermediário,intermediário,Qual opção completa: They have worked here ____ three years. (variação 3),for | since | ago | until,for,0,For é usado com duração.,
+MC-426,multipla_escolha,Inglês Intermediário,intermediário,Qual frase usa comparação corretamente? (variação 3),This book is more interesting than that one. | This book is interestinger than that one. | This book is most interesting than that one. | This book is more interesting that that one.,This book is more interesting than that one.,0,More interesting than é a forma correta.,
+MC-427,multipla_escolha,Inglês Intermediário,intermediário,Qual alternativa indica possibilidade? (variação 3),might | must | should | have to,might,0,Might indica possibilidade.,
+MC-428,multipla_escolha,Inglês Intermediário,intermediário,Qual alternativa indica conselho? (variação 3),should | can | will | did,should,0,Should é usado para dar conselho.,
+MC-429,multipla_escolha,Inglês Intermediário,intermediário,"Qual opção completa: If I study, I ____ pass the test. (variação 3)",will | would | was | did,will,0,"First conditional usa if + presente, will + verbo.",
+MC-430,multipla_escolha,Inglês Intermediário,intermediário,Qual alternativa é phrasal verb de 'desistir'? (variação 3),give up | look for | turn on | take off,give up,0,Give up significa desistir.,
+MC-431,multipla_escolha,Inglês Intermediário,intermediário+,Qual alternativa completa: I have ____ finished my homework. (variação 4),already | yet | never | soon,already,0,Already é comum em frases afirmativas com present perfect.,
+MC-432,multipla_escolha,Inglês Intermediário,intermediário+,Qual frase está no present perfect? (variação 4),I have studied English. | I study English yesterday. | I am study English. | I studied English tomorrow.,I have studied English.,0,Have + particípio forma o present perfect.,
+MC-433,multipla_escolha,Inglês Intermediário,intermediário+,Qual alternativa significa 'embora'? (variação 4),although | because | therefore | beside,although,0,Although significa embora.,
+MC-434,multipla_escolha,Inglês Intermediário,intermediário+,Qual opção completa: She has lived here ____ 2020. (variação 4),since | for | during | until,since,0,Since é usado com ponto inicial no tempo.,
+MC-435,multipla_escolha,Inglês Intermediário,intermediário+,Qual opção completa: They have worked here ____ three years. (variação 4),for | since | ago | until,for,0,For é usado com duração.,
+MC-436,multipla_escolha,Inglês Intermediário,intermediário+,Qual frase usa comparação corretamente? (variação 4),This book is more interesting than that one. | This book is interestinger than that one. | This book is most interesting than that one. | This book is more interesting that that one.,This book is more interesting than that one.,0,More interesting than é a forma correta.,
+MC-437,multipla_escolha,Inglês Intermediário,intermediário+,Qual alternativa indica possibilidade? (variação 4),might | must | should | have to,might,0,Might indica possibilidade.,
+MC-438,multipla_escolha,Inglês Intermediário,intermediário+,Qual alternativa indica conselho? (variação 4),should | can | will | did,should,0,Should é usado para dar conselho.,
+MC-439,multipla_escolha,Inglês Intermediário,intermediário+,"Qual opção completa: If I study, I ____ pass the test. (variação 4)",will | would | was | did,will,0,"First conditional usa if + presente, will + verbo.",
+MC-440,multipla_escolha,Inglês Intermediário,intermediário+,Qual alternativa é phrasal verb de 'desistir'? (variação 4),give up | look for | turn on | take off,give up,0,Give up significa desistir.,
+MC-441,multipla_escolha,Inglês Intermediário,revisão,Qual alternativa completa: I have ____ finished my homework. (variação 5),already | yet | never | soon,already,0,Already é comum em frases afirmativas com present perfect.,
+MC-442,multipla_escolha,Inglês Intermediário,revisão,Qual frase está no present perfect? (variação 5),I have studied English. | I study English yesterday. | I am study English. | I studied English tomorrow.,I have studied English.,0,Have + particípio forma o present perfect.,
+MC-443,multipla_escolha,Inglês Intermediário,revisão,Qual alternativa significa 'embora'? (variação 5),although | because | therefore | beside,although,0,Although significa embora.,
+MC-444,multipla_escolha,Inglês Intermediário,revisão,Qual opção completa: She has lived here ____ 2020. (variação 5),since | for | during | until,since,0,Since é usado com ponto inicial no tempo.,
+MC-445,multipla_escolha,Inglês Intermediário,revisão,Qual opção completa: They have worked here ____ three years. (variação 5),for | since | ago | until,for,0,For é usado com duração.,
+MC-446,multipla_escolha,Inglês Intermediário,revisão,Qual frase usa comparação corretamente? (variação 5),This book is more interesting than that one. | This book is interestinger than that one. | This book is most interesting than that one. | This book is more interesting that that one.,This book is more interesting than that one.,0,More interesting than é a forma correta.,
+MC-447,multipla_escolha,Inglês Intermediário,revisão,Qual alternativa indica possibilidade? (variação 5),might | must | should | have to,might,0,Might indica possibilidade.,
+MC-448,multipla_escolha,Inglês Intermediário,revisão,Qual alternativa indica conselho? (variação 5),should | can | will | did,should,0,Should é usado para dar conselho.,
+MC-449,multipla_escolha,Inglês Intermediário,revisão,"Qual opção completa: If I study, I ____ pass the test. (variação 5)",will | would | was | did,will,0,"First conditional usa if + presente, will + verbo.",
+MC-450,multipla_escolha,Inglês Intermediário,revisão,Qual alternativa é phrasal verb de 'desistir'? (variação 5),give up | look for | turn on | take off,give up,0,Give up significa desistir.,
+AB-451,resposta_escrita,Inglês Intermediário,iniciante,Explique quando usar since e for.,,,,,Since é usado com ponto inicial no tempo; for é usado com duração.
+AB-452,resposta_escrita,Inglês Intermediário,iniciante,Explique a estrutura básica do present perfect.,,,,,Sujeito + have/has + particípio do verbo.
+AB-453,resposta_escrita,Inglês Intermediário,iniciante,Explique a diferença entre already e yet.,,,,,Already é usado para algo já feito; yet é usado em perguntas e negativas para algo ainda não concluído.
+AB-454,resposta_escrita,Inglês Intermediário,iniciante,Explique quando usar should.,,,,,"Should é usado para conselho, recomendação ou opinião."
+AB-455,resposta_escrita,Inglês Intermediário,iniciante,Explique quando usar might.,,,,,Might expressa possibilidade.
+AB-456,resposta_escrita,Inglês Intermediário,iniciante,Explique a estrutura do first conditional.,,,,,"If + presente simples, will + verbo base."
+AB-457,resposta_escrita,Inglês Intermediário,iniciante,Explique a diferença entre much e many.,,,,,Much é usado com incontáveis; many com contáveis.
+AB-458,resposta_escrita,Inglês Intermediário,iniciante,Explique o que são phrasal verbs.,,,,,São combinações de verbo com preposição/advérbio que criam novo significado.
+AB-459,resposta_escrita,Inglês Intermediário,iniciante,Explique a diferença entre make e do.,,,,,Make geralmente indica criar/produzir; do indica executar atividade ou tarefa.
+AB-460,resposta_escrita,Inglês Intermediário,iniciante,Explique a diferença entre fewer e less.,,,,,Fewer é usado com contáveis; less com incontáveis.
+AB-461,resposta_escrita,Inglês Intermediário,básico,Explique quando usar since e for. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Since é usado com ponto inicial no tempo; for é usado com duração.
+AB-462,resposta_escrita,Inglês Intermediário,básico,Explique a estrutura básica do present perfect. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Sujeito + have/has + particípio do verbo.
+AB-463,resposta_escrita,Inglês Intermediário,básico,Explique a diferença entre already e yet. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Already é usado para algo já feito; yet é usado em perguntas e negativas para algo ainda não concluído.
+AB-464,resposta_escrita,Inglês Intermediário,básico,Explique quando usar should. Responda com suas palavras e dê um exemplo. (variação 2),,,,,"Should é usado para conselho, recomendação ou opinião."
+AB-465,resposta_escrita,Inglês Intermediário,básico,Explique quando usar might. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Might expressa possibilidade.
+AB-466,resposta_escrita,Inglês Intermediário,básico,Explique a estrutura do first conditional. Responda com suas palavras e dê um exemplo. (variação 2),,,,,"If + presente simples, will + verbo base."
+AB-467,resposta_escrita,Inglês Intermediário,básico,Explique a diferença entre much e many. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Much é usado com incontáveis; many com contáveis.
+AB-468,resposta_escrita,Inglês Intermediário,básico,Explique o que são phrasal verbs. Responda com suas palavras e dê um exemplo. (variação 2),,,,,São combinações de verbo com preposição/advérbio que criam novo significado.
+AB-469,resposta_escrita,Inglês Intermediário,básico,Explique a diferença entre make e do. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Make geralmente indica criar/produzir; do indica executar atividade ou tarefa.
+AB-470,resposta_escrita,Inglês Intermediário,básico,Explique a diferença entre fewer e less. Responda com suas palavras e dê um exemplo. (variação 2),,,,,Fewer é usado com contáveis; less com incontáveis.
+AB-471,resposta_escrita,Inglês Intermediário,intermediário,Explique quando usar since e for. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Since é usado com ponto inicial no tempo; for é usado com duração.
+AB-472,resposta_escrita,Inglês Intermediário,intermediário,Explique a estrutura básica do present perfect. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Sujeito + have/has + particípio do verbo.
+AB-473,resposta_escrita,Inglês Intermediário,intermediário,Explique a diferença entre already e yet. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Already é usado para algo já feito; yet é usado em perguntas e negativas para algo ainda não concluído.
+AB-474,resposta_escrita,Inglês Intermediário,intermediário,Explique quando usar should. Responda com suas palavras e dê um exemplo. (variação 3),,,,,"Should é usado para conselho, recomendação ou opinião."
+AB-475,resposta_escrita,Inglês Intermediário,intermediário,Explique quando usar might. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Might expressa possibilidade.
+AB-476,resposta_escrita,Inglês Intermediário,intermediário,Explique a estrutura do first conditional. Responda com suas palavras e dê um exemplo. (variação 3),,,,,"If + presente simples, will + verbo base."
+AB-477,resposta_escrita,Inglês Intermediário,intermediário,Explique a diferença entre much e many. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Much é usado com incontáveis; many com contáveis.
+AB-478,resposta_escrita,Inglês Intermediário,intermediário,Explique o que são phrasal verbs. Responda com suas palavras e dê um exemplo. (variação 3),,,,,São combinações de verbo com preposição/advérbio que criam novo significado.
+AB-479,resposta_escrita,Inglês Intermediário,intermediário,Explique a diferença entre make e do. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Make geralmente indica criar/produzir; do indica executar atividade ou tarefa.
+AB-480,resposta_escrita,Inglês Intermediário,intermediário,Explique a diferença entre fewer e less. Responda com suas palavras e dê um exemplo. (variação 3),,,,,Fewer é usado com contáveis; less com incontáveis.
+AB-481,resposta_escrita,Inglês Intermediário,intermediário+,Explique quando usar since e for. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Since é usado com ponto inicial no tempo; for é usado com duração.
+AB-482,resposta_escrita,Inglês Intermediário,intermediário+,Explique a estrutura básica do present perfect. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Sujeito + have/has + particípio do verbo.
+AB-483,resposta_escrita,Inglês Intermediário,intermediário+,Explique a diferença entre already e yet. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Already é usado para algo já feito; yet é usado em perguntas e negativas para algo ainda não concluído.
+AB-484,resposta_escrita,Inglês Intermediário,intermediário+,Explique quando usar should. Responda com suas palavras e dê um exemplo. (variação 4),,,,,"Should é usado para conselho, recomendação ou opinião."
+AB-485,resposta_escrita,Inglês Intermediário,intermediário+,Explique quando usar might. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Might expressa possibilidade.
+AB-486,resposta_escrita,Inglês Intermediário,intermediário+,Explique a estrutura do first conditional. Responda com suas palavras e dê um exemplo. (variação 4),,,,,"If + presente simples, will + verbo base."
+AB-487,resposta_escrita,Inglês Intermediário,intermediário+,Explique a diferença entre much e many. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Much é usado com incontáveis; many com contáveis.
+AB-488,resposta_escrita,Inglês Intermediário,intermediário+,Explique o que são phrasal verbs. Responda com suas palavras e dê um exemplo. (variação 4),,,,,São combinações de verbo com preposição/advérbio que criam novo significado.
+AB-489,resposta_escrita,Inglês Intermediário,intermediário+,Explique a diferença entre make e do. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Make geralmente indica criar/produzir; do indica executar atividade ou tarefa.
+AB-490,resposta_escrita,Inglês Intermediário,intermediário+,Explique a diferença entre fewer e less. Responda com suas palavras e dê um exemplo. (variação 4),,,,,Fewer é usado com contáveis; less com incontáveis.
+AB-491,resposta_escrita,Inglês Intermediário,revisão,Explique quando usar since e for. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Since é usado com ponto inicial no tempo; for é usado com duração.
+AB-492,resposta_escrita,Inglês Intermediário,revisão,Explique a estrutura básica do present perfect. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Sujeito + have/has + particípio do verbo.
+AB-493,resposta_escrita,Inglês Intermediário,revisão,Explique a diferença entre already e yet. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Already é usado para algo já feito; yet é usado em perguntas e negativas para algo ainda não concluído.
+AB-494,resposta_escrita,Inglês Intermediário,revisão,Explique quando usar should. Responda com suas palavras e dê um exemplo. (variação 5),,,,,"Should é usado para conselho, recomendação ou opinião."
+AB-495,resposta_escrita,Inglês Intermediário,revisão,Explique quando usar might. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Might expressa possibilidade.
+AB-496,resposta_escrita,Inglês Intermediário,revisão,Explique a estrutura do first conditional. Responda com suas palavras e dê um exemplo. (variação 5),,,,,"If + presente simples, will + verbo base."
+AB-497,resposta_escrita,Inglês Intermediário,revisão,Explique a diferença entre much e many. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Much é usado com incontáveis; many com contáveis.
+AB-498,resposta_escrita,Inglês Intermediário,revisão,Explique o que são phrasal verbs. Responda com suas palavras e dê um exemplo. (variação 5),,,,,São combinações de verbo com preposição/advérbio que criam novo significado.
+AB-499,resposta_escrita,Inglês Intermediário,revisão,Explique a diferença entre make e do. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Make geralmente indica criar/produzir; do indica executar atividade ou tarefa.
+AB-500,resposta_escrita,Inglês Intermediário,revisão,Explique a diferença entre fewer e less. Responda com suas palavras e dê um exemplo. (variação 5),,,,,Fewer é usado com contáveis; less com incontáveis.

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define acentuação correta para português -->
+    <meta charset="UTF-8">
+    <!-- Deixa a página responsiva -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da aba -->
+    <title>Painel Ninja de Estudos | Douglas</title>
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-body">
+    <!-- Fundo decorativo -->
+    <div class="bg-effects"></div>
+
+    <!-- Container geral do dashboard -->
+    <div class="app-shell">
+        <!-- Barra lateral -->
+        <aside class="sidebar">
+            <div class="brand-box">
+                <img src="imagens/avatar.jfif" alt="Avatar ninja" class="brand-avatar">
+                <h1>Painel Ninja</h1>
+                <p>Douglas Cavalcante</p>
+            </div>
+
+            <!-- Menu de navegação das seções -->
+            <nav class="side-menu">
+                <button class="menu-btn active" data-section="visaoGeral">🏯 Visão Geral</button>
+                <button class="menu-btn" data-section="missoes">📜 Missões</button>
+                <button class="menu-btn" data-section="exercicios">⚔️ Exercícios</button>
+                <button class="menu-btn" data-section="perguntas">❓ Perguntas</button>
+                <button class="menu-btn" data-section="evolucao">📈 Evolução</button>
+                <button class="btn-sair" onclick="sairDoSistema()">
+                🚪 Sair
+                </button>
+            </nav>
+
+            <!-- Botão para zerar progresso -->
+            <button id="btnReset" class="danger-btn">Resetar progresso</button>
+        </aside>
+
+        <!-- Conteúdo principal -->
+        <main class="main-content">
+            <!-- Cabeçalho do dashboard -->
+            <header class="dashboard-header">
+                <div>
+                    <span class="eyebrow">Academia Shinobi de Programação</span>
+                    <h2>Dashboard de Estudos Ninja</h2>
+                    <p>Complete missões, exercícios e perguntas para evoluir do rank Gennin até Hokage.</p>
+                </div>
+                <img src="imagens/time7.jfif" alt="Imagem anime do time" class="header-img">
+            </header>
+
+            <!-- Cards de status -->
+            <section class="stats-grid">
+                <article class="stat-card">
+                    <img src="icons/icon_1.png" alt="Ícone de XP">
+                    <div>
+                        <p>XP Total</p>
+                        <strong id="xpTotal">0</strong>
+                    </div>
+                </article>
+
+                <article class="stat-card">
+                    <img id="rankIcon" src="icons/gennin.png" alt="Ícone do rank atual">
+                    <div>
+                        <p>Rank Atual</p>
+                        <strong id="rankAtual">Gennin</strong>
+                    </div>
+                </article>
+
+                <article class="stat-card">
+                    <img src="icons/icon_2.png" alt="Ícone de missão">
+                    <div>
+                        <p>Missões Concluídas</p>
+                        <strong id="missoesConcluidas">0/200</strong>
+                    </div>
+                </article>
+
+                <article class="stat-card">
+                    <img src="icons/icon_3.png" alt="Ícone de pergunta">
+                    <div>
+                        <p>Perguntas Corretas</p>
+                        <strong id="perguntasCorretas">0/200</strong>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Barra grande de XP -->
+            <section class="xp-panel">
+                <div class="xp-title-row">
+                    <h3>Progresso até Hokage</h3>
+                    <span id="xpTexto">0 / 8000 XP</span>
+                </div>
+                <div class="xp-track">
+                    <div id="xpBar" class="xp-fill"></div>
+                </div>
+            </section>
+
+            <!-- Seção Visão Geral -->
+            <section id="visaoGeral" class="content-section active-section">
+                <div class="section-title">
+                    <h3>🏯 Visão Geral da Vila</h3>
+                    <p>Resumo do seu treinamento atual.</p>
+                </div>
+
+                <div class="overview-grid">
+                    <article class="image-card large-card">
+                        <img src="imagens/vila.jfif" alt="Vila ninja">
+                        <div>
+                            <h4>Treinamento ativo</h4>
+                            <p>Ganhe 20 XP por missão e 20 XP por pergunta correta. Concluir as 200 missões e 200 perguntas leva você ao rank Hokage.</p>
+                        </div>
+                    </article>
+
+                    <article class="mini-panel">
+                        <h4>Regras de XP</h4>
+                        <ul>
+                            <li>📜 Missão concluída: <strong>20 XP</strong></li>
+                            <li>❓ Pergunta correta: <strong>20 XP</strong></li>
+                            <li>⚔️ Exercício concluído: <strong>10 XP bônus</strong></li>
+                        </ul>
+                    </article>
+
+                    <article class="mini-panel">
+                        <h4>Ranks</h4>
+                        <ul id="rankList"></ul>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Seção Missões -->
+            <section id="missoes" class="content-section">
+                <div class="section-title with-image">
+                    <div>
+                        <h3>📜 Lista de Missões</h3>
+                        <p>São 200 missões no total, divididas entre HTML, CSS, JavaScript, Python e Inglês.</p>
+                    </div>
+                    <img src="imagens/missoes-disponiveis.jfif" alt="Missões disponíveis">
+                </div>
+
+                <div class="filters" id="missionFilters"></div>
+                <div id="missionsList" class="task-list"></div>
+            </section>
+
+            <!-- Seção Exercícios -->
+            <section id="exercicios" class="content-section">
+                <div class="section-title with-image">
+                    <div>
+                        <h3>⚔️ Exercícios Práticos</h3>
+                        <p>Exercícios são diferentes de missões: eles são tarefas práticas menores que dão XP bônus.</p>
+                    </div>
+                    <img src="imagens/aba-exercicios.jfif" alt="Imagem de exercícios">
+                </div>
+
+                <div class="filters" id="exerciseFilters"></div>
+                <div id="exercisesList" class="task-list"></div>
+            </section>
+
+            <!-- Seção Perguntas -->
+            <section id="perguntas" class="content-section">
+                <div class="section-title with-image">
+                    <div>
+                        <h3>❓ Perguntas e Respostas</h3>
+                        <p>Digite a resposta no campo e confira se acertou. Cada acerto vale 20 XP.</p>
+                    </div>
+                    <img src="imagens/perguntas-respostas.jfif" alt="Perguntas e respostas">
+                </div>
+
+                <div class="question-card">
+                    <div class="question-top">
+                        <span id="questionCounter">Pergunta 1/200</span>
+                        <span id="questionSubject">HTML</span>
+                    </div>
+                    <h4 id="questionText">Carregando pergunta...</h4>
+                    <div id="alternativasBox" class="alternatives-box"></div>
+                    <input id="answerInput" type="text" placeholder="Digite sua resposta aqui">
+                    <div class="question-actions">
+                        <button id="btnResponder" class="primary-btn">Responder</button>
+                        <button id="btnProxima" class="secondary-btn">Próxima</button>
+                    </div>
+                    <p id="feedbackPergunta" class="feedback"></p>
+                </div>
+            </section>
+
+            <!-- Seção Evolução -->
+            <section id="evolucao" class="content-section">
+                <div class="section-title with-image">
+                    <div>
+                        <h3>📈 Evolução por Linguagem</h3>
+                        <p>Cada linguagem evolui em três fases: básico, intermediário e avançado.</p>
+                    </div>
+                    <img src="imagens/aba-evolucao.jfif" alt="Evolução ninja">
+                </div>
+
+                <div id="evolutionList" class="evolution-list"></div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Banco de perguntas do seu projeto -->
+    <script src="conteudo_500_questoes_site/questoes.js"></script>
+    <!-- JavaScript principal -->
+    <script src="script.js"></script>
+</body>
+</html>
