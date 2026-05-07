@@ -1,0 +1,6002 @@
+[
+  {
+    "id": "MC-001",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Qual tag representa o conteúdo principal de uma página?",
+    "alternativas": [
+      "<main>",
+      "<footer>",
+      "<aside>",
+      "<nav>"
+    ],
+    "resposta_correta": "<main>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <main> indica o conteúdo principal do documento."
+  },
+  {
+    "id": "MC-002",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Qual atributo cria um link em uma tag <a>?",
+    "alternativas": [
+      "src",
+      "href",
+      "alt",
+      "title"
+    ],
+    "resposta_correta": "href",
+    "indice_resposta_correta": 1,
+    "explicacao": "O atributo href define o destino do link."
+  },
+  {
+    "id": "MC-003",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Qual tag é usada para inserir uma imagem?",
+    "alternativas": [
+      "<img>",
+      "<picture-text>",
+      "<image>",
+      "<src>"
+    ],
+    "resposta_correta": "<img>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <img> insere imagens em uma página HTML."
+  },
+  {
+    "id": "MC-004",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Qual tag cria uma lista não ordenada?",
+    "alternativas": [
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<dl>"
+    ],
+    "resposta_correta": "<ul>",
+    "indice_resposta_correta": 1,
+    "explicacao": "A tag <ul> cria uma lista sem ordem numérica."
+  },
+  {
+    "id": "MC-005",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Qual tag cria um campo de formulário?",
+    "alternativas": [
+      "<input>",
+      "<form-field>",
+      "<label>",
+      "<button>"
+    ],
+    "resposta_correta": "<input>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <input> cria campos como texto, senha, checkbox etc."
+  },
+  {
+    "id": "MC-006",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Para que serve o atributo alt em imagens?",
+    "alternativas": [
+      "Definir largura",
+      "Descrever a imagem",
+      "Criar link",
+      "Mudar cor"
+    ],
+    "resposta_correta": "Descrever a imagem",
+    "indice_resposta_correta": 1,
+    "explicacao": "O alt melhora acessibilidade e aparece se a imagem não carregar."
+  },
+  {
+    "id": "MC-007",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Qual elemento contém metadados da página?",
+    "alternativas": [
+      "<head>",
+      "<body>",
+      "<main>",
+      "<section>"
+    ],
+    "resposta_correta": "<head>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <head> contém título, links CSS e metadados."
+  },
+  {
+    "id": "MC-008",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Qual tag representa uma seção independente de conteúdo?",
+    "alternativas": [
+      "<article>",
+      "<span>",
+      "<br>",
+      "<meta>"
+    ],
+    "resposta_correta": "<article>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <article> representa conteúdo independente."
+  },
+  {
+    "id": "MC-009",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Qual tag é usada para título principal?",
+    "alternativas": [
+      "<h1>",
+      "<title>",
+      "<p>",
+      "<strong>"
+    ],
+    "resposta_correta": "<h1>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <h1> representa o título principal do conteúdo."
+  },
+  {
+    "id": "MC-010",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Qual tag cria uma quebra de linha?",
+    "alternativas": [
+      "<br>",
+      "<hr>",
+      "<p>",
+      "<line>"
+    ],
+    "resposta_correta": "<br>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <br> cria quebra de linha."
+  },
+  {
+    "id": "MC-011",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Qual tag representa o conteúdo principal de uma página? (variação 2)",
+    "alternativas": [
+      "<main>",
+      "<footer>",
+      "<aside>",
+      "<nav>"
+    ],
+    "resposta_correta": "<main>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <main> indica o conteúdo principal do documento."
+  },
+  {
+    "id": "MC-012",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Qual atributo cria um link em uma tag <a>? (variação 2)",
+    "alternativas": [
+      "src",
+      "href",
+      "alt",
+      "title"
+    ],
+    "resposta_correta": "href",
+    "indice_resposta_correta": 1,
+    "explicacao": "O atributo href define o destino do link."
+  },
+  {
+    "id": "MC-013",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Qual tag é usada para inserir uma imagem? (variação 2)",
+    "alternativas": [
+      "<img>",
+      "<picture-text>",
+      "<image>",
+      "<src>"
+    ],
+    "resposta_correta": "<img>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <img> insere imagens em uma página HTML."
+  },
+  {
+    "id": "MC-014",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Qual tag cria uma lista não ordenada? (variação 2)",
+    "alternativas": [
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<dl>"
+    ],
+    "resposta_correta": "<ul>",
+    "indice_resposta_correta": 1,
+    "explicacao": "A tag <ul> cria uma lista sem ordem numérica."
+  },
+  {
+    "id": "MC-015",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Qual tag cria um campo de formulário? (variação 2)",
+    "alternativas": [
+      "<input>",
+      "<form-field>",
+      "<label>",
+      "<button>"
+    ],
+    "resposta_correta": "<input>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <input> cria campos como texto, senha, checkbox etc."
+  },
+  {
+    "id": "MC-016",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Para que serve o atributo alt em imagens? (variação 2)",
+    "alternativas": [
+      "Definir largura",
+      "Descrever a imagem",
+      "Criar link",
+      "Mudar cor"
+    ],
+    "resposta_correta": "Descrever a imagem",
+    "indice_resposta_correta": 1,
+    "explicacao": "O alt melhora acessibilidade e aparece se a imagem não carregar."
+  },
+  {
+    "id": "MC-017",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Qual elemento contém metadados da página? (variação 2)",
+    "alternativas": [
+      "<head>",
+      "<body>",
+      "<main>",
+      "<section>"
+    ],
+    "resposta_correta": "<head>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <head> contém título, links CSS e metadados."
+  },
+  {
+    "id": "MC-018",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Qual tag representa uma seção independente de conteúdo? (variação 2)",
+    "alternativas": [
+      "<article>",
+      "<span>",
+      "<br>",
+      "<meta>"
+    ],
+    "resposta_correta": "<article>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <article> representa conteúdo independente."
+  },
+  {
+    "id": "MC-019",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Qual tag é usada para título principal? (variação 2)",
+    "alternativas": [
+      "<h1>",
+      "<title>",
+      "<p>",
+      "<strong>"
+    ],
+    "resposta_correta": "<h1>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <h1> representa o título principal do conteúdo."
+  },
+  {
+    "id": "MC-020",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Qual tag cria uma quebra de linha? (variação 2)",
+    "alternativas": [
+      "<br>",
+      "<hr>",
+      "<p>",
+      "<line>"
+    ],
+    "resposta_correta": "<br>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <br> cria quebra de linha."
+  },
+  {
+    "id": "MC-021",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Qual tag representa o conteúdo principal de uma página? (variação 3)",
+    "alternativas": [
+      "<main>",
+      "<footer>",
+      "<aside>",
+      "<nav>"
+    ],
+    "resposta_correta": "<main>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <main> indica o conteúdo principal do documento."
+  },
+  {
+    "id": "MC-022",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Qual atributo cria um link em uma tag <a>? (variação 3)",
+    "alternativas": [
+      "src",
+      "href",
+      "alt",
+      "title"
+    ],
+    "resposta_correta": "href",
+    "indice_resposta_correta": 1,
+    "explicacao": "O atributo href define o destino do link."
+  },
+  {
+    "id": "MC-023",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Qual tag é usada para inserir uma imagem? (variação 3)",
+    "alternativas": [
+      "<img>",
+      "<picture-text>",
+      "<image>",
+      "<src>"
+    ],
+    "resposta_correta": "<img>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <img> insere imagens em uma página HTML."
+  },
+  {
+    "id": "MC-024",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Qual tag cria uma lista não ordenada? (variação 3)",
+    "alternativas": [
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<dl>"
+    ],
+    "resposta_correta": "<ul>",
+    "indice_resposta_correta": 1,
+    "explicacao": "A tag <ul> cria uma lista sem ordem numérica."
+  },
+  {
+    "id": "MC-025",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Qual tag cria um campo de formulário? (variação 3)",
+    "alternativas": [
+      "<input>",
+      "<form-field>",
+      "<label>",
+      "<button>"
+    ],
+    "resposta_correta": "<input>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <input> cria campos como texto, senha, checkbox etc."
+  },
+  {
+    "id": "MC-026",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Para que serve o atributo alt em imagens? (variação 3)",
+    "alternativas": [
+      "Definir largura",
+      "Descrever a imagem",
+      "Criar link",
+      "Mudar cor"
+    ],
+    "resposta_correta": "Descrever a imagem",
+    "indice_resposta_correta": 1,
+    "explicacao": "O alt melhora acessibilidade e aparece se a imagem não carregar."
+  },
+  {
+    "id": "MC-027",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Qual elemento contém metadados da página? (variação 3)",
+    "alternativas": [
+      "<head>",
+      "<body>",
+      "<main>",
+      "<section>"
+    ],
+    "resposta_correta": "<head>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <head> contém título, links CSS e metadados."
+  },
+  {
+    "id": "MC-028",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Qual tag representa uma seção independente de conteúdo? (variação 3)",
+    "alternativas": [
+      "<article>",
+      "<span>",
+      "<br>",
+      "<meta>"
+    ],
+    "resposta_correta": "<article>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <article> representa conteúdo independente."
+  },
+  {
+    "id": "MC-029",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Qual tag é usada para título principal? (variação 3)",
+    "alternativas": [
+      "<h1>",
+      "<title>",
+      "<p>",
+      "<strong>"
+    ],
+    "resposta_correta": "<h1>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <h1> representa o título principal do conteúdo."
+  },
+  {
+    "id": "MC-030",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Qual tag cria uma quebra de linha? (variação 3)",
+    "alternativas": [
+      "<br>",
+      "<hr>",
+      "<p>",
+      "<line>"
+    ],
+    "resposta_correta": "<br>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <br> cria quebra de linha."
+  },
+  {
+    "id": "MC-031",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Qual tag representa o conteúdo principal de uma página? (variação 4)",
+    "alternativas": [
+      "<main>",
+      "<footer>",
+      "<aside>",
+      "<nav>"
+    ],
+    "resposta_correta": "<main>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <main> indica o conteúdo principal do documento."
+  },
+  {
+    "id": "MC-032",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Qual atributo cria um link em uma tag <a>? (variação 4)",
+    "alternativas": [
+      "src",
+      "href",
+      "alt",
+      "title"
+    ],
+    "resposta_correta": "href",
+    "indice_resposta_correta": 1,
+    "explicacao": "O atributo href define o destino do link."
+  },
+  {
+    "id": "MC-033",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Qual tag é usada para inserir uma imagem? (variação 4)",
+    "alternativas": [
+      "<img>",
+      "<picture-text>",
+      "<image>",
+      "<src>"
+    ],
+    "resposta_correta": "<img>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <img> insere imagens em uma página HTML."
+  },
+  {
+    "id": "MC-034",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Qual tag cria uma lista não ordenada? (variação 4)",
+    "alternativas": [
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<dl>"
+    ],
+    "resposta_correta": "<ul>",
+    "indice_resposta_correta": 1,
+    "explicacao": "A tag <ul> cria uma lista sem ordem numérica."
+  },
+  {
+    "id": "MC-035",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Qual tag cria um campo de formulário? (variação 4)",
+    "alternativas": [
+      "<input>",
+      "<form-field>",
+      "<label>",
+      "<button>"
+    ],
+    "resposta_correta": "<input>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <input> cria campos como texto, senha, checkbox etc."
+  },
+  {
+    "id": "MC-036",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Para que serve o atributo alt em imagens? (variação 4)",
+    "alternativas": [
+      "Definir largura",
+      "Descrever a imagem",
+      "Criar link",
+      "Mudar cor"
+    ],
+    "resposta_correta": "Descrever a imagem",
+    "indice_resposta_correta": 1,
+    "explicacao": "O alt melhora acessibilidade e aparece se a imagem não carregar."
+  },
+  {
+    "id": "MC-037",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Qual elemento contém metadados da página? (variação 4)",
+    "alternativas": [
+      "<head>",
+      "<body>",
+      "<main>",
+      "<section>"
+    ],
+    "resposta_correta": "<head>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <head> contém título, links CSS e metadados."
+  },
+  {
+    "id": "MC-038",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Qual tag representa uma seção independente de conteúdo? (variação 4)",
+    "alternativas": [
+      "<article>",
+      "<span>",
+      "<br>",
+      "<meta>"
+    ],
+    "resposta_correta": "<article>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <article> representa conteúdo independente."
+  },
+  {
+    "id": "MC-039",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Qual tag é usada para título principal? (variação 4)",
+    "alternativas": [
+      "<h1>",
+      "<title>",
+      "<p>",
+      "<strong>"
+    ],
+    "resposta_correta": "<h1>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <h1> representa o título principal do conteúdo."
+  },
+  {
+    "id": "MC-040",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Qual tag cria uma quebra de linha? (variação 4)",
+    "alternativas": [
+      "<br>",
+      "<hr>",
+      "<p>",
+      "<line>"
+    ],
+    "resposta_correta": "<br>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <br> cria quebra de linha."
+  },
+  {
+    "id": "MC-041",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Qual tag representa o conteúdo principal de uma página? (variação 5)",
+    "alternativas": [
+      "<main>",
+      "<footer>",
+      "<aside>",
+      "<nav>"
+    ],
+    "resposta_correta": "<main>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <main> indica o conteúdo principal do documento."
+  },
+  {
+    "id": "MC-042",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Qual atributo cria um link em uma tag <a>? (variação 5)",
+    "alternativas": [
+      "src",
+      "href",
+      "alt",
+      "title"
+    ],
+    "resposta_correta": "href",
+    "indice_resposta_correta": 1,
+    "explicacao": "O atributo href define o destino do link."
+  },
+  {
+    "id": "MC-043",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Qual tag é usada para inserir uma imagem? (variação 5)",
+    "alternativas": [
+      "<img>",
+      "<picture-text>",
+      "<image>",
+      "<src>"
+    ],
+    "resposta_correta": "<img>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <img> insere imagens em uma página HTML."
+  },
+  {
+    "id": "MC-044",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Qual tag cria uma lista não ordenada? (variação 5)",
+    "alternativas": [
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<dl>"
+    ],
+    "resposta_correta": "<ul>",
+    "indice_resposta_correta": 1,
+    "explicacao": "A tag <ul> cria uma lista sem ordem numérica."
+  },
+  {
+    "id": "MC-045",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Qual tag cria um campo de formulário? (variação 5)",
+    "alternativas": [
+      "<input>",
+      "<form-field>",
+      "<label>",
+      "<button>"
+    ],
+    "resposta_correta": "<input>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <input> cria campos como texto, senha, checkbox etc."
+  },
+  {
+    "id": "MC-046",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Para que serve o atributo alt em imagens? (variação 5)",
+    "alternativas": [
+      "Definir largura",
+      "Descrever a imagem",
+      "Criar link",
+      "Mudar cor"
+    ],
+    "resposta_correta": "Descrever a imagem",
+    "indice_resposta_correta": 1,
+    "explicacao": "O alt melhora acessibilidade e aparece se a imagem não carregar."
+  },
+  {
+    "id": "MC-047",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Qual elemento contém metadados da página? (variação 5)",
+    "alternativas": [
+      "<head>",
+      "<body>",
+      "<main>",
+      "<section>"
+    ],
+    "resposta_correta": "<head>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <head> contém título, links CSS e metadados."
+  },
+  {
+    "id": "MC-048",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Qual tag representa uma seção independente de conteúdo? (variação 5)",
+    "alternativas": [
+      "<article>",
+      "<span>",
+      "<br>",
+      "<meta>"
+    ],
+    "resposta_correta": "<article>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <article> representa conteúdo independente."
+  },
+  {
+    "id": "MC-049",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Qual tag é usada para título principal? (variação 5)",
+    "alternativas": [
+      "<h1>",
+      "<title>",
+      "<p>",
+      "<strong>"
+    ],
+    "resposta_correta": "<h1>",
+    "indice_resposta_correta": 0,
+    "explicacao": "O <h1> representa o título principal do conteúdo."
+  },
+  {
+    "id": "MC-050",
+    "tipo": "multipla_escolha",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Qual tag cria uma quebra de linha? (variação 5)",
+    "alternativas": [
+      "<br>",
+      "<hr>",
+      "<p>",
+      "<line>"
+    ],
+    "resposta_correta": "<br>",
+    "indice_resposta_correta": 0,
+    "explicacao": "A tag <br> cria quebra de linha."
+  },
+  {
+    "id": "AB-051",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre as tags <section> e <article>.",
+    "resposta_esperada": "section agrupa uma parte temática da página; article representa um conteúdo independente, como postagem, notícia ou card completo."
+  },
+  {
+    "id": "AB-052",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve o atributo alt em uma imagem.",
+    "resposta_esperada": "O alt descreve a imagem para acessibilidade e aparece caso a imagem não carregue."
+  },
+  {
+    "id": "AB-053",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Explique a função da tag <form>.",
+    "resposta_esperada": "A tag form agrupa campos de entrada e permite enviar dados do usuário."
+  },
+  {
+    "id": "AB-054",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre <ol> e <ul>.",
+    "resposta_esperada": "ol cria lista ordenada; ul cria lista não ordenada."
+  },
+  {
+    "id": "AB-055",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Explique por que é importante usar HTML semântico.",
+    "resposta_esperada": "HTML semântico melhora acessibilidade, SEO, organização do código e compreensão da estrutura da página."
+  },
+  {
+    "id": "AB-056",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Explique a função da tag <label> em formulários.",
+    "resposta_esperada": "label cria um texto associado a um campo, melhorando usabilidade e acessibilidade."
+  },
+  {
+    "id": "AB-057",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre <head> e <body>.",
+    "resposta_esperada": "head contém metadados e configurações; body contém o conteúdo visível da página."
+  },
+  {
+    "id": "AB-058",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Explique o que é um atributo HTML.",
+    "resposta_esperada": "Atributo adiciona informação ou configuração a uma tag, como href, src, alt, id e class."
+  },
+  {
+    "id": "AB-059",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Explique a função da tag <nav>.",
+    "resposta_esperada": "nav representa uma área de navegação com links importantes do site."
+  },
+  {
+    "id": "AB-060",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "iniciante",
+    "pergunta": "Explique por que o atributo lang='pt-br' é importante.",
+    "resposta_esperada": "Ele informa o idioma da página, ajudando leitores de tela, buscadores e tradução automática."
+  },
+  {
+    "id": "AB-061",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre as tags <section> e <article>. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "section agrupa uma parte temática da página; article representa um conteúdo independente, como postagem, notícia ou card completo."
+  },
+  {
+    "id": "AB-062",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve o atributo alt em uma imagem. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "O alt descreve a imagem para acessibilidade e aparece caso a imagem não carregue."
+  },
+  {
+    "id": "AB-063",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Explique a função da tag <form>. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "A tag form agrupa campos de entrada e permite enviar dados do usuário."
+  },
+  {
+    "id": "AB-064",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre <ol> e <ul>. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "ol cria lista ordenada; ul cria lista não ordenada."
+  },
+  {
+    "id": "AB-065",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Explique por que é importante usar HTML semântico. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "HTML semântico melhora acessibilidade, SEO, organização do código e compreensão da estrutura da página."
+  },
+  {
+    "id": "AB-066",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Explique a função da tag <label> em formulários. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "label cria um texto associado a um campo, melhorando usabilidade e acessibilidade."
+  },
+  {
+    "id": "AB-067",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre <head> e <body>. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "head contém metadados e configurações; body contém o conteúdo visível da página."
+  },
+  {
+    "id": "AB-068",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Explique o que é um atributo HTML. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Atributo adiciona informação ou configuração a uma tag, como href, src, alt, id e class."
+  },
+  {
+    "id": "AB-069",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Explique a função da tag <nav>. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "nav representa uma área de navegação com links importantes do site."
+  },
+  {
+    "id": "AB-070",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "básico",
+    "pergunta": "Explique por que o atributo lang='pt-br' é importante. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Ele informa o idioma da página, ajudando leitores de tela, buscadores e tradução automática."
+  },
+  {
+    "id": "AB-071",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre as tags <section> e <article>. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "section agrupa uma parte temática da página; article representa um conteúdo independente, como postagem, notícia ou card completo."
+  },
+  {
+    "id": "AB-072",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve o atributo alt em uma imagem. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "O alt descreve a imagem para acessibilidade e aparece caso a imagem não carregue."
+  },
+  {
+    "id": "AB-073",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Explique a função da tag <form>. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "A tag form agrupa campos de entrada e permite enviar dados do usuário."
+  },
+  {
+    "id": "AB-074",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre <ol> e <ul>. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "ol cria lista ordenada; ul cria lista não ordenada."
+  },
+  {
+    "id": "AB-075",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Explique por que é importante usar HTML semântico. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "HTML semântico melhora acessibilidade, SEO, organização do código e compreensão da estrutura da página."
+  },
+  {
+    "id": "AB-076",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Explique a função da tag <label> em formulários. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "label cria um texto associado a um campo, melhorando usabilidade e acessibilidade."
+  },
+  {
+    "id": "AB-077",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre <head> e <body>. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "head contém metadados e configurações; body contém o conteúdo visível da página."
+  },
+  {
+    "id": "AB-078",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Explique o que é um atributo HTML. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Atributo adiciona informação ou configuração a uma tag, como href, src, alt, id e class."
+  },
+  {
+    "id": "AB-079",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Explique a função da tag <nav>. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "nav representa uma área de navegação com links importantes do site."
+  },
+  {
+    "id": "AB-080",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário",
+    "pergunta": "Explique por que o atributo lang='pt-br' é importante. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Ele informa o idioma da página, ajudando leitores de tela, buscadores e tradução automática."
+  },
+  {
+    "id": "AB-081",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre as tags <section> e <article>. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "section agrupa uma parte temática da página; article representa um conteúdo independente, como postagem, notícia ou card completo."
+  },
+  {
+    "id": "AB-082",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve o atributo alt em uma imagem. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "O alt descreve a imagem para acessibilidade e aparece caso a imagem não carregue."
+  },
+  {
+    "id": "AB-083",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a função da tag <form>. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "A tag form agrupa campos de entrada e permite enviar dados do usuário."
+  },
+  {
+    "id": "AB-084",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre <ol> e <ul>. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "ol cria lista ordenada; ul cria lista não ordenada."
+  },
+  {
+    "id": "AB-085",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Explique por que é importante usar HTML semântico. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "HTML semântico melhora acessibilidade, SEO, organização do código e compreensão da estrutura da página."
+  },
+  {
+    "id": "AB-086",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a função da tag <label> em formulários. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "label cria um texto associado a um campo, melhorando usabilidade e acessibilidade."
+  },
+  {
+    "id": "AB-087",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre <head> e <body>. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "head contém metadados e configurações; body contém o conteúdo visível da página."
+  },
+  {
+    "id": "AB-088",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Explique o que é um atributo HTML. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Atributo adiciona informação ou configuração a uma tag, como href, src, alt, id e class."
+  },
+  {
+    "id": "AB-089",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a função da tag <nav>. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "nav representa uma área de navegação com links importantes do site."
+  },
+  {
+    "id": "AB-090",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "intermediário+",
+    "pergunta": "Explique por que o atributo lang='pt-br' é importante. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Ele informa o idioma da página, ajudando leitores de tela, buscadores e tradução automática."
+  },
+  {
+    "id": "AB-091",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre as tags <section> e <article>. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "section agrupa uma parte temática da página; article representa um conteúdo independente, como postagem, notícia ou card completo."
+  },
+  {
+    "id": "AB-092",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve o atributo alt em uma imagem. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "O alt descreve a imagem para acessibilidade e aparece caso a imagem não carregue."
+  },
+  {
+    "id": "AB-093",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Explique a função da tag <form>. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "A tag form agrupa campos de entrada e permite enviar dados do usuário."
+  },
+  {
+    "id": "AB-094",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre <ol> e <ul>. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "ol cria lista ordenada; ul cria lista não ordenada."
+  },
+  {
+    "id": "AB-095",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Explique por que é importante usar HTML semântico. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "HTML semântico melhora acessibilidade, SEO, organização do código e compreensão da estrutura da página."
+  },
+  {
+    "id": "AB-096",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Explique a função da tag <label> em formulários. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "label cria um texto associado a um campo, melhorando usabilidade e acessibilidade."
+  },
+  {
+    "id": "AB-097",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre <head> e <body>. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "head contém metadados e configurações; body contém o conteúdo visível da página."
+  },
+  {
+    "id": "AB-098",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Explique o que é um atributo HTML. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Atributo adiciona informação ou configuração a uma tag, como href, src, alt, id e class."
+  },
+  {
+    "id": "AB-099",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Explique a função da tag <nav>. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "nav representa uma área de navegação com links importantes do site."
+  },
+  {
+    "id": "AB-100",
+    "tipo": "resposta_escrita",
+    "materia": "HTML",
+    "nivel": "revisão",
+    "pergunta": "Explique por que o atributo lang='pt-br' é importante. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Ele informa o idioma da página, ajudando leitores de tela, buscadores e tradução automática."
+  },
+  {
+    "id": "MC-101",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Qual propriedade altera a cor do texto?",
+    "alternativas": [
+      "color",
+      "background",
+      "font-size",
+      "border"
+    ],
+    "resposta_correta": "color",
+    "indice_resposta_correta": 0,
+    "explicacao": "A propriedade color define a cor do texto."
+  },
+  {
+    "id": "MC-102",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Qual propriedade altera a cor de fundo?",
+    "alternativas": [
+      "background-color",
+      "color",
+      "font-family",
+      "padding"
+    ],
+    "resposta_correta": "background-color",
+    "indice_resposta_correta": 0,
+    "explicacao": "background-color altera a cor de fundo."
+  },
+  {
+    "id": "MC-103",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Qual seletor seleciona uma classe?",
+    "alternativas": [
+      ".classe",
+      "#classe",
+      "classe()",
+      "<classe>"
+    ],
+    "resposta_correta": ".classe",
+    "indice_resposta_correta": 0,
+    "explicacao": "Classes são selecionadas com ponto."
+  },
+  {
+    "id": "MC-104",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Qual seletor seleciona um id?",
+    "alternativas": [
+      "#id",
+      ".id",
+      "id:",
+      "*id"
+    ],
+    "resposta_correta": "#id",
+    "indice_resposta_correta": 0,
+    "explicacao": "IDs são selecionados com cerquilha (#)."
+  },
+  {
+    "id": "MC-105",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Qual propriedade controla o espaçamento interno?",
+    "alternativas": [
+      "padding",
+      "margin",
+      "border",
+      "gap"
+    ],
+    "resposta_correta": "padding",
+    "indice_resposta_correta": 0,
+    "explicacao": "Padding é o espaço interno do elemento."
+  },
+  {
+    "id": "MC-106",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Qual propriedade controla o espaçamento externo?",
+    "alternativas": [
+      "margin",
+      "padding",
+      "outline",
+      "display"
+    ],
+    "resposta_correta": "margin",
+    "indice_resposta_correta": 0,
+    "explicacao": "Margin é o espaço externo."
+  },
+  {
+    "id": "MC-107",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Qual valor de display ativa Flexbox?",
+    "alternativas": [
+      "flex",
+      "grid",
+      "block",
+      "inline"
+    ],
+    "resposta_correta": "flex",
+    "indice_resposta_correta": 0,
+    "explicacao": "display: flex ativa o Flexbox."
+  },
+  {
+    "id": "MC-108",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Qual propriedade arredonda bordas?",
+    "alternativas": [
+      "border-radius",
+      "border-style",
+      "outline",
+      "box-shadow"
+    ],
+    "resposta_correta": "border-radius",
+    "indice_resposta_correta": 0,
+    "explicacao": "border-radius arredonda as bordas."
+  },
+  {
+    "id": "MC-109",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Qual propriedade cria sombra em caixas?",
+    "alternativas": [
+      "box-shadow",
+      "text-shadow",
+      "filter",
+      "opacity"
+    ],
+    "resposta_correta": "box-shadow",
+    "indice_resposta_correta": 0,
+    "explicacao": "box-shadow cria sombra ao redor do elemento."
+  },
+  {
+    "id": "MC-110",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Qual propriedade define o tamanho da fonte?",
+    "alternativas": [
+      "font-size",
+      "font-weight",
+      "line-height",
+      "font-style"
+    ],
+    "resposta_correta": "font-size",
+    "indice_resposta_correta": 0,
+    "explicacao": "font-size define o tamanho da fonte."
+  },
+  {
+    "id": "MC-111",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Qual propriedade altera a cor do texto? (variação 2)",
+    "alternativas": [
+      "color",
+      "background",
+      "font-size",
+      "border"
+    ],
+    "resposta_correta": "color",
+    "indice_resposta_correta": 0,
+    "explicacao": "A propriedade color define a cor do texto."
+  },
+  {
+    "id": "MC-112",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Qual propriedade altera a cor de fundo? (variação 2)",
+    "alternativas": [
+      "background-color",
+      "color",
+      "font-family",
+      "padding"
+    ],
+    "resposta_correta": "background-color",
+    "indice_resposta_correta": 0,
+    "explicacao": "background-color altera a cor de fundo."
+  },
+  {
+    "id": "MC-113",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Qual seletor seleciona uma classe? (variação 2)",
+    "alternativas": [
+      ".classe",
+      "#classe",
+      "classe()",
+      "<classe>"
+    ],
+    "resposta_correta": ".classe",
+    "indice_resposta_correta": 0,
+    "explicacao": "Classes são selecionadas com ponto."
+  },
+  {
+    "id": "MC-114",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Qual seletor seleciona um id? (variação 2)",
+    "alternativas": [
+      "#id",
+      ".id",
+      "id:",
+      "*id"
+    ],
+    "resposta_correta": "#id",
+    "indice_resposta_correta": 0,
+    "explicacao": "IDs são selecionados com cerquilha (#)."
+  },
+  {
+    "id": "MC-115",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Qual propriedade controla o espaçamento interno? (variação 2)",
+    "alternativas": [
+      "padding",
+      "margin",
+      "border",
+      "gap"
+    ],
+    "resposta_correta": "padding",
+    "indice_resposta_correta": 0,
+    "explicacao": "Padding é o espaço interno do elemento."
+  },
+  {
+    "id": "MC-116",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Qual propriedade controla o espaçamento externo? (variação 2)",
+    "alternativas": [
+      "margin",
+      "padding",
+      "outline",
+      "display"
+    ],
+    "resposta_correta": "margin",
+    "indice_resposta_correta": 0,
+    "explicacao": "Margin é o espaço externo."
+  },
+  {
+    "id": "MC-117",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Qual valor de display ativa Flexbox? (variação 2)",
+    "alternativas": [
+      "flex",
+      "grid",
+      "block",
+      "inline"
+    ],
+    "resposta_correta": "flex",
+    "indice_resposta_correta": 0,
+    "explicacao": "display: flex ativa o Flexbox."
+  },
+  {
+    "id": "MC-118",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Qual propriedade arredonda bordas? (variação 2)",
+    "alternativas": [
+      "border-radius",
+      "border-style",
+      "outline",
+      "box-shadow"
+    ],
+    "resposta_correta": "border-radius",
+    "indice_resposta_correta": 0,
+    "explicacao": "border-radius arredonda as bordas."
+  },
+  {
+    "id": "MC-119",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Qual propriedade cria sombra em caixas? (variação 2)",
+    "alternativas": [
+      "box-shadow",
+      "text-shadow",
+      "filter",
+      "opacity"
+    ],
+    "resposta_correta": "box-shadow",
+    "indice_resposta_correta": 0,
+    "explicacao": "box-shadow cria sombra ao redor do elemento."
+  },
+  {
+    "id": "MC-120",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Qual propriedade define o tamanho da fonte? (variação 2)",
+    "alternativas": [
+      "font-size",
+      "font-weight",
+      "line-height",
+      "font-style"
+    ],
+    "resposta_correta": "font-size",
+    "indice_resposta_correta": 0,
+    "explicacao": "font-size define o tamanho da fonte."
+  },
+  {
+    "id": "MC-121",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Qual propriedade altera a cor do texto? (variação 3)",
+    "alternativas": [
+      "color",
+      "background",
+      "font-size",
+      "border"
+    ],
+    "resposta_correta": "color",
+    "indice_resposta_correta": 0,
+    "explicacao": "A propriedade color define a cor do texto."
+  },
+  {
+    "id": "MC-122",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Qual propriedade altera a cor de fundo? (variação 3)",
+    "alternativas": [
+      "background-color",
+      "color",
+      "font-family",
+      "padding"
+    ],
+    "resposta_correta": "background-color",
+    "indice_resposta_correta": 0,
+    "explicacao": "background-color altera a cor de fundo."
+  },
+  {
+    "id": "MC-123",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Qual seletor seleciona uma classe? (variação 3)",
+    "alternativas": [
+      ".classe",
+      "#classe",
+      "classe()",
+      "<classe>"
+    ],
+    "resposta_correta": ".classe",
+    "indice_resposta_correta": 0,
+    "explicacao": "Classes são selecionadas com ponto."
+  },
+  {
+    "id": "MC-124",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Qual seletor seleciona um id? (variação 3)",
+    "alternativas": [
+      "#id",
+      ".id",
+      "id:",
+      "*id"
+    ],
+    "resposta_correta": "#id",
+    "indice_resposta_correta": 0,
+    "explicacao": "IDs são selecionados com cerquilha (#)."
+  },
+  {
+    "id": "MC-125",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Qual propriedade controla o espaçamento interno? (variação 3)",
+    "alternativas": [
+      "padding",
+      "margin",
+      "border",
+      "gap"
+    ],
+    "resposta_correta": "padding",
+    "indice_resposta_correta": 0,
+    "explicacao": "Padding é o espaço interno do elemento."
+  },
+  {
+    "id": "MC-126",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Qual propriedade controla o espaçamento externo? (variação 3)",
+    "alternativas": [
+      "margin",
+      "padding",
+      "outline",
+      "display"
+    ],
+    "resposta_correta": "margin",
+    "indice_resposta_correta": 0,
+    "explicacao": "Margin é o espaço externo."
+  },
+  {
+    "id": "MC-127",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Qual valor de display ativa Flexbox? (variação 3)",
+    "alternativas": [
+      "flex",
+      "grid",
+      "block",
+      "inline"
+    ],
+    "resposta_correta": "flex",
+    "indice_resposta_correta": 0,
+    "explicacao": "display: flex ativa o Flexbox."
+  },
+  {
+    "id": "MC-128",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Qual propriedade arredonda bordas? (variação 3)",
+    "alternativas": [
+      "border-radius",
+      "border-style",
+      "outline",
+      "box-shadow"
+    ],
+    "resposta_correta": "border-radius",
+    "indice_resposta_correta": 0,
+    "explicacao": "border-radius arredonda as bordas."
+  },
+  {
+    "id": "MC-129",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Qual propriedade cria sombra em caixas? (variação 3)",
+    "alternativas": [
+      "box-shadow",
+      "text-shadow",
+      "filter",
+      "opacity"
+    ],
+    "resposta_correta": "box-shadow",
+    "indice_resposta_correta": 0,
+    "explicacao": "box-shadow cria sombra ao redor do elemento."
+  },
+  {
+    "id": "MC-130",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Qual propriedade define o tamanho da fonte? (variação 3)",
+    "alternativas": [
+      "font-size",
+      "font-weight",
+      "line-height",
+      "font-style"
+    ],
+    "resposta_correta": "font-size",
+    "indice_resposta_correta": 0,
+    "explicacao": "font-size define o tamanho da fonte."
+  },
+  {
+    "id": "MC-131",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Qual propriedade altera a cor do texto? (variação 4)",
+    "alternativas": [
+      "color",
+      "background",
+      "font-size",
+      "border"
+    ],
+    "resposta_correta": "color",
+    "indice_resposta_correta": 0,
+    "explicacao": "A propriedade color define a cor do texto."
+  },
+  {
+    "id": "MC-132",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Qual propriedade altera a cor de fundo? (variação 4)",
+    "alternativas": [
+      "background-color",
+      "color",
+      "font-family",
+      "padding"
+    ],
+    "resposta_correta": "background-color",
+    "indice_resposta_correta": 0,
+    "explicacao": "background-color altera a cor de fundo."
+  },
+  {
+    "id": "MC-133",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Qual seletor seleciona uma classe? (variação 4)",
+    "alternativas": [
+      ".classe",
+      "#classe",
+      "classe()",
+      "<classe>"
+    ],
+    "resposta_correta": ".classe",
+    "indice_resposta_correta": 0,
+    "explicacao": "Classes são selecionadas com ponto."
+  },
+  {
+    "id": "MC-134",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Qual seletor seleciona um id? (variação 4)",
+    "alternativas": [
+      "#id",
+      ".id",
+      "id:",
+      "*id"
+    ],
+    "resposta_correta": "#id",
+    "indice_resposta_correta": 0,
+    "explicacao": "IDs são selecionados com cerquilha (#)."
+  },
+  {
+    "id": "MC-135",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Qual propriedade controla o espaçamento interno? (variação 4)",
+    "alternativas": [
+      "padding",
+      "margin",
+      "border",
+      "gap"
+    ],
+    "resposta_correta": "padding",
+    "indice_resposta_correta": 0,
+    "explicacao": "Padding é o espaço interno do elemento."
+  },
+  {
+    "id": "MC-136",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Qual propriedade controla o espaçamento externo? (variação 4)",
+    "alternativas": [
+      "margin",
+      "padding",
+      "outline",
+      "display"
+    ],
+    "resposta_correta": "margin",
+    "indice_resposta_correta": 0,
+    "explicacao": "Margin é o espaço externo."
+  },
+  {
+    "id": "MC-137",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Qual valor de display ativa Flexbox? (variação 4)",
+    "alternativas": [
+      "flex",
+      "grid",
+      "block",
+      "inline"
+    ],
+    "resposta_correta": "flex",
+    "indice_resposta_correta": 0,
+    "explicacao": "display: flex ativa o Flexbox."
+  },
+  {
+    "id": "MC-138",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Qual propriedade arredonda bordas? (variação 4)",
+    "alternativas": [
+      "border-radius",
+      "border-style",
+      "outline",
+      "box-shadow"
+    ],
+    "resposta_correta": "border-radius",
+    "indice_resposta_correta": 0,
+    "explicacao": "border-radius arredonda as bordas."
+  },
+  {
+    "id": "MC-139",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Qual propriedade cria sombra em caixas? (variação 4)",
+    "alternativas": [
+      "box-shadow",
+      "text-shadow",
+      "filter",
+      "opacity"
+    ],
+    "resposta_correta": "box-shadow",
+    "indice_resposta_correta": 0,
+    "explicacao": "box-shadow cria sombra ao redor do elemento."
+  },
+  {
+    "id": "MC-140",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Qual propriedade define o tamanho da fonte? (variação 4)",
+    "alternativas": [
+      "font-size",
+      "font-weight",
+      "line-height",
+      "font-style"
+    ],
+    "resposta_correta": "font-size",
+    "indice_resposta_correta": 0,
+    "explicacao": "font-size define o tamanho da fonte."
+  },
+  {
+    "id": "MC-141",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Qual propriedade altera a cor do texto? (variação 5)",
+    "alternativas": [
+      "color",
+      "background",
+      "font-size",
+      "border"
+    ],
+    "resposta_correta": "color",
+    "indice_resposta_correta": 0,
+    "explicacao": "A propriedade color define a cor do texto."
+  },
+  {
+    "id": "MC-142",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Qual propriedade altera a cor de fundo? (variação 5)",
+    "alternativas": [
+      "background-color",
+      "color",
+      "font-family",
+      "padding"
+    ],
+    "resposta_correta": "background-color",
+    "indice_resposta_correta": 0,
+    "explicacao": "background-color altera a cor de fundo."
+  },
+  {
+    "id": "MC-143",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Qual seletor seleciona uma classe? (variação 5)",
+    "alternativas": [
+      ".classe",
+      "#classe",
+      "classe()",
+      "<classe>"
+    ],
+    "resposta_correta": ".classe",
+    "indice_resposta_correta": 0,
+    "explicacao": "Classes são selecionadas com ponto."
+  },
+  {
+    "id": "MC-144",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Qual seletor seleciona um id? (variação 5)",
+    "alternativas": [
+      "#id",
+      ".id",
+      "id:",
+      "*id"
+    ],
+    "resposta_correta": "#id",
+    "indice_resposta_correta": 0,
+    "explicacao": "IDs são selecionados com cerquilha (#)."
+  },
+  {
+    "id": "MC-145",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Qual propriedade controla o espaçamento interno? (variação 5)",
+    "alternativas": [
+      "padding",
+      "margin",
+      "border",
+      "gap"
+    ],
+    "resposta_correta": "padding",
+    "indice_resposta_correta": 0,
+    "explicacao": "Padding é o espaço interno do elemento."
+  },
+  {
+    "id": "MC-146",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Qual propriedade controla o espaçamento externo? (variação 5)",
+    "alternativas": [
+      "margin",
+      "padding",
+      "outline",
+      "display"
+    ],
+    "resposta_correta": "margin",
+    "indice_resposta_correta": 0,
+    "explicacao": "Margin é o espaço externo."
+  },
+  {
+    "id": "MC-147",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Qual valor de display ativa Flexbox? (variação 5)",
+    "alternativas": [
+      "flex",
+      "grid",
+      "block",
+      "inline"
+    ],
+    "resposta_correta": "flex",
+    "indice_resposta_correta": 0,
+    "explicacao": "display: flex ativa o Flexbox."
+  },
+  {
+    "id": "MC-148",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Qual propriedade arredonda bordas? (variação 5)",
+    "alternativas": [
+      "border-radius",
+      "border-style",
+      "outline",
+      "box-shadow"
+    ],
+    "resposta_correta": "border-radius",
+    "indice_resposta_correta": 0,
+    "explicacao": "border-radius arredonda as bordas."
+  },
+  {
+    "id": "MC-149",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Qual propriedade cria sombra em caixas? (variação 5)",
+    "alternativas": [
+      "box-shadow",
+      "text-shadow",
+      "filter",
+      "opacity"
+    ],
+    "resposta_correta": "box-shadow",
+    "indice_resposta_correta": 0,
+    "explicacao": "box-shadow cria sombra ao redor do elemento."
+  },
+  {
+    "id": "MC-150",
+    "tipo": "multipla_escolha",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Qual propriedade define o tamanho da fonte? (variação 5)",
+    "alternativas": [
+      "font-size",
+      "font-weight",
+      "line-height",
+      "font-style"
+    ],
+    "resposta_correta": "font-size",
+    "indice_resposta_correta": 0,
+    "explicacao": "font-size define o tamanho da fonte."
+  },
+  {
+    "id": "AB-151",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre margin e padding.",
+    "resposta_esperada": "Margin é o espaço externo do elemento; padding é o espaço interno entre o conteúdo e a borda."
+  },
+  {
+    "id": "AB-152",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve o display: flex.",
+    "resposta_esperada": "display flex organiza elementos em linha ou coluna com controle de alinhamento e distribuição."
+  },
+  {
+    "id": "AB-153",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre classe e id no CSS.",
+    "resposta_esperada": "Classe pode ser usada em vários elementos e é selecionada com ponto; id deve ser único e é selecionado com #."
+  },
+  {
+    "id": "AB-154",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve border-radius.",
+    "resposta_esperada": "border-radius arredonda os cantos de um elemento."
+  },
+  {
+    "id": "AB-155",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Explique o que é responsividade.",
+    "resposta_esperada": "Responsividade é a capacidade do layout se adaptar a diferentes tamanhos de tela."
+  },
+  {
+    "id": "AB-156",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve media query.",
+    "resposta_esperada": "Media query aplica estilos diferentes de acordo com tamanho de tela ou características do dispositivo."
+  },
+  {
+    "id": "AB-157",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre position relative e absolute.",
+    "resposta_esperada": "Relative posiciona em relação à posição original; absolute posiciona em relação ao ancestral posicionado mais próximo."
+  },
+  {
+    "id": "AB-158",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve z-index.",
+    "resposta_esperada": "z-index controla a ordem de sobreposição de elementos posicionados."
+  },
+  {
+    "id": "AB-159",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Explique a função do gap em flexbox ou grid.",
+    "resposta_esperada": "gap define o espaçamento entre itens."
+  },
+  {
+    "id": "AB-160",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "iniciante",
+    "pergunta": "Explique o que faz box-shadow.",
+    "resposta_esperada": "box-shadow cria sombra ao redor de caixas/elementos."
+  },
+  {
+    "id": "AB-161",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre margin e padding. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Margin é o espaço externo do elemento; padding é o espaço interno entre o conteúdo e a borda."
+  },
+  {
+    "id": "AB-162",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve o display: flex. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "display flex organiza elementos em linha ou coluna com controle de alinhamento e distribuição."
+  },
+  {
+    "id": "AB-163",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre classe e id no CSS. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Classe pode ser usada em vários elementos e é selecionada com ponto; id deve ser único e é selecionado com #."
+  },
+  {
+    "id": "AB-164",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve border-radius. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "border-radius arredonda os cantos de um elemento."
+  },
+  {
+    "id": "AB-165",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Explique o que é responsividade. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Responsividade é a capacidade do layout se adaptar a diferentes tamanhos de tela."
+  },
+  {
+    "id": "AB-166",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve media query. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Media query aplica estilos diferentes de acordo com tamanho de tela ou características do dispositivo."
+  },
+  {
+    "id": "AB-167",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre position relative e absolute. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Relative posiciona em relação à posição original; absolute posiciona em relação ao ancestral posicionado mais próximo."
+  },
+  {
+    "id": "AB-168",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve z-index. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "z-index controla a ordem de sobreposição de elementos posicionados."
+  },
+  {
+    "id": "AB-169",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Explique a função do gap em flexbox ou grid. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "gap define o espaçamento entre itens."
+  },
+  {
+    "id": "AB-170",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "básico",
+    "pergunta": "Explique o que faz box-shadow. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "box-shadow cria sombra ao redor de caixas/elementos."
+  },
+  {
+    "id": "AB-171",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre margin e padding. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Margin é o espaço externo do elemento; padding é o espaço interno entre o conteúdo e a borda."
+  },
+  {
+    "id": "AB-172",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve o display: flex. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "display flex organiza elementos em linha ou coluna com controle de alinhamento e distribuição."
+  },
+  {
+    "id": "AB-173",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre classe e id no CSS. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Classe pode ser usada em vários elementos e é selecionada com ponto; id deve ser único e é selecionado com #."
+  },
+  {
+    "id": "AB-174",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve border-radius. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "border-radius arredonda os cantos de um elemento."
+  },
+  {
+    "id": "AB-175",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Explique o que é responsividade. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Responsividade é a capacidade do layout se adaptar a diferentes tamanhos de tela."
+  },
+  {
+    "id": "AB-176",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve media query. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Media query aplica estilos diferentes de acordo com tamanho de tela ou características do dispositivo."
+  },
+  {
+    "id": "AB-177",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre position relative e absolute. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Relative posiciona em relação à posição original; absolute posiciona em relação ao ancestral posicionado mais próximo."
+  },
+  {
+    "id": "AB-178",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve z-index. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "z-index controla a ordem de sobreposição de elementos posicionados."
+  },
+  {
+    "id": "AB-179",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Explique a função do gap em flexbox ou grid. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "gap define o espaçamento entre itens."
+  },
+  {
+    "id": "AB-180",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário",
+    "pergunta": "Explique o que faz box-shadow. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "box-shadow cria sombra ao redor de caixas/elementos."
+  },
+  {
+    "id": "AB-181",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre margin e padding. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Margin é o espaço externo do elemento; padding é o espaço interno entre o conteúdo e a borda."
+  },
+  {
+    "id": "AB-182",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve o display: flex. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "display flex organiza elementos em linha ou coluna com controle de alinhamento e distribuição."
+  },
+  {
+    "id": "AB-183",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre classe e id no CSS. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Classe pode ser usada em vários elementos e é selecionada com ponto; id deve ser único e é selecionado com #."
+  },
+  {
+    "id": "AB-184",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve border-radius. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "border-radius arredonda os cantos de um elemento."
+  },
+  {
+    "id": "AB-185",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Explique o que é responsividade. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Responsividade é a capacidade do layout se adaptar a diferentes tamanhos de tela."
+  },
+  {
+    "id": "AB-186",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve media query. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Media query aplica estilos diferentes de acordo com tamanho de tela ou características do dispositivo."
+  },
+  {
+    "id": "AB-187",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre position relative e absolute. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Relative posiciona em relação à posição original; absolute posiciona em relação ao ancestral posicionado mais próximo."
+  },
+  {
+    "id": "AB-188",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve z-index. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "z-index controla a ordem de sobreposição de elementos posicionados."
+  },
+  {
+    "id": "AB-189",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a função do gap em flexbox ou grid. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "gap define o espaçamento entre itens."
+  },
+  {
+    "id": "AB-190",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "intermediário+",
+    "pergunta": "Explique o que faz box-shadow. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "box-shadow cria sombra ao redor de caixas/elementos."
+  },
+  {
+    "id": "AB-191",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre margin e padding. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Margin é o espaço externo do elemento; padding é o espaço interno entre o conteúdo e a borda."
+  },
+  {
+    "id": "AB-192",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve o display: flex. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "display flex organiza elementos em linha ou coluna com controle de alinhamento e distribuição."
+  },
+  {
+    "id": "AB-193",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre classe e id no CSS. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Classe pode ser usada em vários elementos e é selecionada com ponto; id deve ser único e é selecionado com #."
+  },
+  {
+    "id": "AB-194",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve border-radius. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "border-radius arredonda os cantos de um elemento."
+  },
+  {
+    "id": "AB-195",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Explique o que é responsividade. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Responsividade é a capacidade do layout se adaptar a diferentes tamanhos de tela."
+  },
+  {
+    "id": "AB-196",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve media query. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Media query aplica estilos diferentes de acordo com tamanho de tela ou características do dispositivo."
+  },
+  {
+    "id": "AB-197",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre position relative e absolute. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Relative posiciona em relação à posição original; absolute posiciona em relação ao ancestral posicionado mais próximo."
+  },
+  {
+    "id": "AB-198",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve z-index. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "z-index controla a ordem de sobreposição de elementos posicionados."
+  },
+  {
+    "id": "AB-199",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Explique a função do gap em flexbox ou grid. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "gap define o espaçamento entre itens."
+  },
+  {
+    "id": "AB-200",
+    "tipo": "resposta_escrita",
+    "materia": "CSS",
+    "nivel": "revisão",
+    "pergunta": "Explique o que faz box-shadow. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "box-shadow cria sombra ao redor de caixas/elementos."
+  },
+  {
+    "id": "MC-201",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Qual palavra declara uma variável que pode mudar?",
+    "alternativas": [
+      "let",
+      "const",
+      "fixed",
+      "varname"
+    ],
+    "resposta_correta": "let",
+    "indice_resposta_correta": 0,
+    "explicacao": "let declara uma variável que pode receber novo valor."
+  },
+  {
+    "id": "MC-202",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Qual palavra declara uma constante?",
+    "alternativas": [
+      "const",
+      "let",
+      "change",
+      "static"
+    ],
+    "resposta_correta": "const",
+    "indice_resposta_correta": 0,
+    "explicacao": "const cria uma referência que não pode ser reatribuída."
+  },
+  {
+    "id": "MC-203",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Qual método mostra mensagem no console?",
+    "alternativas": [
+      "console.log()",
+      "print()",
+      "echo()",
+      "show()"
+    ],
+    "resposta_correta": "console.log()",
+    "indice_resposta_correta": 0,
+    "explicacao": "console.log() imprime no console do navegador ou Node."
+  },
+  {
+    "id": "MC-204",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Qual operador compara valor e tipo?",
+    "alternativas": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "resposta_correta": "===",
+    "indice_resposta_correta": 0,
+    "explicacao": "=== compara valor e tipo."
+  },
+  {
+    "id": "MC-205",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Qual estrutura repete um bloco enquanto a condição for verdadeira?",
+    "alternativas": [
+      "while",
+      "if",
+      "switch",
+      "return"
+    ],
+    "resposta_correta": "while",
+    "indice_resposta_correta": 0,
+    "explicacao": "while executa repetição baseada em condição."
+  },
+  {
+    "id": "MC-206",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Qual método adiciona item ao final de um array?",
+    "alternativas": [
+      "push()",
+      "pop()",
+      "shift()",
+      "map()"
+    ],
+    "resposta_correta": "push()",
+    "indice_resposta_correta": 0,
+    "explicacao": "push() adiciona ao final."
+  },
+  {
+    "id": "MC-207",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Qual método remove o último item de um array?",
+    "alternativas": [
+      "pop()",
+      "push()",
+      "unshift()",
+      "filter()"
+    ],
+    "resposta_correta": "pop()",
+    "indice_resposta_correta": 0,
+    "explicacao": "pop() remove o último item."
+  },
+  {
+    "id": "MC-208",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Qual tipo representa verdadeiro ou falso?",
+    "alternativas": [
+      "boolean",
+      "string",
+      "number",
+      "array"
+    ],
+    "resposta_correta": "boolean",
+    "indice_resposta_correta": 0,
+    "explicacao": "Boolean armazena true ou false."
+  },
+  {
+    "id": "MC-209",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Qual função converte texto para número inteiro?",
+    "alternativas": [
+      "parseInt()",
+      "String()",
+      "Boolean()",
+      "toText()"
+    ],
+    "resposta_correta": "parseInt()",
+    "indice_resposta_correta": 0,
+    "explicacao": "parseInt() tenta converter para inteiro."
+  },
+  {
+    "id": "MC-210",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Qual evento ocorre ao clicar em um elemento?",
+    "alternativas": [
+      "click",
+      "hover",
+      "loadText",
+      "pressMouse"
+    ],
+    "resposta_correta": "click",
+    "indice_resposta_correta": 0,
+    "explicacao": "click é disparado quando o usuário clica."
+  },
+  {
+    "id": "MC-211",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Qual palavra declara uma variável que pode mudar? (variação 2)",
+    "alternativas": [
+      "let",
+      "const",
+      "fixed",
+      "varname"
+    ],
+    "resposta_correta": "let",
+    "indice_resposta_correta": 0,
+    "explicacao": "let declara uma variável que pode receber novo valor."
+  },
+  {
+    "id": "MC-212",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Qual palavra declara uma constante? (variação 2)",
+    "alternativas": [
+      "const",
+      "let",
+      "change",
+      "static"
+    ],
+    "resposta_correta": "const",
+    "indice_resposta_correta": 0,
+    "explicacao": "const cria uma referência que não pode ser reatribuída."
+  },
+  {
+    "id": "MC-213",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Qual método mostra mensagem no console? (variação 2)",
+    "alternativas": [
+      "console.log()",
+      "print()",
+      "echo()",
+      "show()"
+    ],
+    "resposta_correta": "console.log()",
+    "indice_resposta_correta": 0,
+    "explicacao": "console.log() imprime no console do navegador ou Node."
+  },
+  {
+    "id": "MC-214",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Qual operador compara valor e tipo? (variação 2)",
+    "alternativas": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "resposta_correta": "===",
+    "indice_resposta_correta": 0,
+    "explicacao": "=== compara valor e tipo."
+  },
+  {
+    "id": "MC-215",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Qual estrutura repete um bloco enquanto a condição for verdadeira? (variação 2)",
+    "alternativas": [
+      "while",
+      "if",
+      "switch",
+      "return"
+    ],
+    "resposta_correta": "while",
+    "indice_resposta_correta": 0,
+    "explicacao": "while executa repetição baseada em condição."
+  },
+  {
+    "id": "MC-216",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Qual método adiciona item ao final de um array? (variação 2)",
+    "alternativas": [
+      "push()",
+      "pop()",
+      "shift()",
+      "map()"
+    ],
+    "resposta_correta": "push()",
+    "indice_resposta_correta": 0,
+    "explicacao": "push() adiciona ao final."
+  },
+  {
+    "id": "MC-217",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Qual método remove o último item de um array? (variação 2)",
+    "alternativas": [
+      "pop()",
+      "push()",
+      "unshift()",
+      "filter()"
+    ],
+    "resposta_correta": "pop()",
+    "indice_resposta_correta": 0,
+    "explicacao": "pop() remove o último item."
+  },
+  {
+    "id": "MC-218",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Qual tipo representa verdadeiro ou falso? (variação 2)",
+    "alternativas": [
+      "boolean",
+      "string",
+      "number",
+      "array"
+    ],
+    "resposta_correta": "boolean",
+    "indice_resposta_correta": 0,
+    "explicacao": "Boolean armazena true ou false."
+  },
+  {
+    "id": "MC-219",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Qual função converte texto para número inteiro? (variação 2)",
+    "alternativas": [
+      "parseInt()",
+      "String()",
+      "Boolean()",
+      "toText()"
+    ],
+    "resposta_correta": "parseInt()",
+    "indice_resposta_correta": 0,
+    "explicacao": "parseInt() tenta converter para inteiro."
+  },
+  {
+    "id": "MC-220",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Qual evento ocorre ao clicar em um elemento? (variação 2)",
+    "alternativas": [
+      "click",
+      "hover",
+      "loadText",
+      "pressMouse"
+    ],
+    "resposta_correta": "click",
+    "indice_resposta_correta": 0,
+    "explicacao": "click é disparado quando o usuário clica."
+  },
+  {
+    "id": "MC-221",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Qual palavra declara uma variável que pode mudar? (variação 3)",
+    "alternativas": [
+      "let",
+      "const",
+      "fixed",
+      "varname"
+    ],
+    "resposta_correta": "let",
+    "indice_resposta_correta": 0,
+    "explicacao": "let declara uma variável que pode receber novo valor."
+  },
+  {
+    "id": "MC-222",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Qual palavra declara uma constante? (variação 3)",
+    "alternativas": [
+      "const",
+      "let",
+      "change",
+      "static"
+    ],
+    "resposta_correta": "const",
+    "indice_resposta_correta": 0,
+    "explicacao": "const cria uma referência que não pode ser reatribuída."
+  },
+  {
+    "id": "MC-223",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Qual método mostra mensagem no console? (variação 3)",
+    "alternativas": [
+      "console.log()",
+      "print()",
+      "echo()",
+      "show()"
+    ],
+    "resposta_correta": "console.log()",
+    "indice_resposta_correta": 0,
+    "explicacao": "console.log() imprime no console do navegador ou Node."
+  },
+  {
+    "id": "MC-224",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Qual operador compara valor e tipo? (variação 3)",
+    "alternativas": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "resposta_correta": "===",
+    "indice_resposta_correta": 0,
+    "explicacao": "=== compara valor e tipo."
+  },
+  {
+    "id": "MC-225",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Qual estrutura repete um bloco enquanto a condição for verdadeira? (variação 3)",
+    "alternativas": [
+      "while",
+      "if",
+      "switch",
+      "return"
+    ],
+    "resposta_correta": "while",
+    "indice_resposta_correta": 0,
+    "explicacao": "while executa repetição baseada em condição."
+  },
+  {
+    "id": "MC-226",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Qual método adiciona item ao final de um array? (variação 3)",
+    "alternativas": [
+      "push()",
+      "pop()",
+      "shift()",
+      "map()"
+    ],
+    "resposta_correta": "push()",
+    "indice_resposta_correta": 0,
+    "explicacao": "push() adiciona ao final."
+  },
+  {
+    "id": "MC-227",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Qual método remove o último item de um array? (variação 3)",
+    "alternativas": [
+      "pop()",
+      "push()",
+      "unshift()",
+      "filter()"
+    ],
+    "resposta_correta": "pop()",
+    "indice_resposta_correta": 0,
+    "explicacao": "pop() remove o último item."
+  },
+  {
+    "id": "MC-228",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Qual tipo representa verdadeiro ou falso? (variação 3)",
+    "alternativas": [
+      "boolean",
+      "string",
+      "number",
+      "array"
+    ],
+    "resposta_correta": "boolean",
+    "indice_resposta_correta": 0,
+    "explicacao": "Boolean armazena true ou false."
+  },
+  {
+    "id": "MC-229",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Qual função converte texto para número inteiro? (variação 3)",
+    "alternativas": [
+      "parseInt()",
+      "String()",
+      "Boolean()",
+      "toText()"
+    ],
+    "resposta_correta": "parseInt()",
+    "indice_resposta_correta": 0,
+    "explicacao": "parseInt() tenta converter para inteiro."
+  },
+  {
+    "id": "MC-230",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Qual evento ocorre ao clicar em um elemento? (variação 3)",
+    "alternativas": [
+      "click",
+      "hover",
+      "loadText",
+      "pressMouse"
+    ],
+    "resposta_correta": "click",
+    "indice_resposta_correta": 0,
+    "explicacao": "click é disparado quando o usuário clica."
+  },
+  {
+    "id": "MC-231",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Qual palavra declara uma variável que pode mudar? (variação 4)",
+    "alternativas": [
+      "let",
+      "const",
+      "fixed",
+      "varname"
+    ],
+    "resposta_correta": "let",
+    "indice_resposta_correta": 0,
+    "explicacao": "let declara uma variável que pode receber novo valor."
+  },
+  {
+    "id": "MC-232",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Qual palavra declara uma constante? (variação 4)",
+    "alternativas": [
+      "const",
+      "let",
+      "change",
+      "static"
+    ],
+    "resposta_correta": "const",
+    "indice_resposta_correta": 0,
+    "explicacao": "const cria uma referência que não pode ser reatribuída."
+  },
+  {
+    "id": "MC-233",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Qual método mostra mensagem no console? (variação 4)",
+    "alternativas": [
+      "console.log()",
+      "print()",
+      "echo()",
+      "show()"
+    ],
+    "resposta_correta": "console.log()",
+    "indice_resposta_correta": 0,
+    "explicacao": "console.log() imprime no console do navegador ou Node."
+  },
+  {
+    "id": "MC-234",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Qual operador compara valor e tipo? (variação 4)",
+    "alternativas": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "resposta_correta": "===",
+    "indice_resposta_correta": 0,
+    "explicacao": "=== compara valor e tipo."
+  },
+  {
+    "id": "MC-235",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Qual estrutura repete um bloco enquanto a condição for verdadeira? (variação 4)",
+    "alternativas": [
+      "while",
+      "if",
+      "switch",
+      "return"
+    ],
+    "resposta_correta": "while",
+    "indice_resposta_correta": 0,
+    "explicacao": "while executa repetição baseada em condição."
+  },
+  {
+    "id": "MC-236",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Qual método adiciona item ao final de um array? (variação 4)",
+    "alternativas": [
+      "push()",
+      "pop()",
+      "shift()",
+      "map()"
+    ],
+    "resposta_correta": "push()",
+    "indice_resposta_correta": 0,
+    "explicacao": "push() adiciona ao final."
+  },
+  {
+    "id": "MC-237",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Qual método remove o último item de um array? (variação 4)",
+    "alternativas": [
+      "pop()",
+      "push()",
+      "unshift()",
+      "filter()"
+    ],
+    "resposta_correta": "pop()",
+    "indice_resposta_correta": 0,
+    "explicacao": "pop() remove o último item."
+  },
+  {
+    "id": "MC-238",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Qual tipo representa verdadeiro ou falso? (variação 4)",
+    "alternativas": [
+      "boolean",
+      "string",
+      "number",
+      "array"
+    ],
+    "resposta_correta": "boolean",
+    "indice_resposta_correta": 0,
+    "explicacao": "Boolean armazena true ou false."
+  },
+  {
+    "id": "MC-239",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Qual função converte texto para número inteiro? (variação 4)",
+    "alternativas": [
+      "parseInt()",
+      "String()",
+      "Boolean()",
+      "toText()"
+    ],
+    "resposta_correta": "parseInt()",
+    "indice_resposta_correta": 0,
+    "explicacao": "parseInt() tenta converter para inteiro."
+  },
+  {
+    "id": "MC-240",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Qual evento ocorre ao clicar em um elemento? (variação 4)",
+    "alternativas": [
+      "click",
+      "hover",
+      "loadText",
+      "pressMouse"
+    ],
+    "resposta_correta": "click",
+    "indice_resposta_correta": 0,
+    "explicacao": "click é disparado quando o usuário clica."
+  },
+  {
+    "id": "MC-241",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Qual palavra declara uma variável que pode mudar? (variação 5)",
+    "alternativas": [
+      "let",
+      "const",
+      "fixed",
+      "varname"
+    ],
+    "resposta_correta": "let",
+    "indice_resposta_correta": 0,
+    "explicacao": "let declara uma variável que pode receber novo valor."
+  },
+  {
+    "id": "MC-242",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Qual palavra declara uma constante? (variação 5)",
+    "alternativas": [
+      "const",
+      "let",
+      "change",
+      "static"
+    ],
+    "resposta_correta": "const",
+    "indice_resposta_correta": 0,
+    "explicacao": "const cria uma referência que não pode ser reatribuída."
+  },
+  {
+    "id": "MC-243",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Qual método mostra mensagem no console? (variação 5)",
+    "alternativas": [
+      "console.log()",
+      "print()",
+      "echo()",
+      "show()"
+    ],
+    "resposta_correta": "console.log()",
+    "indice_resposta_correta": 0,
+    "explicacao": "console.log() imprime no console do navegador ou Node."
+  },
+  {
+    "id": "MC-244",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Qual operador compara valor e tipo? (variação 5)",
+    "alternativas": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "resposta_correta": "===",
+    "indice_resposta_correta": 0,
+    "explicacao": "=== compara valor e tipo."
+  },
+  {
+    "id": "MC-245",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Qual estrutura repete um bloco enquanto a condição for verdadeira? (variação 5)",
+    "alternativas": [
+      "while",
+      "if",
+      "switch",
+      "return"
+    ],
+    "resposta_correta": "while",
+    "indice_resposta_correta": 0,
+    "explicacao": "while executa repetição baseada em condição."
+  },
+  {
+    "id": "MC-246",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Qual método adiciona item ao final de um array? (variação 5)",
+    "alternativas": [
+      "push()",
+      "pop()",
+      "shift()",
+      "map()"
+    ],
+    "resposta_correta": "push()",
+    "indice_resposta_correta": 0,
+    "explicacao": "push() adiciona ao final."
+  },
+  {
+    "id": "MC-247",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Qual método remove o último item de um array? (variação 5)",
+    "alternativas": [
+      "pop()",
+      "push()",
+      "unshift()",
+      "filter()"
+    ],
+    "resposta_correta": "pop()",
+    "indice_resposta_correta": 0,
+    "explicacao": "pop() remove o último item."
+  },
+  {
+    "id": "MC-248",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Qual tipo representa verdadeiro ou falso? (variação 5)",
+    "alternativas": [
+      "boolean",
+      "string",
+      "number",
+      "array"
+    ],
+    "resposta_correta": "boolean",
+    "indice_resposta_correta": 0,
+    "explicacao": "Boolean armazena true ou false."
+  },
+  {
+    "id": "MC-249",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Qual função converte texto para número inteiro? (variação 5)",
+    "alternativas": [
+      "parseInt()",
+      "String()",
+      "Boolean()",
+      "toText()"
+    ],
+    "resposta_correta": "parseInt()",
+    "indice_resposta_correta": 0,
+    "explicacao": "parseInt() tenta converter para inteiro."
+  },
+  {
+    "id": "MC-250",
+    "tipo": "multipla_escolha",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Qual evento ocorre ao clicar em um elemento? (variação 5)",
+    "alternativas": [
+      "click",
+      "hover",
+      "loadText",
+      "pressMouse"
+    ],
+    "resposta_correta": "click",
+    "indice_resposta_correta": 0,
+    "explicacao": "click é disparado quando o usuário clica."
+  },
+  {
+    "id": "AB-251",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre let e const.",
+    "resposta_esperada": "let permite reatribuição; const não permite reatribuir a mesma variável."
+  },
+  {
+    "id": "AB-252",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre == e ===.",
+    "resposta_esperada": "== compara com conversão de tipo; === compara valor e tipo sem conversão."
+  },
+  {
+    "id": "AB-253",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve uma função.",
+    "resposta_esperada": "Função agrupa um bloco de código reutilizável para executar uma tarefa."
+  },
+  {
+    "id": "AB-254",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Explique o que é um array.",
+    "resposta_esperada": "Array é uma estrutura que armazena vários valores em uma mesma variável."
+  },
+  {
+    "id": "AB-255",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve addEventListener.",
+    "resposta_esperada": "addEventListener registra uma função para ser executada quando um evento acontece."
+  },
+  {
+    "id": "AB-256",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Explique o que é DOM.",
+    "resposta_esperada": "DOM é a representação da página HTML em objetos que o JavaScript pode acessar e modificar."
+  },
+  {
+    "id": "AB-257",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Explique o que é uma condição if.",
+    "resposta_esperada": "if executa um bloco de código quando uma condição é verdadeira."
+  },
+  {
+    "id": "AB-258",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Explique o que é loop.",
+    "resposta_esperada": "Loop repete um bloco de código enquanto uma condição ou sequência permitir."
+  },
+  {
+    "id": "AB-259",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve map() em arrays.",
+    "resposta_esperada": "map cria um novo array transformando cada item do array original."
+  },
+  {
+    "id": "AB-260",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve filter() em arrays.",
+    "resposta_esperada": "filter cria um novo array apenas com itens que passam em uma condição."
+  },
+  {
+    "id": "AB-261",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre let e const. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "let permite reatribuição; const não permite reatribuir a mesma variável."
+  },
+  {
+    "id": "AB-262",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre == e ===. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "== compara com conversão de tipo; === compara valor e tipo sem conversão."
+  },
+  {
+    "id": "AB-263",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Função agrupa um bloco de código reutilizável para executar uma tarefa."
+  },
+  {
+    "id": "AB-264",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Explique o que é um array. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Array é uma estrutura que armazena vários valores em uma mesma variável."
+  },
+  {
+    "id": "AB-265",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve addEventListener. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "addEventListener registra uma função para ser executada quando um evento acontece."
+  },
+  {
+    "id": "AB-266",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Explique o que é DOM. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "DOM é a representação da página HTML em objetos que o JavaScript pode acessar e modificar."
+  },
+  {
+    "id": "AB-267",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Explique o que é uma condição if. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "if executa um bloco de código quando uma condição é verdadeira."
+  },
+  {
+    "id": "AB-268",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Explique o que é loop. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Loop repete um bloco de código enquanto uma condição ou sequência permitir."
+  },
+  {
+    "id": "AB-269",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve map() em arrays. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "map cria um novo array transformando cada item do array original."
+  },
+  {
+    "id": "AB-270",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve filter() em arrays. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "filter cria um novo array apenas com itens que passam em uma condição."
+  },
+  {
+    "id": "AB-271",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre let e const. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "let permite reatribuição; const não permite reatribuir a mesma variável."
+  },
+  {
+    "id": "AB-272",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre == e ===. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "== compara com conversão de tipo; === compara valor e tipo sem conversão."
+  },
+  {
+    "id": "AB-273",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Função agrupa um bloco de código reutilizável para executar uma tarefa."
+  },
+  {
+    "id": "AB-274",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Explique o que é um array. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Array é uma estrutura que armazena vários valores em uma mesma variável."
+  },
+  {
+    "id": "AB-275",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve addEventListener. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "addEventListener registra uma função para ser executada quando um evento acontece."
+  },
+  {
+    "id": "AB-276",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Explique o que é DOM. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "DOM é a representação da página HTML em objetos que o JavaScript pode acessar e modificar."
+  },
+  {
+    "id": "AB-277",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Explique o que é uma condição if. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "if executa um bloco de código quando uma condição é verdadeira."
+  },
+  {
+    "id": "AB-278",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Explique o que é loop. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Loop repete um bloco de código enquanto uma condição ou sequência permitir."
+  },
+  {
+    "id": "AB-279",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve map() em arrays. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "map cria um novo array transformando cada item do array original."
+  },
+  {
+    "id": "AB-280",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve filter() em arrays. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "filter cria um novo array apenas com itens que passam em uma condição."
+  },
+  {
+    "id": "AB-281",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre let e const. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "let permite reatribuição; const não permite reatribuir a mesma variável."
+  },
+  {
+    "id": "AB-282",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre == e ===. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "== compara com conversão de tipo; === compara valor e tipo sem conversão."
+  },
+  {
+    "id": "AB-283",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Função agrupa um bloco de código reutilizável para executar uma tarefa."
+  },
+  {
+    "id": "AB-284",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Explique o que é um array. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Array é uma estrutura que armazena vários valores em uma mesma variável."
+  },
+  {
+    "id": "AB-285",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve addEventListener. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "addEventListener registra uma função para ser executada quando um evento acontece."
+  },
+  {
+    "id": "AB-286",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Explique o que é DOM. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "DOM é a representação da página HTML em objetos que o JavaScript pode acessar e modificar."
+  },
+  {
+    "id": "AB-287",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Explique o que é uma condição if. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "if executa um bloco de código quando uma condição é verdadeira."
+  },
+  {
+    "id": "AB-288",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Explique o que é loop. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Loop repete um bloco de código enquanto uma condição ou sequência permitir."
+  },
+  {
+    "id": "AB-289",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve map() em arrays. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "map cria um novo array transformando cada item do array original."
+  },
+  {
+    "id": "AB-290",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve filter() em arrays. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "filter cria um novo array apenas com itens que passam em uma condição."
+  },
+  {
+    "id": "AB-291",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre let e const. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "let permite reatribuição; const não permite reatribuir a mesma variável."
+  },
+  {
+    "id": "AB-292",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre == e ===. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "== compara com conversão de tipo; === compara valor e tipo sem conversão."
+  },
+  {
+    "id": "AB-293",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Função agrupa um bloco de código reutilizável para executar uma tarefa."
+  },
+  {
+    "id": "AB-294",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Explique o que é um array. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Array é uma estrutura que armazena vários valores em uma mesma variável."
+  },
+  {
+    "id": "AB-295",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve addEventListener. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "addEventListener registra uma função para ser executada quando um evento acontece."
+  },
+  {
+    "id": "AB-296",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Explique o que é DOM. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "DOM é a representação da página HTML em objetos que o JavaScript pode acessar e modificar."
+  },
+  {
+    "id": "AB-297",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Explique o que é uma condição if. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "if executa um bloco de código quando uma condição é verdadeira."
+  },
+  {
+    "id": "AB-298",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Explique o que é loop. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Loop repete um bloco de código enquanto uma condição ou sequência permitir."
+  },
+  {
+    "id": "AB-299",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve map() em arrays. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "map cria um novo array transformando cada item do array original."
+  },
+  {
+    "id": "AB-300",
+    "tipo": "resposta_escrita",
+    "materia": "JavaScript",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve filter() em arrays. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "filter cria um novo array apenas com itens que passam em uma condição."
+  },
+  {
+    "id": "MC-301",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Qual comando exibe texto na tela?",
+    "alternativas": [
+      "print()",
+      "echo()",
+      "console.log()",
+      "mostrar()"
+    ],
+    "resposta_correta": "print()",
+    "indice_resposta_correta": 0,
+    "explicacao": "print() exibe informações no terminal."
+  },
+  {
+    "id": "MC-302",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Qual função lê dados digitados pelo usuário?",
+    "alternativas": [
+      "input()",
+      "read()",
+      "scan()",
+      "prompt()"
+    ],
+    "resposta_correta": "input()",
+    "indice_resposta_correta": 0,
+    "explicacao": "input() recebe texto digitado pelo usuário."
+  },
+  {
+    "id": "MC-303",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Qual estrutura cria repetição com contador ou sequência?",
+    "alternativas": [
+      "for",
+      "if",
+      "def",
+      "try"
+    ],
+    "resposta_correta": "for",
+    "indice_resposta_correta": 0,
+    "explicacao": "for percorre sequências e intervalos."
+  },
+  {
+    "id": "MC-304",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Qual estrutura repete enquanto uma condição for verdadeira?",
+    "alternativas": [
+      "while",
+      "for",
+      "class",
+      "import"
+    ],
+    "resposta_correta": "while",
+    "indice_resposta_correta": 0,
+    "explicacao": "while repete com base em condição."
+  },
+  {
+    "id": "MC-305",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Qual tipo representa uma lista mutável?",
+    "alternativas": [
+      "list",
+      "tuple",
+      "str",
+      "int"
+    ],
+    "resposta_correta": "list",
+    "indice_resposta_correta": 0,
+    "explicacao": "list é uma coleção mutável."
+  },
+  {
+    "id": "MC-306",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Qual método adiciona item ao final de uma lista?",
+    "alternativas": [
+      "append()",
+      "addEnd()",
+      "push()",
+      "insertEnd()"
+    ],
+    "resposta_correta": "append()",
+    "indice_resposta_correta": 0,
+    "explicacao": "append() adiciona item ao final."
+  },
+  {
+    "id": "MC-307",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Qual palavra cria uma função?",
+    "alternativas": [
+      "def",
+      "function",
+      "fun",
+      "lambda"
+    ],
+    "resposta_correta": "def",
+    "indice_resposta_correta": 0,
+    "explicacao": "def define uma função nomeada."
+  },
+  {
+    "id": "MC-308",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Qual operador calcula o resto da divisão?",
+    "alternativas": [
+      "%",
+      "//",
+      "/",
+      "**"
+    ],
+    "resposta_correta": "%",
+    "indice_resposta_correta": 0,
+    "explicacao": "% retorna o resto da divisão."
+  },
+  {
+    "id": "MC-309",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Qual operador calcula potência?",
+    "alternativas": [
+      "**",
+      "^",
+      "pow:",
+      "%%"
+    ],
+    "resposta_correta": "**",
+    "indice_resposta_correta": 0,
+    "explicacao": "** é usado para exponenciação."
+  },
+  {
+    "id": "MC-310",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Qual comando importa uma biblioteca?",
+    "alternativas": [
+      "import",
+      "include",
+      "using",
+      "require"
+    ],
+    "resposta_correta": "import",
+    "indice_resposta_correta": 0,
+    "explicacao": "import carrega módulos em Python."
+  },
+  {
+    "id": "MC-311",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Qual comando exibe texto na tela? (variação 2)",
+    "alternativas": [
+      "print()",
+      "echo()",
+      "console.log()",
+      "mostrar()"
+    ],
+    "resposta_correta": "print()",
+    "indice_resposta_correta": 0,
+    "explicacao": "print() exibe informações no terminal."
+  },
+  {
+    "id": "MC-312",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Qual função lê dados digitados pelo usuário? (variação 2)",
+    "alternativas": [
+      "input()",
+      "read()",
+      "scan()",
+      "prompt()"
+    ],
+    "resposta_correta": "input()",
+    "indice_resposta_correta": 0,
+    "explicacao": "input() recebe texto digitado pelo usuário."
+  },
+  {
+    "id": "MC-313",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Qual estrutura cria repetição com contador ou sequência? (variação 2)",
+    "alternativas": [
+      "for",
+      "if",
+      "def",
+      "try"
+    ],
+    "resposta_correta": "for",
+    "indice_resposta_correta": 0,
+    "explicacao": "for percorre sequências e intervalos."
+  },
+  {
+    "id": "MC-314",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Qual estrutura repete enquanto uma condição for verdadeira? (variação 2)",
+    "alternativas": [
+      "while",
+      "for",
+      "class",
+      "import"
+    ],
+    "resposta_correta": "while",
+    "indice_resposta_correta": 0,
+    "explicacao": "while repete com base em condição."
+  },
+  {
+    "id": "MC-315",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Qual tipo representa uma lista mutável? (variação 2)",
+    "alternativas": [
+      "list",
+      "tuple",
+      "str",
+      "int"
+    ],
+    "resposta_correta": "list",
+    "indice_resposta_correta": 0,
+    "explicacao": "list é uma coleção mutável."
+  },
+  {
+    "id": "MC-316",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Qual método adiciona item ao final de uma lista? (variação 2)",
+    "alternativas": [
+      "append()",
+      "addEnd()",
+      "push()",
+      "insertEnd()"
+    ],
+    "resposta_correta": "append()",
+    "indice_resposta_correta": 0,
+    "explicacao": "append() adiciona item ao final."
+  },
+  {
+    "id": "MC-317",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Qual palavra cria uma função? (variação 2)",
+    "alternativas": [
+      "def",
+      "function",
+      "fun",
+      "lambda"
+    ],
+    "resposta_correta": "def",
+    "indice_resposta_correta": 0,
+    "explicacao": "def define uma função nomeada."
+  },
+  {
+    "id": "MC-318",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Qual operador calcula o resto da divisão? (variação 2)",
+    "alternativas": [
+      "%",
+      "//",
+      "/",
+      "**"
+    ],
+    "resposta_correta": "%",
+    "indice_resposta_correta": 0,
+    "explicacao": "% retorna o resto da divisão."
+  },
+  {
+    "id": "MC-319",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Qual operador calcula potência? (variação 2)",
+    "alternativas": [
+      "**",
+      "^",
+      "pow:",
+      "%%"
+    ],
+    "resposta_correta": "**",
+    "indice_resposta_correta": 0,
+    "explicacao": "** é usado para exponenciação."
+  },
+  {
+    "id": "MC-320",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Qual comando importa uma biblioteca? (variação 2)",
+    "alternativas": [
+      "import",
+      "include",
+      "using",
+      "require"
+    ],
+    "resposta_correta": "import",
+    "indice_resposta_correta": 0,
+    "explicacao": "import carrega módulos em Python."
+  },
+  {
+    "id": "MC-321",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Qual comando exibe texto na tela? (variação 3)",
+    "alternativas": [
+      "print()",
+      "echo()",
+      "console.log()",
+      "mostrar()"
+    ],
+    "resposta_correta": "print()",
+    "indice_resposta_correta": 0,
+    "explicacao": "print() exibe informações no terminal."
+  },
+  {
+    "id": "MC-322",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Qual função lê dados digitados pelo usuário? (variação 3)",
+    "alternativas": [
+      "input()",
+      "read()",
+      "scan()",
+      "prompt()"
+    ],
+    "resposta_correta": "input()",
+    "indice_resposta_correta": 0,
+    "explicacao": "input() recebe texto digitado pelo usuário."
+  },
+  {
+    "id": "MC-323",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Qual estrutura cria repetição com contador ou sequência? (variação 3)",
+    "alternativas": [
+      "for",
+      "if",
+      "def",
+      "try"
+    ],
+    "resposta_correta": "for",
+    "indice_resposta_correta": 0,
+    "explicacao": "for percorre sequências e intervalos."
+  },
+  {
+    "id": "MC-324",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Qual estrutura repete enquanto uma condição for verdadeira? (variação 3)",
+    "alternativas": [
+      "while",
+      "for",
+      "class",
+      "import"
+    ],
+    "resposta_correta": "while",
+    "indice_resposta_correta": 0,
+    "explicacao": "while repete com base em condição."
+  },
+  {
+    "id": "MC-325",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Qual tipo representa uma lista mutável? (variação 3)",
+    "alternativas": [
+      "list",
+      "tuple",
+      "str",
+      "int"
+    ],
+    "resposta_correta": "list",
+    "indice_resposta_correta": 0,
+    "explicacao": "list é uma coleção mutável."
+  },
+  {
+    "id": "MC-326",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Qual método adiciona item ao final de uma lista? (variação 3)",
+    "alternativas": [
+      "append()",
+      "addEnd()",
+      "push()",
+      "insertEnd()"
+    ],
+    "resposta_correta": "append()",
+    "indice_resposta_correta": 0,
+    "explicacao": "append() adiciona item ao final."
+  },
+  {
+    "id": "MC-327",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Qual palavra cria uma função? (variação 3)",
+    "alternativas": [
+      "def",
+      "function",
+      "fun",
+      "lambda"
+    ],
+    "resposta_correta": "def",
+    "indice_resposta_correta": 0,
+    "explicacao": "def define uma função nomeada."
+  },
+  {
+    "id": "MC-328",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Qual operador calcula o resto da divisão? (variação 3)",
+    "alternativas": [
+      "%",
+      "//",
+      "/",
+      "**"
+    ],
+    "resposta_correta": "%",
+    "indice_resposta_correta": 0,
+    "explicacao": "% retorna o resto da divisão."
+  },
+  {
+    "id": "MC-329",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Qual operador calcula potência? (variação 3)",
+    "alternativas": [
+      "**",
+      "^",
+      "pow:",
+      "%%"
+    ],
+    "resposta_correta": "**",
+    "indice_resposta_correta": 0,
+    "explicacao": "** é usado para exponenciação."
+  },
+  {
+    "id": "MC-330",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Qual comando importa uma biblioteca? (variação 3)",
+    "alternativas": [
+      "import",
+      "include",
+      "using",
+      "require"
+    ],
+    "resposta_correta": "import",
+    "indice_resposta_correta": 0,
+    "explicacao": "import carrega módulos em Python."
+  },
+  {
+    "id": "MC-331",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Qual comando exibe texto na tela? (variação 4)",
+    "alternativas": [
+      "print()",
+      "echo()",
+      "console.log()",
+      "mostrar()"
+    ],
+    "resposta_correta": "print()",
+    "indice_resposta_correta": 0,
+    "explicacao": "print() exibe informações no terminal."
+  },
+  {
+    "id": "MC-332",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Qual função lê dados digitados pelo usuário? (variação 4)",
+    "alternativas": [
+      "input()",
+      "read()",
+      "scan()",
+      "prompt()"
+    ],
+    "resposta_correta": "input()",
+    "indice_resposta_correta": 0,
+    "explicacao": "input() recebe texto digitado pelo usuário."
+  },
+  {
+    "id": "MC-333",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Qual estrutura cria repetição com contador ou sequência? (variação 4)",
+    "alternativas": [
+      "for",
+      "if",
+      "def",
+      "try"
+    ],
+    "resposta_correta": "for",
+    "indice_resposta_correta": 0,
+    "explicacao": "for percorre sequências e intervalos."
+  },
+  {
+    "id": "MC-334",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Qual estrutura repete enquanto uma condição for verdadeira? (variação 4)",
+    "alternativas": [
+      "while",
+      "for",
+      "class",
+      "import"
+    ],
+    "resposta_correta": "while",
+    "indice_resposta_correta": 0,
+    "explicacao": "while repete com base em condição."
+  },
+  {
+    "id": "MC-335",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Qual tipo representa uma lista mutável? (variação 4)",
+    "alternativas": [
+      "list",
+      "tuple",
+      "str",
+      "int"
+    ],
+    "resposta_correta": "list",
+    "indice_resposta_correta": 0,
+    "explicacao": "list é uma coleção mutável."
+  },
+  {
+    "id": "MC-336",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Qual método adiciona item ao final de uma lista? (variação 4)",
+    "alternativas": [
+      "append()",
+      "addEnd()",
+      "push()",
+      "insertEnd()"
+    ],
+    "resposta_correta": "append()",
+    "indice_resposta_correta": 0,
+    "explicacao": "append() adiciona item ao final."
+  },
+  {
+    "id": "MC-337",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Qual palavra cria uma função? (variação 4)",
+    "alternativas": [
+      "def",
+      "function",
+      "fun",
+      "lambda"
+    ],
+    "resposta_correta": "def",
+    "indice_resposta_correta": 0,
+    "explicacao": "def define uma função nomeada."
+  },
+  {
+    "id": "MC-338",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Qual operador calcula o resto da divisão? (variação 4)",
+    "alternativas": [
+      "%",
+      "//",
+      "/",
+      "**"
+    ],
+    "resposta_correta": "%",
+    "indice_resposta_correta": 0,
+    "explicacao": "% retorna o resto da divisão."
+  },
+  {
+    "id": "MC-339",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Qual operador calcula potência? (variação 4)",
+    "alternativas": [
+      "**",
+      "^",
+      "pow:",
+      "%%"
+    ],
+    "resposta_correta": "**",
+    "indice_resposta_correta": 0,
+    "explicacao": "** é usado para exponenciação."
+  },
+  {
+    "id": "MC-340",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Qual comando importa uma biblioteca? (variação 4)",
+    "alternativas": [
+      "import",
+      "include",
+      "using",
+      "require"
+    ],
+    "resposta_correta": "import",
+    "indice_resposta_correta": 0,
+    "explicacao": "import carrega módulos em Python."
+  },
+  {
+    "id": "MC-341",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Qual comando exibe texto na tela? (variação 5)",
+    "alternativas": [
+      "print()",
+      "echo()",
+      "console.log()",
+      "mostrar()"
+    ],
+    "resposta_correta": "print()",
+    "indice_resposta_correta": 0,
+    "explicacao": "print() exibe informações no terminal."
+  },
+  {
+    "id": "MC-342",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Qual função lê dados digitados pelo usuário? (variação 5)",
+    "alternativas": [
+      "input()",
+      "read()",
+      "scan()",
+      "prompt()"
+    ],
+    "resposta_correta": "input()",
+    "indice_resposta_correta": 0,
+    "explicacao": "input() recebe texto digitado pelo usuário."
+  },
+  {
+    "id": "MC-343",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Qual estrutura cria repetição com contador ou sequência? (variação 5)",
+    "alternativas": [
+      "for",
+      "if",
+      "def",
+      "try"
+    ],
+    "resposta_correta": "for",
+    "indice_resposta_correta": 0,
+    "explicacao": "for percorre sequências e intervalos."
+  },
+  {
+    "id": "MC-344",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Qual estrutura repete enquanto uma condição for verdadeira? (variação 5)",
+    "alternativas": [
+      "while",
+      "for",
+      "class",
+      "import"
+    ],
+    "resposta_correta": "while",
+    "indice_resposta_correta": 0,
+    "explicacao": "while repete com base em condição."
+  },
+  {
+    "id": "MC-345",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Qual tipo representa uma lista mutável? (variação 5)",
+    "alternativas": [
+      "list",
+      "tuple",
+      "str",
+      "int"
+    ],
+    "resposta_correta": "list",
+    "indice_resposta_correta": 0,
+    "explicacao": "list é uma coleção mutável."
+  },
+  {
+    "id": "MC-346",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Qual método adiciona item ao final de uma lista? (variação 5)",
+    "alternativas": [
+      "append()",
+      "addEnd()",
+      "push()",
+      "insertEnd()"
+    ],
+    "resposta_correta": "append()",
+    "indice_resposta_correta": 0,
+    "explicacao": "append() adiciona item ao final."
+  },
+  {
+    "id": "MC-347",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Qual palavra cria uma função? (variação 5)",
+    "alternativas": [
+      "def",
+      "function",
+      "fun",
+      "lambda"
+    ],
+    "resposta_correta": "def",
+    "indice_resposta_correta": 0,
+    "explicacao": "def define uma função nomeada."
+  },
+  {
+    "id": "MC-348",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Qual operador calcula o resto da divisão? (variação 5)",
+    "alternativas": [
+      "%",
+      "//",
+      "/",
+      "**"
+    ],
+    "resposta_correta": "%",
+    "indice_resposta_correta": 0,
+    "explicacao": "% retorna o resto da divisão."
+  },
+  {
+    "id": "MC-349",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Qual operador calcula potência? (variação 5)",
+    "alternativas": [
+      "**",
+      "^",
+      "pow:",
+      "%%"
+    ],
+    "resposta_correta": "**",
+    "indice_resposta_correta": 0,
+    "explicacao": "** é usado para exponenciação."
+  },
+  {
+    "id": "MC-350",
+    "tipo": "multipla_escolha",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Qual comando importa uma biblioteca? (variação 5)",
+    "alternativas": [
+      "import",
+      "include",
+      "using",
+      "require"
+    ],
+    "resposta_correta": "import",
+    "indice_resposta_correta": 0,
+    "explicacao": "import carrega módulos em Python."
+  },
+  {
+    "id": "AB-351",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre lista e tupla.",
+    "resposta_esperada": "Lista é mutável; tupla é imutável."
+  },
+  {
+    "id": "AB-352",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve o input().",
+    "resposta_esperada": "input lê dados digitados pelo usuário e retorna texto."
+  },
+  {
+    "id": "AB-353",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve o for.",
+    "resposta_esperada": "for percorre sequências como listas, strings e ranges."
+  },
+  {
+    "id": "AB-354",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve o while.",
+    "resposta_esperada": "while repete um bloco enquanto uma condição for verdadeira."
+  },
+  {
+    "id": "AB-355",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Explique o que é indentação em Python.",
+    "resposta_esperada": "Indentação define blocos de código em Python."
+  },
+  {
+    "id": "AB-356",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve uma função.",
+    "resposta_esperada": "Função organiza e reutiliza código para executar uma tarefa específica."
+  },
+  {
+    "id": "AB-357",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Explique o que é dicionário em Python.",
+    "resposta_esperada": "Dicionário armazena pares de chave e valor."
+  },
+  {
+    "id": "AB-358",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Explique para que serve try/except.",
+    "resposta_esperada": "try/except trata erros para evitar que o programa pare inesperadamente."
+  },
+  {
+    "id": "AB-359",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre append() e insert().",
+    "resposta_esperada": "append adiciona no final da lista; insert adiciona em uma posição específica."
+  },
+  {
+    "id": "AB-360",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "iniciante",
+    "pergunta": "Explique o que o operador % faz.",
+    "resposta_esperada": "% retorna o resto da divisão."
+  },
+  {
+    "id": "AB-361",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre lista e tupla. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Lista é mutável; tupla é imutável."
+  },
+  {
+    "id": "AB-362",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve o input(). Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "input lê dados digitados pelo usuário e retorna texto."
+  },
+  {
+    "id": "AB-363",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve o for. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "for percorre sequências como listas, strings e ranges."
+  },
+  {
+    "id": "AB-364",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve o while. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "while repete um bloco enquanto uma condição for verdadeira."
+  },
+  {
+    "id": "AB-365",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Explique o que é indentação em Python. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Indentação define blocos de código em Python."
+  },
+  {
+    "id": "AB-366",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Função organiza e reutiliza código para executar uma tarefa específica."
+  },
+  {
+    "id": "AB-367",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Explique o que é dicionário em Python. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Dicionário armazena pares de chave e valor."
+  },
+  {
+    "id": "AB-368",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Explique para que serve try/except. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "try/except trata erros para evitar que o programa pare inesperadamente."
+  },
+  {
+    "id": "AB-369",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre append() e insert(). Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "append adiciona no final da lista; insert adiciona em uma posição específica."
+  },
+  {
+    "id": "AB-370",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "básico",
+    "pergunta": "Explique o que o operador % faz. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "% retorna o resto da divisão."
+  },
+  {
+    "id": "AB-371",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre lista e tupla. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Lista é mutável; tupla é imutável."
+  },
+  {
+    "id": "AB-372",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve o input(). Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "input lê dados digitados pelo usuário e retorna texto."
+  },
+  {
+    "id": "AB-373",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve o for. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "for percorre sequências como listas, strings e ranges."
+  },
+  {
+    "id": "AB-374",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve o while. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "while repete um bloco enquanto uma condição for verdadeira."
+  },
+  {
+    "id": "AB-375",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Explique o que é indentação em Python. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Indentação define blocos de código em Python."
+  },
+  {
+    "id": "AB-376",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Função organiza e reutiliza código para executar uma tarefa específica."
+  },
+  {
+    "id": "AB-377",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Explique o que é dicionário em Python. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Dicionário armazena pares de chave e valor."
+  },
+  {
+    "id": "AB-378",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Explique para que serve try/except. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "try/except trata erros para evitar que o programa pare inesperadamente."
+  },
+  {
+    "id": "AB-379",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre append() e insert(). Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "append adiciona no final da lista; insert adiciona em uma posição específica."
+  },
+  {
+    "id": "AB-380",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário",
+    "pergunta": "Explique o que o operador % faz. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "% retorna o resto da divisão."
+  },
+  {
+    "id": "AB-381",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre lista e tupla. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Lista é mutável; tupla é imutável."
+  },
+  {
+    "id": "AB-382",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve o input(). Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "input lê dados digitados pelo usuário e retorna texto."
+  },
+  {
+    "id": "AB-383",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve o for. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "for percorre sequências como listas, strings e ranges."
+  },
+  {
+    "id": "AB-384",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve o while. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "while repete um bloco enquanto uma condição for verdadeira."
+  },
+  {
+    "id": "AB-385",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Explique o que é indentação em Python. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Indentação define blocos de código em Python."
+  },
+  {
+    "id": "AB-386",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Função organiza e reutiliza código para executar uma tarefa específica."
+  },
+  {
+    "id": "AB-387",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Explique o que é dicionário em Python. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Dicionário armazena pares de chave e valor."
+  },
+  {
+    "id": "AB-388",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Explique para que serve try/except. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "try/except trata erros para evitar que o programa pare inesperadamente."
+  },
+  {
+    "id": "AB-389",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre append() e insert(). Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "append adiciona no final da lista; insert adiciona em uma posição específica."
+  },
+  {
+    "id": "AB-390",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "intermediário+",
+    "pergunta": "Explique o que o operador % faz. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "% retorna o resto da divisão."
+  },
+  {
+    "id": "AB-391",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre lista e tupla. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Lista é mutável; tupla é imutável."
+  },
+  {
+    "id": "AB-392",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve o input(). Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "input lê dados digitados pelo usuário e retorna texto."
+  },
+  {
+    "id": "AB-393",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve o for. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "for percorre sequências como listas, strings e ranges."
+  },
+  {
+    "id": "AB-394",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve o while. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "while repete um bloco enquanto uma condição for verdadeira."
+  },
+  {
+    "id": "AB-395",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Explique o que é indentação em Python. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Indentação define blocos de código em Python."
+  },
+  {
+    "id": "AB-396",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve uma função. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Função organiza e reutiliza código para executar uma tarefa específica."
+  },
+  {
+    "id": "AB-397",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Explique o que é dicionário em Python. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Dicionário armazena pares de chave e valor."
+  },
+  {
+    "id": "AB-398",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Explique para que serve try/except. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "try/except trata erros para evitar que o programa pare inesperadamente."
+  },
+  {
+    "id": "AB-399",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre append() e insert(). Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "append adiciona no final da lista; insert adiciona em uma posição específica."
+  },
+  {
+    "id": "AB-400",
+    "tipo": "resposta_escrita",
+    "materia": "Python",
+    "nivel": "revisão",
+    "pergunta": "Explique o que o operador % faz. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "% retorna o resto da divisão."
+  },
+  {
+    "id": "MC-401",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Qual alternativa completa: I have ____ finished my homework.",
+    "alternativas": [
+      "already",
+      "yet",
+      "never",
+      "soon"
+    ],
+    "resposta_correta": "already",
+    "indice_resposta_correta": 0,
+    "explicacao": "Already é comum em frases afirmativas com present perfect."
+  },
+  {
+    "id": "MC-402",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Qual frase está no present perfect?",
+    "alternativas": [
+      "I have studied English.",
+      "I study English yesterday.",
+      "I am study English.",
+      "I studied English tomorrow."
+    ],
+    "resposta_correta": "I have studied English.",
+    "indice_resposta_correta": 0,
+    "explicacao": "Have + particípio forma o present perfect."
+  },
+  {
+    "id": "MC-403",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Qual alternativa significa 'embora'?",
+    "alternativas": [
+      "although",
+      "because",
+      "therefore",
+      "beside"
+    ],
+    "resposta_correta": "although",
+    "indice_resposta_correta": 0,
+    "explicacao": "Although significa embora."
+  },
+  {
+    "id": "MC-404",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Qual opção completa: She has lived here ____ 2020.",
+    "alternativas": [
+      "since",
+      "for",
+      "during",
+      "until"
+    ],
+    "resposta_correta": "since",
+    "indice_resposta_correta": 0,
+    "explicacao": "Since é usado com ponto inicial no tempo."
+  },
+  {
+    "id": "MC-405",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Qual opção completa: They have worked here ____ three years.",
+    "alternativas": [
+      "for",
+      "since",
+      "ago",
+      "until"
+    ],
+    "resposta_correta": "for",
+    "indice_resposta_correta": 0,
+    "explicacao": "For é usado com duração."
+  },
+  {
+    "id": "MC-406",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Qual frase usa comparação corretamente?",
+    "alternativas": [
+      "This book is more interesting than that one.",
+      "This book is interestinger than that one.",
+      "This book is most interesting than that one.",
+      "This book is more interesting that that one."
+    ],
+    "resposta_correta": "This book is more interesting than that one.",
+    "indice_resposta_correta": 0,
+    "explicacao": "More interesting than é a forma correta."
+  },
+  {
+    "id": "MC-407",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Qual alternativa indica possibilidade?",
+    "alternativas": [
+      "might",
+      "must",
+      "should",
+      "have to"
+    ],
+    "resposta_correta": "might",
+    "indice_resposta_correta": 0,
+    "explicacao": "Might indica possibilidade."
+  },
+  {
+    "id": "MC-408",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Qual alternativa indica conselho?",
+    "alternativas": [
+      "should",
+      "can",
+      "will",
+      "did"
+    ],
+    "resposta_correta": "should",
+    "indice_resposta_correta": 0,
+    "explicacao": "Should é usado para dar conselho."
+  },
+  {
+    "id": "MC-409",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Qual opção completa: If I study, I ____ pass the test.",
+    "alternativas": [
+      "will",
+      "would",
+      "was",
+      "did"
+    ],
+    "resposta_correta": "will",
+    "indice_resposta_correta": 0,
+    "explicacao": "First conditional usa if + presente, will + verbo."
+  },
+  {
+    "id": "MC-410",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Qual alternativa é phrasal verb de 'desistir'?",
+    "alternativas": [
+      "give up",
+      "look for",
+      "turn on",
+      "take off"
+    ],
+    "resposta_correta": "give up",
+    "indice_resposta_correta": 0,
+    "explicacao": "Give up significa desistir."
+  },
+  {
+    "id": "MC-411",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Qual alternativa completa: I have ____ finished my homework. (variação 2)",
+    "alternativas": [
+      "already",
+      "yet",
+      "never",
+      "soon"
+    ],
+    "resposta_correta": "already",
+    "indice_resposta_correta": 0,
+    "explicacao": "Already é comum em frases afirmativas com present perfect."
+  },
+  {
+    "id": "MC-412",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Qual frase está no present perfect? (variação 2)",
+    "alternativas": [
+      "I have studied English.",
+      "I study English yesterday.",
+      "I am study English.",
+      "I studied English tomorrow."
+    ],
+    "resposta_correta": "I have studied English.",
+    "indice_resposta_correta": 0,
+    "explicacao": "Have + particípio forma o present perfect."
+  },
+  {
+    "id": "MC-413",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Qual alternativa significa 'embora'? (variação 2)",
+    "alternativas": [
+      "although",
+      "because",
+      "therefore",
+      "beside"
+    ],
+    "resposta_correta": "although",
+    "indice_resposta_correta": 0,
+    "explicacao": "Although significa embora."
+  },
+  {
+    "id": "MC-414",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Qual opção completa: She has lived here ____ 2020. (variação 2)",
+    "alternativas": [
+      "since",
+      "for",
+      "during",
+      "until"
+    ],
+    "resposta_correta": "since",
+    "indice_resposta_correta": 0,
+    "explicacao": "Since é usado com ponto inicial no tempo."
+  },
+  {
+    "id": "MC-415",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Qual opção completa: They have worked here ____ three years. (variação 2)",
+    "alternativas": [
+      "for",
+      "since",
+      "ago",
+      "until"
+    ],
+    "resposta_correta": "for",
+    "indice_resposta_correta": 0,
+    "explicacao": "For é usado com duração."
+  },
+  {
+    "id": "MC-416",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Qual frase usa comparação corretamente? (variação 2)",
+    "alternativas": [
+      "This book is more interesting than that one.",
+      "This book is interestinger than that one.",
+      "This book is most interesting than that one.",
+      "This book is more interesting that that one."
+    ],
+    "resposta_correta": "This book is more interesting than that one.",
+    "indice_resposta_correta": 0,
+    "explicacao": "More interesting than é a forma correta."
+  },
+  {
+    "id": "MC-417",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Qual alternativa indica possibilidade? (variação 2)",
+    "alternativas": [
+      "might",
+      "must",
+      "should",
+      "have to"
+    ],
+    "resposta_correta": "might",
+    "indice_resposta_correta": 0,
+    "explicacao": "Might indica possibilidade."
+  },
+  {
+    "id": "MC-418",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Qual alternativa indica conselho? (variação 2)",
+    "alternativas": [
+      "should",
+      "can",
+      "will",
+      "did"
+    ],
+    "resposta_correta": "should",
+    "indice_resposta_correta": 0,
+    "explicacao": "Should é usado para dar conselho."
+  },
+  {
+    "id": "MC-419",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Qual opção completa: If I study, I ____ pass the test. (variação 2)",
+    "alternativas": [
+      "will",
+      "would",
+      "was",
+      "did"
+    ],
+    "resposta_correta": "will",
+    "indice_resposta_correta": 0,
+    "explicacao": "First conditional usa if + presente, will + verbo."
+  },
+  {
+    "id": "MC-420",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Qual alternativa é phrasal verb de 'desistir'? (variação 2)",
+    "alternativas": [
+      "give up",
+      "look for",
+      "turn on",
+      "take off"
+    ],
+    "resposta_correta": "give up",
+    "indice_resposta_correta": 0,
+    "explicacao": "Give up significa desistir."
+  },
+  {
+    "id": "MC-421",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Qual alternativa completa: I have ____ finished my homework. (variação 3)",
+    "alternativas": [
+      "already",
+      "yet",
+      "never",
+      "soon"
+    ],
+    "resposta_correta": "already",
+    "indice_resposta_correta": 0,
+    "explicacao": "Already é comum em frases afirmativas com present perfect."
+  },
+  {
+    "id": "MC-422",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Qual frase está no present perfect? (variação 3)",
+    "alternativas": [
+      "I have studied English.",
+      "I study English yesterday.",
+      "I am study English.",
+      "I studied English tomorrow."
+    ],
+    "resposta_correta": "I have studied English.",
+    "indice_resposta_correta": 0,
+    "explicacao": "Have + particípio forma o present perfect."
+  },
+  {
+    "id": "MC-423",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Qual alternativa significa 'embora'? (variação 3)",
+    "alternativas": [
+      "although",
+      "because",
+      "therefore",
+      "beside"
+    ],
+    "resposta_correta": "although",
+    "indice_resposta_correta": 0,
+    "explicacao": "Although significa embora."
+  },
+  {
+    "id": "MC-424",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Qual opção completa: She has lived here ____ 2020. (variação 3)",
+    "alternativas": [
+      "since",
+      "for",
+      "during",
+      "until"
+    ],
+    "resposta_correta": "since",
+    "indice_resposta_correta": 0,
+    "explicacao": "Since é usado com ponto inicial no tempo."
+  },
+  {
+    "id": "MC-425",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Qual opção completa: They have worked here ____ three years. (variação 3)",
+    "alternativas": [
+      "for",
+      "since",
+      "ago",
+      "until"
+    ],
+    "resposta_correta": "for",
+    "indice_resposta_correta": 0,
+    "explicacao": "For é usado com duração."
+  },
+  {
+    "id": "MC-426",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Qual frase usa comparação corretamente? (variação 3)",
+    "alternativas": [
+      "This book is more interesting than that one.",
+      "This book is interestinger than that one.",
+      "This book is most interesting than that one.",
+      "This book is more interesting that that one."
+    ],
+    "resposta_correta": "This book is more interesting than that one.",
+    "indice_resposta_correta": 0,
+    "explicacao": "More interesting than é a forma correta."
+  },
+  {
+    "id": "MC-427",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Qual alternativa indica possibilidade? (variação 3)",
+    "alternativas": [
+      "might",
+      "must",
+      "should",
+      "have to"
+    ],
+    "resposta_correta": "might",
+    "indice_resposta_correta": 0,
+    "explicacao": "Might indica possibilidade."
+  },
+  {
+    "id": "MC-428",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Qual alternativa indica conselho? (variação 3)",
+    "alternativas": [
+      "should",
+      "can",
+      "will",
+      "did"
+    ],
+    "resposta_correta": "should",
+    "indice_resposta_correta": 0,
+    "explicacao": "Should é usado para dar conselho."
+  },
+  {
+    "id": "MC-429",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Qual opção completa: If I study, I ____ pass the test. (variação 3)",
+    "alternativas": [
+      "will",
+      "would",
+      "was",
+      "did"
+    ],
+    "resposta_correta": "will",
+    "indice_resposta_correta": 0,
+    "explicacao": "First conditional usa if + presente, will + verbo."
+  },
+  {
+    "id": "MC-430",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Qual alternativa é phrasal verb de 'desistir'? (variação 3)",
+    "alternativas": [
+      "give up",
+      "look for",
+      "turn on",
+      "take off"
+    ],
+    "resposta_correta": "give up",
+    "indice_resposta_correta": 0,
+    "explicacao": "Give up significa desistir."
+  },
+  {
+    "id": "MC-431",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Qual alternativa completa: I have ____ finished my homework. (variação 4)",
+    "alternativas": [
+      "already",
+      "yet",
+      "never",
+      "soon"
+    ],
+    "resposta_correta": "already",
+    "indice_resposta_correta": 0,
+    "explicacao": "Already é comum em frases afirmativas com present perfect."
+  },
+  {
+    "id": "MC-432",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Qual frase está no present perfect? (variação 4)",
+    "alternativas": [
+      "I have studied English.",
+      "I study English yesterday.",
+      "I am study English.",
+      "I studied English tomorrow."
+    ],
+    "resposta_correta": "I have studied English.",
+    "indice_resposta_correta": 0,
+    "explicacao": "Have + particípio forma o present perfect."
+  },
+  {
+    "id": "MC-433",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Qual alternativa significa 'embora'? (variação 4)",
+    "alternativas": [
+      "although",
+      "because",
+      "therefore",
+      "beside"
+    ],
+    "resposta_correta": "although",
+    "indice_resposta_correta": 0,
+    "explicacao": "Although significa embora."
+  },
+  {
+    "id": "MC-434",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Qual opção completa: She has lived here ____ 2020. (variação 4)",
+    "alternativas": [
+      "since",
+      "for",
+      "during",
+      "until"
+    ],
+    "resposta_correta": "since",
+    "indice_resposta_correta": 0,
+    "explicacao": "Since é usado com ponto inicial no tempo."
+  },
+  {
+    "id": "MC-435",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Qual opção completa: They have worked here ____ three years. (variação 4)",
+    "alternativas": [
+      "for",
+      "since",
+      "ago",
+      "until"
+    ],
+    "resposta_correta": "for",
+    "indice_resposta_correta": 0,
+    "explicacao": "For é usado com duração."
+  },
+  {
+    "id": "MC-436",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Qual frase usa comparação corretamente? (variação 4)",
+    "alternativas": [
+      "This book is more interesting than that one.",
+      "This book is interestinger than that one.",
+      "This book is most interesting than that one.",
+      "This book is more interesting that that one."
+    ],
+    "resposta_correta": "This book is more interesting than that one.",
+    "indice_resposta_correta": 0,
+    "explicacao": "More interesting than é a forma correta."
+  },
+  {
+    "id": "MC-437",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Qual alternativa indica possibilidade? (variação 4)",
+    "alternativas": [
+      "might",
+      "must",
+      "should",
+      "have to"
+    ],
+    "resposta_correta": "might",
+    "indice_resposta_correta": 0,
+    "explicacao": "Might indica possibilidade."
+  },
+  {
+    "id": "MC-438",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Qual alternativa indica conselho? (variação 4)",
+    "alternativas": [
+      "should",
+      "can",
+      "will",
+      "did"
+    ],
+    "resposta_correta": "should",
+    "indice_resposta_correta": 0,
+    "explicacao": "Should é usado para dar conselho."
+  },
+  {
+    "id": "MC-439",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Qual opção completa: If I study, I ____ pass the test. (variação 4)",
+    "alternativas": [
+      "will",
+      "would",
+      "was",
+      "did"
+    ],
+    "resposta_correta": "will",
+    "indice_resposta_correta": 0,
+    "explicacao": "First conditional usa if + presente, will + verbo."
+  },
+  {
+    "id": "MC-440",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Qual alternativa é phrasal verb de 'desistir'? (variação 4)",
+    "alternativas": [
+      "give up",
+      "look for",
+      "turn on",
+      "take off"
+    ],
+    "resposta_correta": "give up",
+    "indice_resposta_correta": 0,
+    "explicacao": "Give up significa desistir."
+  },
+  {
+    "id": "MC-441",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Qual alternativa completa: I have ____ finished my homework. (variação 5)",
+    "alternativas": [
+      "already",
+      "yet",
+      "never",
+      "soon"
+    ],
+    "resposta_correta": "already",
+    "indice_resposta_correta": 0,
+    "explicacao": "Already é comum em frases afirmativas com present perfect."
+  },
+  {
+    "id": "MC-442",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Qual frase está no present perfect? (variação 5)",
+    "alternativas": [
+      "I have studied English.",
+      "I study English yesterday.",
+      "I am study English.",
+      "I studied English tomorrow."
+    ],
+    "resposta_correta": "I have studied English.",
+    "indice_resposta_correta": 0,
+    "explicacao": "Have + particípio forma o present perfect."
+  },
+  {
+    "id": "MC-443",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Qual alternativa significa 'embora'? (variação 5)",
+    "alternativas": [
+      "although",
+      "because",
+      "therefore",
+      "beside"
+    ],
+    "resposta_correta": "although",
+    "indice_resposta_correta": 0,
+    "explicacao": "Although significa embora."
+  },
+  {
+    "id": "MC-444",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Qual opção completa: She has lived here ____ 2020. (variação 5)",
+    "alternativas": [
+      "since",
+      "for",
+      "during",
+      "until"
+    ],
+    "resposta_correta": "since",
+    "indice_resposta_correta": 0,
+    "explicacao": "Since é usado com ponto inicial no tempo."
+  },
+  {
+    "id": "MC-445",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Qual opção completa: They have worked here ____ three years. (variação 5)",
+    "alternativas": [
+      "for",
+      "since",
+      "ago",
+      "until"
+    ],
+    "resposta_correta": "for",
+    "indice_resposta_correta": 0,
+    "explicacao": "For é usado com duração."
+  },
+  {
+    "id": "MC-446",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Qual frase usa comparação corretamente? (variação 5)",
+    "alternativas": [
+      "This book is more interesting than that one.",
+      "This book is interestinger than that one.",
+      "This book is most interesting than that one.",
+      "This book is more interesting that that one."
+    ],
+    "resposta_correta": "This book is more interesting than that one.",
+    "indice_resposta_correta": 0,
+    "explicacao": "More interesting than é a forma correta."
+  },
+  {
+    "id": "MC-447",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Qual alternativa indica possibilidade? (variação 5)",
+    "alternativas": [
+      "might",
+      "must",
+      "should",
+      "have to"
+    ],
+    "resposta_correta": "might",
+    "indice_resposta_correta": 0,
+    "explicacao": "Might indica possibilidade."
+  },
+  {
+    "id": "MC-448",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Qual alternativa indica conselho? (variação 5)",
+    "alternativas": [
+      "should",
+      "can",
+      "will",
+      "did"
+    ],
+    "resposta_correta": "should",
+    "indice_resposta_correta": 0,
+    "explicacao": "Should é usado para dar conselho."
+  },
+  {
+    "id": "MC-449",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Qual opção completa: If I study, I ____ pass the test. (variação 5)",
+    "alternativas": [
+      "will",
+      "would",
+      "was",
+      "did"
+    ],
+    "resposta_correta": "will",
+    "indice_resposta_correta": 0,
+    "explicacao": "First conditional usa if + presente, will + verbo."
+  },
+  {
+    "id": "MC-450",
+    "tipo": "multipla_escolha",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Qual alternativa é phrasal verb de 'desistir'? (variação 5)",
+    "alternativas": [
+      "give up",
+      "look for",
+      "turn on",
+      "take off"
+    ],
+    "resposta_correta": "give up",
+    "indice_resposta_correta": 0,
+    "explicacao": "Give up significa desistir."
+  },
+  {
+    "id": "AB-451",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Explique quando usar since e for.",
+    "resposta_esperada": "Since é usado com ponto inicial no tempo; for é usado com duração."
+  },
+  {
+    "id": "AB-452",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Explique a estrutura básica do present perfect.",
+    "resposta_esperada": "Sujeito + have/has + particípio do verbo."
+  },
+  {
+    "id": "AB-453",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre already e yet.",
+    "resposta_esperada": "Already é usado para algo já feito; yet é usado em perguntas e negativas para algo ainda não concluído."
+  },
+  {
+    "id": "AB-454",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Explique quando usar should.",
+    "resposta_esperada": "Should é usado para conselho, recomendação ou opinião."
+  },
+  {
+    "id": "AB-455",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Explique quando usar might.",
+    "resposta_esperada": "Might expressa possibilidade."
+  },
+  {
+    "id": "AB-456",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Explique a estrutura do first conditional.",
+    "resposta_esperada": "If + presente simples, will + verbo base."
+  },
+  {
+    "id": "AB-457",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre much e many.",
+    "resposta_esperada": "Much é usado com incontáveis; many com contáveis."
+  },
+  {
+    "id": "AB-458",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Explique o que são phrasal verbs.",
+    "resposta_esperada": "São combinações de verbo com preposição/advérbio que criam novo significado."
+  },
+  {
+    "id": "AB-459",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre make e do.",
+    "resposta_esperada": "Make geralmente indica criar/produzir; do indica executar atividade ou tarefa."
+  },
+  {
+    "id": "AB-460",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "iniciante",
+    "pergunta": "Explique a diferença entre fewer e less.",
+    "resposta_esperada": "Fewer é usado com contáveis; less com incontáveis."
+  },
+  {
+    "id": "AB-461",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Explique quando usar since e for. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Since é usado com ponto inicial no tempo; for é usado com duração."
+  },
+  {
+    "id": "AB-462",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Explique a estrutura básica do present perfect. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Sujeito + have/has + particípio do verbo."
+  },
+  {
+    "id": "AB-463",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre already e yet. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Already é usado para algo já feito; yet é usado em perguntas e negativas para algo ainda não concluído."
+  },
+  {
+    "id": "AB-464",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Explique quando usar should. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Should é usado para conselho, recomendação ou opinião."
+  },
+  {
+    "id": "AB-465",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Explique quando usar might. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Might expressa possibilidade."
+  },
+  {
+    "id": "AB-466",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Explique a estrutura do first conditional. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "If + presente simples, will + verbo base."
+  },
+  {
+    "id": "AB-467",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre much e many. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Much é usado com incontáveis; many com contáveis."
+  },
+  {
+    "id": "AB-468",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Explique o que são phrasal verbs. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "São combinações de verbo com preposição/advérbio que criam novo significado."
+  },
+  {
+    "id": "AB-469",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre make e do. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Make geralmente indica criar/produzir; do indica executar atividade ou tarefa."
+  },
+  {
+    "id": "AB-470",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "básico",
+    "pergunta": "Explique a diferença entre fewer e less. Responda com suas palavras e dê um exemplo. (variação 2)",
+    "resposta_esperada": "Fewer é usado com contáveis; less com incontáveis."
+  },
+  {
+    "id": "AB-471",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Explique quando usar since e for. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Since é usado com ponto inicial no tempo; for é usado com duração."
+  },
+  {
+    "id": "AB-472",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Explique a estrutura básica do present perfect. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Sujeito + have/has + particípio do verbo."
+  },
+  {
+    "id": "AB-473",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre already e yet. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Already é usado para algo já feito; yet é usado em perguntas e negativas para algo ainda não concluído."
+  },
+  {
+    "id": "AB-474",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Explique quando usar should. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Should é usado para conselho, recomendação ou opinião."
+  },
+  {
+    "id": "AB-475",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Explique quando usar might. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Might expressa possibilidade."
+  },
+  {
+    "id": "AB-476",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Explique a estrutura do first conditional. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "If + presente simples, will + verbo base."
+  },
+  {
+    "id": "AB-477",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre much e many. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Much é usado com incontáveis; many com contáveis."
+  },
+  {
+    "id": "AB-478",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Explique o que são phrasal verbs. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "São combinações de verbo com preposição/advérbio que criam novo significado."
+  },
+  {
+    "id": "AB-479",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre make e do. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Make geralmente indica criar/produzir; do indica executar atividade ou tarefa."
+  },
+  {
+    "id": "AB-480",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário",
+    "pergunta": "Explique a diferença entre fewer e less. Responda com suas palavras e dê um exemplo. (variação 3)",
+    "resposta_esperada": "Fewer é usado com contáveis; less com incontáveis."
+  },
+  {
+    "id": "AB-481",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Explique quando usar since e for. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Since é usado com ponto inicial no tempo; for é usado com duração."
+  },
+  {
+    "id": "AB-482",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a estrutura básica do present perfect. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Sujeito + have/has + particípio do verbo."
+  },
+  {
+    "id": "AB-483",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre already e yet. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Already é usado para algo já feito; yet é usado em perguntas e negativas para algo ainda não concluído."
+  },
+  {
+    "id": "AB-484",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Explique quando usar should. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Should é usado para conselho, recomendação ou opinião."
+  },
+  {
+    "id": "AB-485",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Explique quando usar might. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Might expressa possibilidade."
+  },
+  {
+    "id": "AB-486",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a estrutura do first conditional. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "If + presente simples, will + verbo base."
+  },
+  {
+    "id": "AB-487",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre much e many. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Much é usado com incontáveis; many com contáveis."
+  },
+  {
+    "id": "AB-488",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Explique o que são phrasal verbs. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "São combinações de verbo com preposição/advérbio que criam novo significado."
+  },
+  {
+    "id": "AB-489",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre make e do. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Make geralmente indica criar/produzir; do indica executar atividade ou tarefa."
+  },
+  {
+    "id": "AB-490",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "intermediário+",
+    "pergunta": "Explique a diferença entre fewer e less. Responda com suas palavras e dê um exemplo. (variação 4)",
+    "resposta_esperada": "Fewer é usado com contáveis; less com incontáveis."
+  },
+  {
+    "id": "AB-491",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Explique quando usar since e for. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Since é usado com ponto inicial no tempo; for é usado com duração."
+  },
+  {
+    "id": "AB-492",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Explique a estrutura básica do present perfect. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Sujeito + have/has + particípio do verbo."
+  },
+  {
+    "id": "AB-493",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre already e yet. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Already é usado para algo já feito; yet é usado em perguntas e negativas para algo ainda não concluído."
+  },
+  {
+    "id": "AB-494",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Explique quando usar should. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Should é usado para conselho, recomendação ou opinião."
+  },
+  {
+    "id": "AB-495",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Explique quando usar might. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Might expressa possibilidade."
+  },
+  {
+    "id": "AB-496",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Explique a estrutura do first conditional. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "If + presente simples, will + verbo base."
+  },
+  {
+    "id": "AB-497",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre much e many. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Much é usado com incontáveis; many com contáveis."
+  },
+  {
+    "id": "AB-498",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Explique o que são phrasal verbs. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "São combinações de verbo com preposição/advérbio que criam novo significado."
+  },
+  {
+    "id": "AB-499",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre make e do. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Make geralmente indica criar/produzir; do indica executar atividade ou tarefa."
+  },
+  {
+    "id": "AB-500",
+    "tipo": "resposta_escrita",
+    "materia": "Inglês Intermediário",
+    "nivel": "revisão",
+    "pergunta": "Explique a diferença entre fewer e less. Responda com suas palavras e dê um exemplo. (variação 5)",
+    "resposta_esperada": "Fewer é usado com contáveis; less com incontáveis."
+  }
+]
