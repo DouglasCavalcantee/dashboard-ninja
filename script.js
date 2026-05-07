@@ -29,30 +29,135 @@ let progresso = JSON.parse(localStorage.getItem("progressoNinja")) || {
 };
 
 /* =========================================================
-   LOGIN
+   LOGIN E CONTAS
 ========================================================= */
+
 const btnLogin = document.getElementById("btnLogin");
 
 if (btnLogin) {
-    btnLogin.addEventListener("click", fazerLogin);
+
+    btnLogin.addEventListener("click", entrar);
 
     document.addEventListener("keydown", function(evento) {
+
         if (evento.key === "Enter") {
-            fazerLogin();
+            entrar();
         }
+
     });
+
 }
 
-function fazerLogin() {
-    const usuario = document.getElementById("usuario").value.trim().toLowerCase();
-    const senha = document.getElementById("senha").value.trim().toLowerCase();
-    const mensagemErro = document.getElementById("mensagemErro");
+/* =========================
+   ABRIR MODAL
+========================= */
 
-    if (usuario === "naruto" && senha === "uzumaki") {
-        window.location.href = "dashboard.html";
-    } else {
-        mensagemErro.style.display = "block";
+function abrirModal() {
+
+    document.getElementById("modal-criar-conta").style.display = "flex";
+
+}
+
+/* =========================
+   FECHAR MODAL
+========================= */
+
+function fecharModal() {
+
+    document.getElementById("modal-criar-conta").style.display = "none";
+
+}
+
+/* =========================
+   CRIAR CONTA
+========================= */
+
+function salvarConta() {
+
+    const novoLogin = document.getElementById("novoLogin").value.trim();
+    const novaSenha = document.getElementById("novaSenha").value.trim();
+
+    const mensagem = document.getElementById("mensagem-criar-conta");
+
+    if (novoLogin === "" || novaSenha === "") {
+
+        mensagem.textContent = "Preencha todos os campos.";
+        return;
+
     }
+
+    const usuario = {
+        login: novoLogin,
+        senha: novaSenha
+    };
+
+    localStorage.setItem("usuarioNinja", JSON.stringify(usuario));
+
+    mensagem.textContent = "Conta criada com sucesso!";
+
+    setTimeout(() => {
+
+        fecharModal();
+
+        document.getElementById("novoLogin").value = "";
+        document.getElementById("novaSenha").value = "";
+
+        mensagem.textContent = "";
+
+    }, 1500);
+
+}
+
+/* =========================
+   LOGIN
+========================= */
+
+function entrar() {
+
+    const loginDigitado = document.getElementById("login").value.trim();
+    const senhaDigitada = document.getElementById("senha").value.trim();
+
+    const mensagem = document.getElementById("mensagem-login");
+
+    const usuarioSalvo = JSON.parse(localStorage.getItem("usuarioNinja"));
+
+    if (!usuarioSalvo) {
+
+        mensagem.style.display = "block";
+        mensagem.textContent = "Nenhuma conta criada.";
+
+        return;
+
+    }
+
+    if (
+        loginDigitado === usuarioSalvo.login &&
+        senhaDigitada === usuarioSalvo.senha
+    ) {
+
+        localStorage.setItem("usuarioLogado", "true");
+
+        window.location.href = "dashboard.html";
+
+    } else {
+
+        mensagem.style.display = "block";
+        mensagem.textContent = "Login ou senha incorretos.";
+
+    }
+
+}
+
+/* =========================
+   LOGOUT
+========================= */
+
+function sairDoSistema() {
+
+    localStorage.removeItem("usuarioLogado");
+
+    window.location.href = "index.html";
+
 }
 
 /* =========================================================
@@ -159,6 +264,8 @@ if (document.body.classList.contains("dashboard-body")) {
 }
 
 function iniciarDashboard() {
+    mostrarNomeUsuario();
+
     configurarMenu();
     renderizarRanks();
     renderizarFiltros("missionFilters", renderizarMissoes);
@@ -494,4 +601,13 @@ function configurarBotoesGlobais() {
 
 function sairDoSistema() {
     window.location.href = "index.html";
+}
+
+function mostrarNomeUsuario() {
+    const usuarioSalvo = JSON.parse(localStorage.getItem("usuarioNinja"));
+    const nomeUsuario = document.getElementById("nomeUsuario");
+
+    if (usuarioSalvo && nomeUsuario) {
+        nomeUsuario.textContent = usuarioSalvo.login;
+    }
 }

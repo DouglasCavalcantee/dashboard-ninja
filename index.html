@@ -3,49 +3,126 @@
 <head>
     <!-- Define acentuação correta para português -->
     <meta charset="UTF-8">
+
     <!-- Deixa a tela responsiva em celular, tablet e computador -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Título da aba do navegador -->
     <title>Login Ninja | Painel de Estudos</title>
+
     <!-- Arquivo principal de estilos -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="login-body">
+
     <!-- Camada escura por cima da imagem de fundo -->
     <div class="login-overlay"></div>
 
     <!-- Caixa principal do login -->
     <main class="login-container">
+
         <!-- Lado visual do login com imagem -->
         <section class="login-hero">
-            <img src="imagens/conquistas-rescentes.jfif" alt="Imagem de conquistas ninja" class="imagem-login-topo">
+
+            <img src="imagens/conquistas-rescentes.jfif"
+                 alt="Imagem de conquistas ninja"
+                 class="imagem-login-topo">
+
             <h1>Academia Ninja de Estudos</h1>
-            <p>Entre no painel, complete missões, responda perguntas e evolua até o rank Hokage.</p>
+
+            <p>
+                Entre no painel, complete missões,
+                responda perguntas e evolua até o rank Hokage.
+            </p>
+
         </section>
 
-        <!-- Formulário de login -->
+        <!-- Card principal de login -->
         <section class="login-card">
-            <img src="icons/gennin.png" alt="Ícone rank Gennin" class="login-rank-icon">
+
+            <img src="icons/gennin.png"
+                 alt="Ícone rank Gennin"
+                 class="login-rank-icon">
+
             <h2>Acesso Shinobi</h2>
-            <p class="login-tip">Login: <strong>naruto</strong> | Senha: <strong>uzumaki</strong></p>
 
-            <!-- Campo de login -->
-            <label for="usuario">Login</label>
-            <input type="text" id="usuario" placeholder="Digite seu login">
+            <!-- Campo login -->
+            <label for="login">Login</label>
+            <input type="text"
+                   id="login"
+                   placeholder="Digite seu login">
 
-            <!-- Campo de senha -->
+            <!-- Campo senha -->
             <label for="senha">Senha</label>
-            <input type="password" id="senha" placeholder="Digite sua senha">
+            <input type="password"
+                   id="senha"
+                   placeholder="Digite sua senha">
 
-            <!-- Botão que chama a função de login no JavaScript -->
-            <button id="btnLogin" class="primary-btn">Entrar na Vila</button>
+            <!-- Botão entrar -->
+            <button id="btnLogin"
+                    class="primary-btn"
+                    onclick="entrar()">
+                Entrar na Vila
+            </button>
 
-            <!-- Mensagem de erro que aparece quando o login está errado -->
-            <p id="mensagemErro" class="login-error">VOCÊ NÃO É UM NINJA DA FOLHA!</p>
+            <!-- Botão criar conta -->
+            <button class="btn-criar-conta"
+                    onclick="abrirModal()">
+                Criar Conta
+            </button>
+
+            <!-- Mensagem de erro/login -->
+            <p id="mensagem-login" class="login-error"></p>
+
         </section>
+
     </main>
+
+    <!-- ========================= -->
+    <!-- MODAL DE CRIAR CONTA -->
+    <!-- ========================= -->
+
+    <div id="modal-criar-conta" class="modal">
+
+        <div class="modal-conteudo">
+
+            <span class="fechar-modal"
+                  onclick="fecharModal()">
+                &times;
+            </span>
+
+            <h2>Criar Conta Ninja</h2>
+
+            <!-- Novo login -->
+            <label for="novoLogin">Novo Login</label>
+
+            <input type="text"
+                   id="novoLogin"
+                   placeholder="Crie seu login">
+
+            <!-- Nova senha -->
+            <label for="novaSenha">Nova Senha</label>
+
+            <input type="password"
+                   id="novaSenha"
+                   placeholder="Crie sua senha">
+
+            <!-- Botão salvar conta -->
+            <button class="primary-btn"
+                    onclick="salvarConta()">
+                Salvar Conta
+            </button>
+
+            <!-- Mensagem -->
+            <p id="mensagem-criar-conta"></p>
+
+        </div>
+
+    </div>
 
     <!-- Arquivo JavaScript principal -->
     <script src="script.js"></script>
+
 </body>
 </html>
