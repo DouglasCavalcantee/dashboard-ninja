@@ -102,7 +102,12 @@ img {
    LOGIN
 ================================ */
 .login-body {
-    background: url("imagens/login.jfif") center/cover no-repeat fixed;
+    background-image: url("imagens/fund-login.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,7 +117,12 @@ img {
 .login-overlay {
     position: fixed;
     inset: 0;
-    background: linear-gradient(135deg, rgba(0,0,0,0.88), rgba(6,8,22,0.7), rgba(67,97,238,0.18));
+    background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.45),
+        rgba(6, 8, 22, 0.45),
+        rgba(0, 245, 212, 0.08)
+    );
     z-index: 0;
 }
 
