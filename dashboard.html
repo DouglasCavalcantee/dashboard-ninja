@@ -9,6 +9,7 @@
     <title>Painel Ninja de Estudos | Douglas</title>
     <!-- CSS principal -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css_perguntas_abertas.css">
 </head>
 <body class="dashboard-body">
     <!-- Fundo decorativo -->
@@ -19,7 +20,10 @@
         <!-- Barra lateral -->
         <aside class="sidebar">
             <div class="brand-box">
-                <img src="imagens/avatar.jfif" alt="Avatar ninja" class="brand-avatar">
+                <img id="avatarUsuario"
+                    src="imagens/avatar.jfif"
+                    alt="Avatar ninja"
+                    class="brand-avatar">
                 <h1>Painel Ninja</h1>
                 <p id="nomeUsuario">Usuário Ninja</p>
             </div>
@@ -74,7 +78,7 @@
                     <img src="icons/icon_2.png" alt="Ícone de missão">
                     <div>
                         <p>Missões Concluídas</p>
-                        <strong id="missoesConcluidas">0/200</strong>
+                        <strong id="missoesConcluidas">0/150</strong>
                     </div>
                 </article>
 
@@ -109,23 +113,59 @@
                     <article class="image-card large-card">
                         <img src="imagens/vila.jfif" alt="Vila ninja">
                         <div>
+                            <article class="mini-panel conquistas-panel">
+                                <h4>🏆 Conquistas Recentes</h4>
+
+                                <ul id="conquistasRecentes">
+                                    <li>Nenhuma conquista ainda.</li>
+                                </ul>
+                            </article>
                             <h4>Treinamento ativo</h4>
-                            <p>Ganhe 20 XP por missão e 20 XP por pergunta correta. Concluir as 200 missões e 200 perguntas leva você ao rank Hokage.</p>
+                            <p>
+                                 Ganhe <strong>20 XP</strong> por missão concluída,
+                                <strong>10 XP</strong> por exercício correto
+                                e <strong>20 XP</strong> por pergunta respondida corretamente.
+                            </p>
+
+                            <p>
+                                O painel possui <strong>150 missões</strong>,
+                                <strong>250 exercícios de múltipla escolha</strong>
+                                e <strong>250 perguntas abertas</strong>.
+                            </p>
+
+                            <p>
+                                Complete as atividades para evoluir seu XP, aumentar seu progresso por linguagem
+                                e subir do rank Gennin até Hokage.
+                            </p>
                         </div>
                     </article>
 
                     <article class="mini-panel">
                         <h4>Regras de XP</h4>
+
                         <ul>
                             <li>📜 Missão concluída: <strong>20 XP</strong></li>
                             <li>❓ Pergunta correta: <strong>20 XP</strong></li>
                             <li>⚔️ Exercício concluído: <strong>10 XP bônus</strong></li>
                         </ul>
-                    </article>
+
+                        <img
+                            src="imagens/treinamento-ninja.jfif"
+                            alt="Treinamento ninja"
+                            class="mini-panel-image"
+                        >
+                        </article>
 
                     <article class="mini-panel">
                         <h4>Ranks</h4>
+
                         <ul id="rankList"></ul>
+
+                        <img
+                            src="imagens/ranks-ninja.jfif"
+                            alt="Ranks ninja"
+                            class="mini-panel-image"
+                        >
                     </article>
                 </div>
             </section>
@@ -135,7 +175,7 @@
                 <div class="section-title with-image">
                     <div>
                         <h3>📜 Lista de Missões</h3>
-                        <p>São 200 missões no total, divididas entre HTML, CSS, JavaScript, Python e Inglês.</p>
+                        <p>São 150 missões no total, divididas entre HTML, CSS, JavaScript, Python e Inglês.</p>
                     </div>
                     <img src="imagens/missoes-disponiveis.jfif" alt="Missões disponíveis">
                 </div>
@@ -158,30 +198,19 @@
                 <div id="exercisesList" class="task-list"></div>
             </section>
 
-            <!-- Seção Perguntas -->
+                        <!-- Seção Perguntas -->
             <section id="perguntas" class="content-section">
                 <div class="section-title with-image">
                     <div>
                         <h3>❓ Perguntas e Respostas</h3>
                         <p>Digite a resposta no campo e confira se acertou. Cada acerto vale 20 XP.</p>
                     </div>
+
                     <img src="imagens/perguntas-respostas.jfif" alt="Perguntas e respostas">
                 </div>
 
-                <div class="question-card">
-                    <div class="question-top">
-                        <span id="questionCounter">Pergunta 1/200</span>
-                        <span id="questionSubject">HTML</span>
-                    </div>
-                    <h4 id="questionText">Carregando pergunta...</h4>
-                    <div id="alternativasBox" class="alternatives-box"></div>
-                    <input id="answerInput" type="text" placeholder="Digite sua resposta aqui">
-                    <div class="question-actions">
-                        <button id="btnResponder" class="primary-btn">Responder</button>
-                        <button id="btnProxima" class="secondary-btn">Próxima</button>
-                    </div>
-                    <p id="feedbackPergunta" class="feedback"></p>
-                </div>
+                <div id="questionFilters"></div>
+                <div id="questionsList"></div>
             </section>
 
             <!-- Seção Evolução -->
@@ -199,9 +228,38 @@
         </main>
     </div>
 
-    <!-- Banco de perguntas do seu projeto -->
-    <script src="conteudo_500_questoes_site/questoes.js"></script>
-    <!-- JavaScript principal -->
+<div id="rankUpModal" class="rank-up-modal">
+    <div class="rank-up-card">
+        <div class="rank-glow"></div>
+
+        <img id="rankUpIcon" src="icons/gennin.png" alt="Novo rank">
+
+        <span class="rank-up-label">Nova graduação desbloqueada!</span>
+
+        <h2>🎉 Parabéns, Shinobi!</h2>
+
+        <p>Você subiu de rank:</p>
+
+        <h3>
+            <span id="rankAntigoNome">Gennin</span>
+            ➜
+            <span id="rankNovoNome">Chunnin</span>
+        </h3>
+
+        <p id="rankMensagem">
+            Continue treinando para se tornar Hokage!
+        </p>
+
+        <button id="btnFecharRankUp" class="primary-btn">
+            Continuar treinamento
+        </button>
+    </div>
+</div>
+
+    <script src="questoes_corrigidas_250_final.js"></script>
+    <script src="perguntas_abertas_250.js"></script>
+    <script src="sistema_perguntas_10_em_10.js"></script>
+    <script src="missoes_reais_150.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

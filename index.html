@@ -51,26 +51,34 @@
             <label for="login">Login</label>
             <input type="text"
                    id="login"
-                   placeholder="Digite seu login">
+                   placeholder="Digite seu login"
+                   autocomplete="username">
 
             <!-- Campo senha -->
             <label for="senha">Senha</label>
             <input type="password"
                    id="senha"
-                   placeholder="Digite sua senha">
+                   placeholder="Digite sua senha"
+                   autocomplete="current-password">
 
             <!-- Botão entrar -->
             <button id="btnLogin"
                     class="primary-btn"
-                    onclick="entrar()">
+                    type="button">
                 Entrar na Vila
             </button>
 
             <!-- Botão criar conta -->
-            <button class="btn-criar-conta"
-                    onclick="abrirModal()">
+            <button id="btnAbrirModal"
+                    class="btn-criar-conta"
+                    type="button">
                 Criar Conta
             </button>
+
+            <p class="aviso-localstorage">
+                As contas e o progresso são salvos apenas neste navegador/dispositivo.
+                Caso tente acessar em outro navegador ou aparelho, será necessário criar uma nova conta.
+            </p>
 
             <!-- Mensagem de erro/login -->
             <p id="mensagem-login" class="login-error"></p>
@@ -87,34 +95,77 @@
 
         <div class="modal-conteudo">
 
-            <span class="fechar-modal"
-                  onclick="fecharModal()">
+            <button id="btnFecharModal"
+                    class="fechar-modal"
+                    type="button">
                 &times;
-            </span>
+            </button>
 
             <h2>Criar Conta Ninja</h2>
 
             <!-- Novo login -->
             <label for="novoLogin">Novo Login</label>
-
             <input type="text"
                    id="novoLogin"
-                   placeholder="Crie seu login">
+                   placeholder="Crie seu login"
+                   autocomplete="username">
 
             <!-- Nova senha -->
             <label for="novaSenha">Nova Senha</label>
-
             <input type="password"
                    id="novaSenha"
-                   placeholder="Crie sua senha">
+                   placeholder="Crie sua senha"
+                   autocomplete="new-password">
+            <!-- Escolher avatar -->
+<div class="avatar-area">
+    <h3>Escolha seu Avatar</h3>
+
+    <div class="avatar-opcoes">
+        <label>
+            <input type="radio" name="avatar" value="avatares/avatar-hinata.jfif">
+            <img src="avatares/avatar-hinata.jfif" alt="Avatar Hinata">
+        </label>
+
+        <label>
+            <input type="radio" name="avatar" value="avatares/avatar-itachi.jfif">
+            <img src="avatares/avatar-itachi.jfif" alt="Avatar Itachi">
+        </label>
+
+        <label>
+            <input type="radio" name="avatar" value="avatares/avatar-kakashi.jfif">
+            <img src="avatares/avatar-kakashi.jfif" alt="Avatar Kakashi">
+        </label>
+
+        <label>
+            <input type="radio" name="avatar" value="avatares/avatar-madara.jfif">
+            <img src="avatares/avatar-madara.jfif" alt="Avatar Madara">
+        </label>
+
+        <label>
+            <input type="radio" name="avatar" value="avatares/avatar-sakura.jfif">
+            <img src="avatares/avatar-sakura.jfif" alt="Avatar Sakura">
+        </label>
+
+        <label>
+            <input type="radio" name="avatar" value="avatares/avatar-sasuke.jfif">
+            <img src="avatares/avatar-sasuke.jfif" alt="Avatar Sasuke">
+        </label>
+
+        <label>
+            <input type="radio" name="avatar" value="avatares/avatar-tsunade.jpg">
+            <img src="avatares/avatar-tsunade.jpg" alt="Avatar Tsunade">
+        </label>
+    </div>
+</div>       
 
             <!-- Botão salvar conta -->
-            <button class="primary-btn"
-                    onclick="salvarConta()">
+            <button id="btnSalvarConta"
+                    class="primary-btn"
+                    type="button">
                 Salvar Conta
             </button>
 
-            <!-- Mensagem -->
+            <!-- Mensagem de retorno da criação da conta -->
             <p id="mensagem-criar-conta"></p>
 
         </div>

@@ -20,33 +20,112 @@ const RANKS = [
 /* =========================================================
    BANCO LOCAL DO USUÁRIO
 ========================================================= */
-let progresso = JSON.parse(localStorage.getItem("progressoNinja")) || {
-    xp: 0,
-    missoes: [],
-    exercicios: [],
-    perguntas: [],
-    perguntaAtual: 0
-};
+function criarProgressoZerado() {
+    return {
+        xp: 0,
+        missoes: [],
+        exercicios: [],
+        perguntas: [],
+        perguntaAtual: 0,
+        conquistas: []
+    };
+}
+
+function pegarChaveProgresso() {
+    const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
+
+    if (!usuarioLogado) {
+        return null;
+    }
+
+    return "progressoNinja_" + usuarioLogado.login;
+}
+
+function carregarProgresso() {
+
+    const chave = pegarChaveProgresso();
+
+    if (!chave) {
+        return criarProgressoZerado();
+    }
+
+    let progressoSalvo =
+        JSON.parse(localStorage.getItem(chave));
+
+    if (progressoSalvo) {
+        return progressoSalvo;
+    }
+
+    const progressoAntigo =
+        JSON.parse(localStorage.getItem("progressoNinja"));
+
+    if (progressoAntigo) {
+
+        localStorage.setItem(
+            chave,
+            JSON.stringify(progressoAntigo)
+        );
+
+        localStorage.removeItem("progressoNinja");
+
+        return progressoAntigo;
+
+    }
+
+    return criarProgressoZerado();
+
+}
+
+let progresso = carregarProgresso();
 
 /* =========================================================
    LOGIN E CONTAS
 ========================================================= */
 
 const btnLogin = document.getElementById("btnLogin");
+const btnAbrirModal = document.getElementById("btnAbrirModal");
+const btnFecharModal = document.getElementById("btnFecharModal");
+const btnSalvarConta = document.getElementById("btnSalvarConta");
+
+/* =========================
+   EVENTOS
+========================= */
 
 if (btnLogin) {
-
     btnLogin.addEventListener("click", entrar);
+}
 
-    document.addEventListener("keydown", function(evento) {
+if (btnAbrirModal) {
+    btnAbrirModal.addEventListener("click", abrirModal);
+}
 
-        if (evento.key === "Enter") {
+if (btnFecharModal) {
+    btnFecharModal.addEventListener("click", fecharModal);
+}
+
+if (btnSalvarConta) {
+    btnSalvarConta.addEventListener("click", salvarConta);
+}
+
+document.addEventListener("keydown", function(evento) {
+
+    if (evento.key === "Enter") {
+
+        const modal = document.getElementById("modal-criar-conta");
+
+        if (!modal) return;
+
+        const modalAberto = modal.style.display === "flex";
+
+        if (modalAberto) {
+            salvarConta();
+        } else {
             entrar();
         }
 
-    });
+    }
 
-}
+});
 
 /* =========================
    ABRIR MODAL
@@ -74,33 +153,71 @@ function fecharModal() {
 
 function salvarConta() {
 
-    const novoLogin = document.getElementById("novoLogin").value.trim();
-    const novaSenha = document.getElementById("novaSenha").value.trim();
+    const novoLogin =
+        document.getElementById("novoLogin").value.trim().toLowerCase();
 
-    const mensagem = document.getElementById("mensagem-criar-conta");
+    const novaSenha =
+        document.getElementById("novaSenha").value.trim();
 
-    if (novoLogin === "" || novaSenha === "") {
+    const mensagem =
+        document.getElementById("mensagem-criar-conta");
+    
+    const avatarSelecionado =
+        document.querySelector('input[name="avatar"]:checked');
 
-        mensagem.textContent = "Preencha todos os campos.";
+    if (novoLogin === "" || novaSenha === "" || !avatarSelecionado) {
+
+        mensagem.textContent =
+            "Preencha todos os campos e escolha um avatar.";
+
         return;
 
     }
 
-    const usuario = {
+    let usuarios =
+        JSON.parse(localStorage.getItem("usuariosNinja")) || [];
+
+    const contaExistente =
+        usuarios.find(usuario => usuario.login === novoLogin);
+
+    if (contaExistente) {
+
+        mensagem.textContent =
+            "Esse login já existe.";
+
+        return;
+
+    }
+
+    const novoUsuario = {
         login: novoLogin,
-        senha: novaSenha
+        senha: novaSenha,
+        avatar: avatarSelecionado.value
     };
 
-    localStorage.setItem("usuarioNinja", JSON.stringify(usuario));
+    usuarios.push(novoUsuario);
 
-    mensagem.textContent = "Conta criada com sucesso!";
+    localStorage.setItem(
+        "usuariosNinja",
+        JSON.stringify(usuarios)
+    );
 
-    setTimeout(() => {
+    mensagem.textContent =
+        "Conta criada com sucesso!";
+
+    setTimeout(function() {
 
         fecharModal();
 
         document.getElementById("novoLogin").value = "";
         document.getElementById("novaSenha").value = "";
+        document
+        .querySelectorAll('input[name="avatar"]')
+        .forEach(function(input) {
+
+        input.checked = false;
+
+    });
 
         mensagem.textContent = "";
 
@@ -114,42 +231,116 @@ function salvarConta() {
 
 function entrar() {
 
-    const loginDigitado = document.getElementById("login").value.trim();
-    const senhaDigitada = document.getElementById("senha").value.trim();
+    const loginDigitado =
+        document.getElementById("login")
+        .value
+        .trim()
+        .toLowerCase();
 
-    const mensagem = document.getElementById("mensagem-login");
+    const senhaDigitada =
+        document.getElementById("senha")
+        .value
+        .trim();
 
-    const usuarioSalvo = JSON.parse(localStorage.getItem("usuarioNinja"));
+    const mensagem =
+        document.getElementById("mensagem-login");
 
-    if (!usuarioSalvo) {
+    let usuarios =
+        JSON.parse(localStorage.getItem("usuariosNinja")) || [];
 
-        mensagem.style.display = "block";
-        mensagem.textContent = "Nenhuma conta criada.";
+    mensagem.style.display = "block";
+
+    if (loginDigitado === "" || senhaDigitada === "") {
+
+        mensagem.textContent =
+            "Digite login e senha.";
 
         return;
 
     }
 
+    if (usuarios.length === 0) {
+
+        mensagem.textContent =
+            "Nenhuma conta foi criada ainda.";
+
+        return;
+
+    }
+
+    const usuarioEncontrado =
+        usuarios.find(function(usuario) {
+
+            return usuario.login === loginDigitado;
+
+        });
+
+    if (!usuarioEncontrado) {
+
+        mensagem.textContent =
+            "Conta inexistente.";
+
+        return;
+
+    }
+
+    if (usuarioEncontrado.senha !== senhaDigitada) {
+
+        mensagem.textContent =
+            "Senha incorreta.";
+
+        return;
+
+    }
+
+    mensagem.style.display = "none";
+
+    localStorage.setItem(
+        "usuarioLogado",
+        JSON.stringify(usuarioEncontrado)
+    );
+
+    window.location.href = "dashboard.html";
+
+}
+
+/* =========================
+   MOSTRAR NOME DO USUÁRIO
+========================= */
+
+function mostrarNomeUsuario() {
+
+    const usuarioLogado =
+        JSON.parse(localStorage.getItem("usuarioLogado"));
+
+    const nomeUsuario =
+        document.getElementById("nomeUsuario");
+
+    const avatarUsuario =
+        document.getElementById("avatarUsuario");
+
+    if (usuarioLogado && nomeUsuario) {
+
+        nomeUsuario.textContent =
+            usuarioLogado.login;
+
+    }
+
     if (
-        loginDigitado === usuarioSalvo.login &&
-        senhaDigitada === usuarioSalvo.senha
+        usuarioLogado &&
+        avatarUsuario &&
+        usuarioLogado.avatar
     ) {
 
-        localStorage.setItem("usuarioLogado", "true");
-
-        window.location.href = "dashboard.html";
-
-    } else {
-
-        mensagem.style.display = "block";
-        mensagem.textContent = "Login ou senha incorretos.";
+        avatarUsuario.src =
+            usuarioLogado.avatar;
 
     }
 
 }
 
 /* =========================
-   LOGOUT
+   SAIR DO SISTEMA
 ========================= */
 
 function sairDoSistema() {
@@ -161,100 +352,79 @@ function sairDoSistema() {
 }
 
 /* =========================================================
-   GERAÇÃO DE MISSÕES E EXERCÍCIOS
+   GERAÇÃO DE E EXERCÍCIOS
 ========================================================= */
-function gerarMissoes() {
-    const modelos = {
-        HTML: [
-            "Criar uma estrutura completa com header, main e footer",
-            "Montar uma página com títulos, parágrafos e links",
-            "Criar um formulário com input, label e button",
-            "Criar uma tabela organizada com dados fictícios",
-            "Usar tags semânticas em uma página de portfólio",
-            "Adicionar imagens com alt bem escrito",
-            "Criar uma página de contato",
-            "Criar uma lista ordenada e uma lista não ordenada"
-        ],
-        CSS: [
-            "Estilizar uma página com cores e fontes",
-            "Criar cards usando box-shadow e border-radius",
-            "Montar layout com Flexbox",
-            "Montar layout com CSS Grid",
-            "Criar efeito hover em botões",
-            "Criar página responsiva com media query",
-            "Criar um menu de navegação estilizado",
-            "Criar animação simples com transition"
-        ],
-        JavaScript: [
-            "Criar um contador com botão de somar",
-            "Manipular texto com innerText",
-            "Criar evento de clique em botão",
-            "Validar campo vazio em formulário",
-            "Adicionar item em uma lista com array",
-            "Remover item de uma lista",
-            "Criar condição if e else em uma página",
-            "Salvar informação no localStorage"
-        ],
-        Python: [
-            "Criar programa que calcula média",
-            "Criar tabuada usando for",
-            "Criar lista de compras com append",
-            "Usar while para repetir entrada do usuário",
-            "Criar função simples com def",
-            "Verificar número par ou ímpar",
-            "Criar contador de números positivos",
-            "Trabalhar com dicionários simples"
-        ],
-        Inglês: [
-            "Estudar 10 palavras de tecnologia",
-            "Traduzir 5 comandos comuns de programação",
-            "Criar frases com simple present",
-            "Treinar perguntas com do e does",
-            "Ler uma documentação curta em inglês",
-            "Anotar 10 termos usados no GitHub",
-            "Praticar vocabulário de HTML e CSS",
-            "Escrever uma apresentação curta em inglês"
-        ]
-    };
 
-    const missoes = [];
-    LINGUAGENS.forEach(function(linguagem) {
-        for (let i = 1; i <= 40; i++) {
-            const nivel = i <= 13 ? "Básico" : i <= 27 ? "Intermediário" : "Avançado";
-            const textoBase = modelos[linguagem][(i - 1) % modelos[linguagem].length];
-            missoes.push({
-                id: `missao-${linguagem}-${i}`,
-                linguagem,
-                nivel,
-                titulo: `${linguagem} - Missão ${i}`,
-                descricao: textoBase,
-                xp: XP_MISSAO
-            });
-        }
-    });
-    return missoes;
-}
 
 function gerarExercicios() {
-    const exercicios = [];
-    LINGUAGENS.forEach(function(linguagem) {
-        for (let i = 1; i <= 20; i++) {
-            const nivel = i <= 7 ? "Básico" : i <= 14 ? "Intermediário" : "Avançado";
-            exercicios.push({
-                id: `exercicio-${linguagem}-${i}`,
-                linguagem,
-                nivel,
-                titulo: `${linguagem} - Exercício ${i}`,
-                descricao: `Resolver um exercício prático de ${linguagem} no nível ${nivel.toLowerCase()}.`,
-                xp: XP_EXERCICIO
-            });
+    return [
+        {
+            id: "html-1",
+            linguagem: "HTML",
+            nivel: "Básico",
+            titulo: "HTML - Exercício 1",
+            pergunta: "Qual tag cria o título principal de uma página?",
+            alternativas: ["<p>", "<h1>", "<img>", "<div>"],
+            correta: 1,
+            xp: XP_EXERCICIO
+        },
+        {
+            id: "css-1",
+            linguagem: "CSS",
+            nivel: "Básico",
+            titulo: "CSS - Exercício 1",
+            pergunta: "Qual propriedade muda a cor do texto?",
+            alternativas: ["background", "color", "font-size", "border"],
+            correta: 1,
+            xp: XP_EXERCICIO
+        },
+        {
+            id: "js-1",
+            linguagem: "JavaScript",
+            nivel: "Básico",
+            titulo: "JavaScript - Exercício 1",
+            pergunta: "Qual comando mostra uma mensagem no console?",
+            alternativas: ["print()", "echo()", "console.log()", "mostrar()"],
+            correta: 2,
+            xp: XP_EXERCICIO
+        },
+        {
+            id: "python-1",
+            linguagem: "Python",
+            nivel: "Básico",
+            titulo: "Python - Exercício 1",
+            pergunta: "Qual comando exibe uma mensagem na tela?",
+            alternativas: ["echo()", "console.log()", "print()", "mostrar()"],
+            correta: 2,
+            xp: XP_EXERCICIO
+        },
+        {
+            id: "ingles-1",
+            linguagem: "Inglês",
+            nivel: "Básico",
+            titulo: "Inglês - Exercício 1",
+            pergunta: "Qual é a tradução de 'variable'?",
+            alternativas: ["Função", "Variável", "Tela", "Arquivo"],
+            correta: 1,
+            xp: XP_EXERCICIO
         }
-    });
-    return exercicios;
+    ];
 }
 
-const MISSOES = gerarMissoes();
-const EXERCICIOS = gerarExercicios();
+const MISSOES = MISSOES_REAIS_150;
+
+const EXERCICIOS = questoesMultiplaEscolha.map(function(questao, index) {
+    return {
+        id: questao.id,
+        linguagem: questao.linguagem,
+        nivel: questao.nivel,
+        titulo: questao.linguagem + " - Exercício " + (index + 1),
+        pergunta: questao.pergunta,
+        alternativas: questao.alternativas,
+        correta: questao.correta,
+        xp: XP_EXERCICIO
+    };
+});
 
 /* =========================================================
    INICIALIZAÇÃO DO DASHBOARD
@@ -264,17 +434,29 @@ if (document.body.classList.contains("dashboard-body")) {
 }
 
 function iniciarDashboard() {
+    progresso = carregarProgresso();
+
+    garantirEstruturaProgresso();
+
     mostrarNomeUsuario();
 
     configurarMenu();
     renderizarRanks();
+
     renderizarFiltros("missionFilters", renderizarMissoes);
     renderizarFiltros("exerciseFilters", renderizarExercicios);
+
     renderizarMissoes("Todos");
     renderizarExercicios("Todos");
-    renderizarPergunta();
+
+    if (typeof iniciarSistemaPerguntasAbertas === "function") {
+        iniciarSistemaPerguntasAbertas();
+    }
+
     renderizarEvolucao();
     atualizarResumo();
+    renderizarConquistasRecentes();
+    configurarModalRankUp();
     configurarBotoesGlobais();
 }
 
@@ -301,7 +483,7 @@ function configurarMenu() {
 ========================================================= */
 function renderizarFiltros(containerId, callback) {
     const container = document.getElementById(containerId);
-    const opcoes = ["Todos", ...LINGUAGENS];
+    const opcoes = LINGUAGENS;
 
     container.innerHTML = "";
 
@@ -339,15 +521,163 @@ function renderizarMissoes(filtro = "Todos") {
 ========================================================= */
 function renderizarExercicios(filtro = "Todos") {
     const lista = document.getElementById("exercisesList");
-    const dados = filtro === "Todos" ? EXERCICIOS : EXERCICIOS.filter(item => item.linguagem === filtro);
+
+    const dados = filtro === "Todos"
+        ? EXERCICIOS
+        : EXERCICIOS.filter(item => item.linguagem === filtro);
+
+    const pendentes = dados.filter(function(exercicio) {
+        return !progresso.exercicios.includes(exercicio.id);
+    });
 
     lista.innerHTML = "";
 
-    dados.forEach(function(exercicio) {
-        const concluido = progresso.exercicios.includes(exercicio.id);
-        const card = criarTaskCard(exercicio, concluido, "exercicio");
+    const quantidadePorTela = 10;
+
+    const exerciciosParaMostrar = pendentes.slice(0, quantidadePorTela);
+
+    if (exerciciosParaMostrar.length === 0) {
+        lista.innerHTML = `
+            <article class="task-card">
+                <h4>Todos os exercícios foram concluídos!</h4>
+                <p>Parabéns! Você completou todos os exercícios disponíveis desta categoria.</p>
+            </article>
+        `;
+        return;
+    }
+
+    exerciciosParaMostrar.forEach(function(exercicio) {
+        const card = criarCardExercicioQuiz(exercicio, false);
         lista.appendChild(card);
     });
+}
+
+function criarCardExercicioQuiz(exercicio, concluido) {
+
+    const card = document.createElement("article");
+
+    card.className =
+        "task-card" + (concluido ? " done" : "");
+
+    let alternativasHTML = "";
+
+    console.log(exercicio);
+
+    exercicio.alternativas.forEach(function(alternativa, index) {
+
+        alternativasHTML += `
+            <button class="alt-exercicio"
+                    data-resposta="${index}">
+
+                ${String.fromCharCode(65 + index)})
+                ${escaparHTML(alternativa)}
+
+            </button>
+        `;
+
+    });
+
+    card.innerHTML = `
+
+        <div class="task-meta">
+            <span>${exercicio.linguagem}</span>
+            <span>${exercicio.nivel}</span>
+        </div>
+
+        <h4>${exercicio.titulo}</h4>
+
+        <p>${exercicio.pergunta}</p>
+
+        <div class="alternativas-exercicio">
+            ${alternativasHTML}
+        </div>
+
+        <p class="feedback-exercicio"></p>
+
+        <div class="task-meta">
+            <strong>${exercicio.xp} XP</strong>
+
+            <span>
+                ${concluido ? "Concluído" : "Pendente"}
+            </span>
+        </div>
+
+    `;
+
+    const botoes =
+        card.querySelectorAll(".alt-exercicio");
+
+    const feedback =
+        card.querySelector(".feedback-exercicio");
+
+    botoes.forEach(function(botao) {
+
+        botao.addEventListener("click", function() {
+
+            const respostaEscolhida =
+                Number(botao.dataset.resposta);
+
+            if (concluido) {
+
+                feedback.textContent =
+                    "Você já concluiu este exercício.";
+
+                feedback.className =
+                    "feedback-exercicio ok";
+
+                return;
+
+            }
+
+            if (respostaEscolhida === exercicio.correta) {
+
+                const xpAntes = progresso.xp;
+
+                progresso.exercicios.push(exercicio.id);
+
+                progresso.xp += exercicio.xp;
+
+                verificarSubidaDeRank(xpAntes, progresso.xp);
+
+                salvarProgresso();
+
+                atualizarResumo();
+
+                renderizarEvolucao();
+
+                feedback.textContent =
+                    `Resposta correta! +${exercicio.xp} XP`;
+
+                feedback.className =
+                    "feedback-exercicio ok";
+
+                setTimeout(function() {
+
+                    const filtroAtual =
+                        document.querySelector(
+                            "#exerciseFilters .active"
+                        ).textContent;
+
+                    renderizarExercicios(filtroAtual);
+
+                }, 500);
+
+            } else {
+
+                feedback.textContent =
+                    "Resposta incorreta. Tente novamente.";
+
+                feedback.className =
+                    "feedback-exercicio erro";
+
+            }
+
+        });
+
+    });
+
+    return card;
+
 }
 
 function criarTaskCard(item, concluido, tipo) {
@@ -359,126 +689,205 @@ function criarTaskCard(item, concluido, tipo) {
             <span>${item.linguagem}</span>
             <span>${item.nivel}</span>
         </div>
+
         <h4>${item.titulo}</h4>
-        <p>${item.descricao}</p>
+
+        <p><strong>Missão:</strong> ${escaparHTML(item.descricao)}</p>
+
+        <p class="objetivo-missao">
+            <strong>Objetivo:</strong>
+            ${escaparHTML(item.objetivo)}
+        </p>
+
+        <textarea 
+            class="resposta-missao"
+            placeholder="${item.placeholder || "Digite sua resposta aqui..."}"
+            rows="6"
+            ${concluido ? "disabled" : ""}
+        ></textarea>
+
+        <button class="task-btn verificar-missao ${concluido ? "done" : ""}">
+            ${concluido ? "Missão concluída" : "Verificar missão"}
+        </button>
+
+        <p class="feedback-missao"></p>
+
         <div class="task-meta">
             <strong>${item.xp} XP</strong>
-            <button class="task-btn ${concluido ? "done" : ""}">${concluido ? "Concluído" : "Concluir"}</button>
+            <span>${concluido ? "Concluído" : "Pendente"}</span>
         </div>
     `;
 
-    card.querySelector("button").addEventListener("click", function() {
-        alternarConclusao(tipo, item.id, item.xp);
+    const textarea = card.querySelector(".resposta-missao");
+    const botao = card.querySelector(".verificar-missao");
+    const feedback = card.querySelector(".feedback-missao");
+
+    botao.addEventListener("click", function() {
+        if (concluido) {
+            feedback.textContent = "Essa missão já foi concluída.";
+            feedback.className = "feedback-missao ok";
+            return;
+        }
+
+        const resultado = corrigirMissao(item, textarea.value);
+
+        feedback.textContent = resultado.mensagem;
+        feedback.className = "feedback-missao " + (resultado.aprovado ? "ok" : "erro");
+
+        if (!resultado.aprovado) {
+            return;
+        }
+
+        progresso.missoes.push(item.id);
+        progresso.xp += item.xp;
+
+        salvarProgresso();
+        atualizarResumo();
+        renderizarEvolucao();
+
+        setTimeout(function() {
+            const filtroAtual = document.querySelector("#missionFilters .active").textContent;
+            renderizarMissoes(filtroAtual);
+        }, 700);
     });
 
-    return card;
+    return card;    
+}
+
+function corrigirMissao(missao, respostaUsuario) {
+    const resposta = normalizarRespostaMissao(respostaUsuario);
+
+    if (resposta.length < 5) {
+        return {
+            aprovado: false,
+            mensagem: "Digite sua resposta ou código antes de verificar."
+        };
+    }
+
+    if (missao.linguagem === "Inglês") {
+        return corrigirMissaoIngles(resposta);
+    }
+
+    return corrigirMissaoCodigo(missao, resposta);
+}
+
+function corrigirMissaoCodigo(missao, resposta) {
+    const regras = missao.correcao || [];
+
+    if (regras.length === 0) {
+        return {
+            aprovado: false,
+            mensagem: "Essa missão ainda não possui regras de correção."
+        };
+    }
+
+    const faltando = regras.filter(function(regra) {
+        return !resposta.includes(normalizarRespostaMissao(regra));
+    });
+
+    if (faltando.length > 0) {
+        return {
+            aprovado: false,
+            mensagem: "Ainda falta usar: " + faltando.join(", ")
+        };
+    }
+
+    return {
+        aprovado: true,
+        mensagem: "Missão correta! +" + missao.xp + " XP"
+    };
+}
+
+function corrigirMissaoIngles(resposta) {
+    const palavrasIngles = [
+        "i", "my", "name", "study", "programming", "developer",
+        "technology", "project", "portfolio", "github", "linkedin",
+        "code", "function", "system", "learning", "work", "future"
+    ];
+
+    const encontrouIngles = palavrasIngles.some(function(palavra) {
+        return resposta.includes(palavra);
+    });
+
+    if (!encontrouIngles) {
+        return {
+            aprovado: false,
+            mensagem: "A resposta precisa estar em inglês. Tente traduzir o texto com suas palavras."
+        };
+    }
+
+    if (resposta.length < 15) {
+        return {
+            aprovado: false,
+            mensagem: "Sua tradução ficou muito curta. Escreva uma frase mais completa."
+        };
+    }
+
+    return {
+        aprovado: true,
+        mensagem: "Tradução aceita! +20 XP"
+    };
+}
+
+function normalizarRespostaMissao(texto) {
+    return String(texto || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .trim();
 }
 
 function alternarConclusao(tipo, id, xp) {
-    const lista = tipo === "missao" ? progresso.missoes : progresso.exercicios;
+
+    const lista =
+        tipo === "missao"
+            ? progresso.missoes
+            : progresso.exercicios;
+
     const existe = lista.includes(id);
 
     if (existe) {
+
         const indice = lista.indexOf(id);
+
         lista.splice(indice, 1);
+
         progresso.xp -= xp;
+
     } else {
+
         lista.push(id);
+
         progresso.xp += xp;
+
     }
 
-    if (progresso.xp < 0) progresso.xp = 0;
+    if (progresso.xp < 0) {
+        progresso.xp = 0;
+    }
 
     salvarProgresso();
-    renderizarMissoes(document.querySelector("#missionFilters .active").textContent);
-    renderizarExercicios(document.querySelector("#exerciseFilters .active").textContent);
+
+    renderizarMissoes(
+        document.querySelector("#missionFilters .active").textContent
+    );
+
+    renderizarExercicios(
+        document.querySelector("#exerciseFilters .active").textContent
+    );
+
     renderizarEvolucao();
+
     atualizarResumo();
+
 }
 
-/* =========================================================
-   PERGUNTAS
-========================================================= */
-function obterPerguntas() {
-    if (typeof questoes !== "undefined" && Array.isArray(questoes)) {
-        return questoes.slice(0, 200);
-    }
-    return [];
-}
 
-function renderizarPergunta() {
-    const perguntas = obterPerguntas();
-    if (!perguntas.length) return;
-
-    if (progresso.perguntaAtual >= perguntas.length) progresso.perguntaAtual = 0;
-
-    const pergunta = perguntas[progresso.perguntaAtual];
-    const alternativasBox = document.getElementById("alternativasBox");
-
-    document.getElementById("questionCounter").textContent = `Pergunta ${progresso.perguntaAtual + 1}/200`;
-    document.getElementById("questionSubject").textContent = pergunta.materia || "Geral";
-    document.getElementById("questionText").textContent = pergunta.pergunta;
-    document.getElementById("answerInput").value = "";
-    document.getElementById("feedbackPergunta").textContent = "";
-    document.getElementById("feedbackPergunta").className = "feedback";
-
-    alternativasBox.innerHTML = "";
-
-    if (pergunta.alternativas && pergunta.alternativas.length) {
-        pergunta.alternativas.forEach(function(alt, index) {
-            const div = document.createElement("div");
-            div.className = "alt-item";
-            div.textContent = `${String.fromCharCode(65 + index)}) ${alt}`;
-            alternativasBox.appendChild(div);
-        });
-    }
-
-    document.getElementById("btnResponder").onclick = responderPergunta;
-    document.getElementById("btnProxima").onclick = proximaPergunta;
-}
-
-function responderPergunta() {
-    const perguntas = obterPerguntas();
-    const pergunta = perguntas[progresso.perguntaAtual];
-    const respostaDigitada = normalizar(document.getElementById("answerInput").value);
-    const respostaCorreta = normalizar(pergunta.resposta_correta || pergunta.resposta || "");
-    const feedback = document.getElementById("feedbackPergunta");
-
-    if (!respostaDigitada) {
-        feedback.textContent = "Digite uma resposta antes de confirmar.";
-        feedback.className = "feedback erro";
-        return;
-    }
-
-    if (respostaDigitada === respostaCorreta) {
-        const idPergunta = pergunta.id || `pergunta-${progresso.perguntaAtual}`;
-
-        if (!progresso.perguntas.includes(idPergunta)) {
-            progresso.perguntas.push(idPergunta);
-            progresso.xp += XP_PERGUNTA;
-        }
-
-        feedback.textContent = `Resposta correta! +${XP_PERGUNTA} XP`;
-        feedback.className = "feedback ok";
-    } else {
-        feedback.textContent = `Resposta incorreta. Resposta correta: ${pergunta.resposta_correta || pergunta.resposta}`;
-        feedback.className = "feedback erro";
-    }
-
-    salvarProgresso();
-    renderizarEvolucao();
-    atualizarResumo();
-}
-
-function proximaPergunta() {
-    const perguntas = obterPerguntas();
-    progresso.perguntaAtual = (progresso.perguntaAtual + 1) % perguntas.length;
-    salvarProgresso();
-    renderizarPergunta();
-}
-
-function normalizar(texto) {
-    return String(texto).trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+function escaparHTML(texto) {
+    return String(texto)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;");
 }
 
 /* =========================================================
@@ -534,6 +943,197 @@ function criarBarraEvolucao(nome, porcentagem) {
 /* =========================================================
    RESUMO, RANKS E XP
 ========================================================= */
+
+function garantirEstruturaProgresso() {
+    if (!progresso.conquistas) {
+        progresso.conquistas = [];
+    }
+}
+
+function verificarSubidaDeRank(xpAntes, xpDepois) {
+    const rankAntes = obterRankAtual(xpAntes);
+    const rankDepois = obterRankAtual(xpDepois);
+
+    if (rankAntes.nome !== rankDepois.nome) {
+        registrarConquista("🏆 Subiu para " + rankDepois.nome);
+        mostrarAnimacaoRank(rankAntes, rankDepois);
+    }
+}
+
+function mostrarAnimacaoRank(rankAntes, rankDepois) {
+    const modal = document.getElementById("rankUpModal");
+
+    if (!modal) return;
+
+    document.getElementById("rankAntigoNome").textContent = rankAntes.nome;
+    document.getElementById("rankNovoNome").textContent = rankDepois.nome;
+    document.getElementById("rankUpIcon").src = rankDepois.icon;
+
+    document.getElementById("rankMensagem").textContent =
+        criarMensagemRank(rankDepois.nome);
+
+    modal.classList.add("ativo");
+}
+
+function criarMensagemRank(rankNome) {
+    const mensagens = {
+        "Chunnin": "Você deixou de ser iniciante e começou sua jornada como um verdadeiro ninja dos estudos!",
+        "Jounnin": "Seu treinamento está ficando sério. Você já domina muitos fundamentos!",
+        "Jounnin Épico": "Agora você está em um nível avançado. Continue firme!",
+        "Jounnin Lendário": "Você está muito perto do topo. A vila reconhece seu esforço!",
+        "Hokage": "Você alcançou o nível máximo. Você se tornou Hokage dos estudos!"
+    };
+
+    return mensagens[rankNome] || "Continue treinando para alcançar o próximo nível ninja!";
+}
+
+function configurarModalRankUp() {
+    const botao = document.getElementById("btnFecharRankUp");
+    const modal = document.getElementById("rankUpModal");
+
+    if (!botao || !modal) return;
+
+    botao.addEventListener("click", function() {
+        modal.classList.remove("ativo");
+    });
+}
+
+function registrarConquista(texto) {
+    garantirEstruturaProgresso();
+
+    const novaConquista = {
+        texto: texto,
+        data: new Date().toLocaleDateString("pt-BR")
+    };
+
+    progresso.conquistas.unshift(novaConquista);
+
+    progresso.conquistas = progresso.conquistas.slice(0, 5);
+
+    salvarProgresso();
+
+    renderizarConquistasRecentes();
+}
+
+function renderizarConquistasRecentes() {
+    const lista = document.getElementById("conquistasRecentes");
+
+    if (!lista) return;
+
+    garantirEstruturaProgresso();
+
+    lista.innerHTML = "";
+
+    if (progresso.conquistas.length === 0) {
+        lista.innerHTML = "<li>Nenhuma conquista ainda.</li>";
+        return;
+    }
+
+    progresso.conquistas.forEach(function(conquista) {
+        const item = document.createElement("li");
+
+        item.textContent =
+            conquista.texto + " - " + conquista.data;
+
+        lista.appendChild(item);
+    });
+}
+
+function garantirEstruturaProgresso() {
+    if (!progresso.conquistas) {
+        progresso.conquistas = [];
+    }
+}
+
+function verificarSubidaDeRank(xpAntes, xpDepois) {
+    const rankAntes = obterRankAtual(xpAntes);
+    const rankDepois = obterRankAtual(xpDepois);
+
+    if (rankAntes.nome !== rankDepois.nome) {
+        registrarConquista("🏆 Subiu para " + rankDepois.nome);
+        mostrarAnimacaoRank(rankAntes, rankDepois);
+    }
+}
+
+function mostrarAnimacaoRank(rankAntes, rankDepois) {
+    const modal = document.getElementById("rankUpModal");
+
+    if (!modal) return;
+
+    document.getElementById("rankAntigoNome").textContent = rankAntes.nome;
+    document.getElementById("rankNovoNome").textContent = rankDepois.nome;
+    document.getElementById("rankUpIcon").src = rankDepois.icon;
+
+    document.getElementById("rankMensagem").textContent =
+        criarMensagemRank(rankDepois.nome);
+
+    modal.classList.add("ativo");
+}
+
+function criarMensagemRank(rankNome) {
+    const mensagens = {
+        "Chunnin": "Você deixou de ser iniciante e começou sua jornada como um verdadeiro ninja dos estudos!",
+        "Jounnin": "Seu treinamento está ficando sério. Você já domina muitos fundamentos!",
+        "Jounnin Épico": "Agora você está em um nível avançado. Continue firme!",
+        "Jounnin Lendário": "Você está muito perto do topo. A vila reconhece seu esforço!",
+        "Hokage": "Você alcançou o nível máximo. Você se tornou Hokage dos estudos!"
+    };
+
+    return mensagens[rankNome] || "Continue treinando para alcançar o próximo nível ninja!";
+}
+
+function configurarModalRankUp() {
+    const botao = document.getElementById("btnFecharRankUp");
+    const modal = document.getElementById("rankUpModal");
+
+    if (!botao || !modal) return;
+
+    botao.addEventListener("click", function() {
+        modal.classList.remove("ativo");
+    });
+}
+
+function registrarConquista(texto) {
+    garantirEstruturaProgresso();
+
+    const novaConquista = {
+        texto: texto,
+        data: new Date().toLocaleDateString("pt-BR")
+    };
+
+    progresso.conquistas.unshift(novaConquista);
+
+    progresso.conquistas = progresso.conquistas.slice(0, 5);
+
+    salvarProgresso();
+
+    renderizarConquistasRecentes();
+}
+
+function renderizarConquistasRecentes() {
+    const lista = document.getElementById("conquistasRecentes");
+
+    if (!lista) return;
+
+    garantirEstruturaProgresso();
+
+    lista.innerHTML = "";
+
+    if (progresso.conquistas.length === 0) {
+        lista.innerHTML = "<li>Nenhuma conquista ainda.</li>";
+        return;
+    }
+
+    progresso.conquistas.forEach(function(conquista) {
+        const item = document.createElement("li");
+
+        item.textContent =
+            conquista.texto + " - " + conquista.data;
+
+        lista.appendChild(item);
+    });
+}
+
 function atualizarResumo() {
     const xpLimitado = Math.min(progresso.xp, XP_HOKAGE);
     const rank = obterRankAtual(progresso.xp);
@@ -572,7 +1172,13 @@ function renderizarRanks() {
    SALVAR, RESETAR E CONFIGURAÇÕES FINAIS
 ========================================================= */
 function salvarProgresso() {
-    localStorage.setItem("progressoNinja", JSON.stringify(progresso));
+    const chave = pegarChaveProgresso();
+
+    if (!chave) {
+        return;
+    }
+
+    localStorage.setItem(chave, JSON.stringify(progresso));
 }
 
 function configurarBotoesGlobais() {
@@ -582,32 +1188,14 @@ function configurarBotoesGlobais() {
         const confirmar = confirm("Tem certeza que deseja resetar todo o progresso ninja?");
         if (!confirmar) return;
 
-        progresso = {
-            xp: 0,
-            missoes: [],
-            exercicios: [],
-            perguntas: [],
-            perguntaAtual: 0
-        };
+        progresso = criarProgressoZerado();
 
         salvarProgresso();
         renderizarMissoes("Todos");
         renderizarExercicios("Todos");
-        renderizarPergunta();
         renderizarEvolucao();
         atualizarResumo();
     });
 }
 
-function sairDoSistema() {
-    window.location.href = "index.html";
-}
 
-function mostrarNomeUsuario() {
-    const usuarioSalvo = JSON.parse(localStorage.getItem("usuarioNinja"));
-    const nomeUsuario = document.getElementById("nomeUsuario");
-
-    if (usuarioSalvo && nomeUsuario) {
-        nomeUsuario.textContent = usuarioSalvo.login;
-    }
-}

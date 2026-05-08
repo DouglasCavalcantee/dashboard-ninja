@@ -35,14 +35,24 @@ body {
     overflow-x: hidden;
 }
 .btn-criar-conta {
-    margin-top: 10px;
+    margin-top: 12px;
+
     background: transparent;
-    border: 1px solid #00f5d4;
+
+    border: 1px solid rgba(0, 245, 212, 0.5);
+
     color: #00f5d4;
+
+    padding: 10px;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
 }
 
 .btn-criar-conta:hover {
     background: #00f5d4;
+
     color: #050816;
 }
 
@@ -205,19 +215,7 @@ img {
     color: var(--text);
 }
 
-.login-error {
-    display: none;
-    margin-top: 18px;
-    padding: 16px;
-    border-radius: 14px;
-    background: rgba(255, 46, 99, 0.16);
-    border: 1px solid var(--red);
-    color: #fff;
-    text-align: center;
-    font-size: 1.15rem;
-    font-weight: 900;
-    text-shadow: 0 0 12px var(--red);
-}
+
 
 /* ================================
    BOTÕES
@@ -565,7 +563,9 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-bottom: 18px;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .filter-btn {
@@ -870,6 +870,375 @@ img {
     text-align: center;
 
     color: #00f5d4;
+
+    font-weight: bold;
+}
+
+
+
+/* ================================
+   AVISO LOCALSTORAGE
+================================ */
+
+.aviso-localstorage {
+    margin-top: 15px;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+
+    color: rgba(255, 255, 255, 0.65);
+
+    text-align: center;
+}
+
+.login-error {
+    display: none;
+    margin-top: 18px;
+    padding: 14px;
+    border-radius: 14px;
+    background: rgba(255, 46, 99, 0.18);
+    border: 1px solid #ff2e63;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.alternativas-exercicio {
+    display: grid;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.alt-exercicio {
+    padding: 10px 12px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(0, 245, 212, 0.35);
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    transition: 0.25s;
+}
+
+.alt-exercicio:hover {
+    background: rgba(0, 245, 212, 0.18);
+    transform: translateY(-2px);
+}
+
+.feedback-exercicio {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.feedback-exercicio.ok {
+    color: #00f5d4;
+}
+
+.feedback-exercicio.erro {
+    color: #ff2e63;
+}
+
+.pergunta-aberta-card {
+    margin-top: 25px;
+}
+
+/* ================================
+   IMAGENS DOS MINI PAINÉIS
+================================ */
+
+.mini-panel {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    overflow: hidden;
+
+}
+
+.mini-panel-image {
+
+    width: 100%;
+
+    height: 130px;
+
+    object-fit: cover;
+
+    border-radius: 16px;
+
+    margin-top: 18px;
+
+    border: 1px solid rgba(0, 245, 212, 0.25);
+
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+
+    opacity: 0.95;
+
+}
+
+/* ================================
+   AVATARES
+================================ */
+
+.avatar-area {
+
+    margin-top: 22px;
+
+}
+
+.avatar-area h3 {
+
+    color: #00f5d4;
+
+    margin-bottom: 14px;
+
+    text-align: center;
+
+}
+
+.avatar-opcoes {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 12px;
+
+}
+
+.avatar-opcoes label {
+
+    cursor: pointer;
+
+    position: relative;
+
+}
+
+.avatar-opcoes input {
+
+    display: none;
+
+}
+
+.avatar-opcoes img {
+
+    width: 100%;
+
+    aspect-ratio: 1/1;
+
+    object-fit: cover;
+
+    border-radius: 16px;
+
+    border: 2px solid transparent;
+
+    transition: 0.25s;
+
+}
+
+.avatar-opcoes img:hover {
+
+    transform: scale(1.04);
+
+    box-shadow: 0 0 18px rgba(0,245,212,0.35);
+
+}
+
+.avatar-opcoes input:checked + img {
+
+    border-color: #00f5d4;
+
+    box-shadow: 0 0 22px rgba(0,245,212,0.7);
+
+    transform: scale(1.05);
+
+}
+
+/* ================================
+   MODAL DE SUBIDA DE RANK
+================================ */
+
+.rank-up-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+
+    background: rgba(0, 0, 0, 0.82);
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.rank-up-modal.ativo {
+    display: flex;
+    animation: aparecerFundoRank 0.4s ease;
+}
+
+.rank-up-card {
+    position: relative;
+
+    width: 100%;
+    max-width: 460px;
+
+    background: rgba(6, 8, 22, 0.97);
+
+    border: 2px solid #00f5d4;
+    border-radius: 28px;
+
+    padding: 35px 28px;
+
+    text-align: center;
+
+    box-shadow:
+        0 0 25px rgba(0, 245, 212, 0.55),
+        0 0 60px rgba(255, 159, 28, 0.25);
+
+    overflow: hidden;
+
+    animation: subirCardRank 0.55s ease;
+}
+
+.rank-up-card img {
+    width: 120px;
+    height: 120px;
+
+    object-fit: contain;
+
+    margin: 0 auto 18px;
+
+    filter: drop-shadow(0 0 22px rgba(0, 245, 212, 0.9));
+
+    animation: pulsarRank 1.3s infinite alternate;
+}
+
+.rank-up-label {
+    display: inline-block;
+
+    margin-bottom: 12px;
+
+    color: #06101d;
+    background: linear-gradient(135deg, #00f5d4, #ff9f1c);
+
+    padding: 8px 14px;
+
+    border-radius: 999px;
+
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.rank-up-card h2 {
+    color: #ff9f1c;
+    font-size: 2rem;
+
+    margin-bottom: 10px;
+}
+
+.rank-up-card p {
+    color: #c9d6ff;
+
+    margin-bottom: 14px;
+}
+
+.rank-up-card h3 {
+    color: #00f5d4;
+
+    font-size: 1.7rem;
+
+    margin-bottom: 18px;
+
+    text-shadow: 0 0 12px rgba(0, 245, 212, 0.8);
+}
+
+.rank-glow {
+    position: absolute;
+
+    width: 220px;
+    height: 220px;
+
+    background: radial-gradient(circle, rgba(0,245,212,0.45), transparent 70%);
+
+    top: -80px;
+    right: -80px;
+
+    animation: girarBrilho 4s linear infinite;
+}
+
+@keyframes aparecerFundoRank {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes subirCardRank {
+    from {
+        opacity: 0;
+        transform: translateY(40px) scale(0.92);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes pulsarRank {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.08);
+    }
+}
+
+@keyframes girarBrilho {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ================================
+   CONQUISTAS RECENTES
+================================ */
+
+.conquistas-panel {
+    margin-top: 16px;
+}
+
+#conquistasRecentes {
+    list-style: none;
+
+    display: grid;
+
+    gap: 10px;
+}
+
+#conquistasRecentes li {
+    padding: 12px;
+
+    border-radius: 14px;
+
+    background: rgba(0, 0, 0, 0.28);
+
+    border: 1px solid rgba(0, 245, 212, 0.25);
+
+    color: #c9d6ff;
 
     font-weight: bold;
 }
